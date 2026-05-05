@@ -1,0 +1,42 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import SectionHeading from "../components/SectionHeading.astro";
+import ProjectCard from "../components/ProjectCard.astro";
+import CTASection from "../components/CTASection.astro";
+import { projects } from "../data/projects";
+---
+
+<BaseLayout
+  title="ACHV Projects | Construction, Finishes & Project Delivery"
+  description="Explore ACHV project work across project management, construction and finishes in Malta and the EU27."
+>
+  <section class="bg-[#161616] px-6 py-28 text-white">
+    <div class="mx-auto max-w-7xl">
+      <p class="mb-5 text-sm font-semibold uppercase tracking-[0.3em] text-[#b08a57]">Projects</p>
+      <h1 class="max-w-4xl text-5xl font-semibold tracking-tight md:text-7xl">
+        Proof of delivery, not empty claims.
+      </h1>
+      <p class="mt-8 max-w-2xl text-xl leading-9 text-white/70">
+        ACHV’s project portfolio should show scope, client type, challenge, solution and outcome — supported by real project photography.
+      </p>
+    </div>
+  </section>
+
+  <section class="px-6 py-24">
+    <div class="mx-auto max-w-7xl">
+      <SectionHeading
+        eyebrow="Selected work"
+        title="Project case studies"
+        text="Replace placeholders with real projects, real images and approved client proof."
+      />
+
+      <div class="mt-14 grid gap-8 md:grid-cols-3">
+        {projects.map((project) => (
+          <ProjectCard {...project} />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <CTASection />
+</BaseLayout>

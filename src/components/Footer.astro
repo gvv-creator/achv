@@ -1,0 +1,39 @@
+---
+import { company } from "../data/company";
+---
+
+<footer class="bg-[#161616] text-white">
+  <div class="mx-auto grid max-w-7xl gap-10 px-6 py-16 md:grid-cols-4">
+    <div class="md:col-span-2">
+      <img
+        src="/images/brand/achv-logo-white.jpg"
+        alt="ACHV Ltd."
+        class="h-10 w-auto"
+      />
+      <p class="mt-4 max-w-md text-white/70">
+        Design-led project management, construction and finishes from design stage to completion across Malta and the EU27.
+      </p>
+    </div>
+
+    <div>
+      <p class="font-semibold">Contact</p>
+      <div class="mt-4 space-y-2 text-sm text-white/70">
+        <p>{company.email}</p>
+        <p>{company.phone}</p>
+        <p>{company.location}</p>
+      </div>
+    </div>
+
+    <div>
+      <p class="font-semibold">Legal</p>
+      <div class="mt-4 space-y-2 text-sm text-white/70">
+        <a href="/privacy-policy" class="block hover:text-white">Privacy Policy</a>
+        <a href="/cookie-policy" class="block hover:text-white">Cookie Policy</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="border-t border-white/10 px-6 py-6 text-center text-sm text-white/50">
+    © {new Date().getFullYear()} ACHV Ltd. All rights reserved.
+  </div>
+</footer>

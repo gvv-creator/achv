@@ -1,0 +1,149 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Button from "../components/Button.astro";
+import SectionHeading from "../components/SectionHeading.astro";
+import ServiceCard from "../components/ServiceCard.astro";
+import ProjectCard from "../components/ProjectCard.astro";
+import CTASection from "../components/CTASection.astro";
+import { services } from "../data/services";
+import { projects } from "../data/projects";
+---
+
+<BaseLayout
+  title="ACHV Ltd. | Project Management, Construction & Finishes in Malta & EU27"
+  description="ACHV Ltd. delivers design-led project management, construction and finishing services from design stage to completion across Malta and the EU27."
+>
+  <section class="relative overflow-hidden bg-[#161616] text-white">
+    <div class="absolute inset-0 opacity-35">
+      <img
+        src="/images/projects/hero-project.jpg"
+        alt="ACHV design-led construction and finishing project"
+        class="h-full w-full object-cover"
+      />
+    </div>
+
+    <div class="relative mx-auto flex min-h-[86vh] max-w-7xl items-center px-6 py-28">
+      <div class="max-w-4xl">
+        <p class="mb-5 text-sm font-semibold uppercase tracking-[0.3em] text-[#d8d0c3]">
+          Malta-based. EU27-ready.
+        </p>
+        <h1 class="text-5xl font-semibold tracking-tight md:text-7xl">
+          Design-led project management, construction and finishes.
+        </h1>
+        <p class="mt-8 max-w-2xl text-xl leading-9 text-white/75">
+          ACHV delivers high-quality spaces from design stage to completion — combining project control, construction discipline and finishing detail across Malta and the EU27.
+        </p>
+        <div class="mt-10 flex flex-wrap gap-4">
+          <Button href="/contact" variant="light">Start a Project</Button>
+          <Button href="/projects" variant="light">View Projects</Button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="border-b border-black/10 bg-[#f7f4ef] px-6 py-10">
+    <div class="mx-auto grid max-w-7xl gap-6 md:grid-cols-4">
+      <div>
+        <p class="text-sm uppercase tracking-[0.2em] text-black/50">Positioning</p>
+        <p class="mt-2 font-semibold">Design-to-completion delivery</p>
+      </div>
+      <div>
+        <p class="text-sm uppercase tracking-[0.2em] text-black/50">Services</p>
+        <p class="mt-2 font-semibold">Management, construction, finishes</p>
+      </div>
+      <div>
+        <p class="text-sm uppercase tracking-[0.2em] text-black/50">Markets</p>
+        <p class="mt-2 font-semibold">Malta and EU27</p>
+      </div>
+      <div>
+        <p class="text-sm uppercase tracking-[0.2em] text-black/50">Standard</p>
+        <p class="mt-2 font-semibold">Design-focused execution</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="px-6 py-24">
+    <div class="mx-auto max-w-7xl">
+      <SectionHeading
+        eyebrow="What we do"
+        title="One accountable partner for the full project journey."
+        text="ACHV is no longer only a project-management company. We manage, build and finish spaces with a design-led approach from early concept to final handover."
+      />
+
+      <div class="mt-14 grid gap-6 md:grid-cols-3">
+        {services.map((service) => (
+          <ServiceCard {...service} />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-white px-6 py-24">
+    <div class="mx-auto grid max-w-7xl gap-16 md:grid-cols-2">
+      <div>
+        <SectionHeading
+          eyebrow="Process"
+          title="We protect the design vision while controlling the realities of construction."
+          text="Budgets, timelines, materials, subcontractors, site constraints and finishing quality all need one disciplined delivery structure."
+        />
+      </div>
+
+      <div class="space-y-6">
+        {[
+          "Understand the client vision",
+          "Coordinate design, cost and buildability",
+          "Plan procurement and programme",
+          "Execute construction and site works",
+          "Deliver finishes and final details",
+          "Handover a completed space"
+        ].map((step, index) => (
+          <div class="flex gap-5 rounded-2xl border border-black/10 p-5">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#161616] text-sm font-semibold text-white">
+              {index + 1}
+            </span>
+            <p class="pt-2 text-lg font-medium">{step}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="px-6 py-24">
+    <div class="mx-auto max-w-7xl">
+      <div class="flex flex-col justify-between gap-8 md:flex-row md:items-end">
+        <SectionHeading
+          eyebrow="Projects"
+          title="Real work. Real delivery. Real proof."
+          text="ACHV’s portfolio should show project evidence: photography, client types, scope, challenge, solution and outcome."
+        />
+        <Button href="/projects" variant="outline">View all projects</Button>
+      </div>
+
+      <div class="mt-14 grid gap-8 md:grid-cols-3">
+        {projects.slice(0, 3).map((project) => (
+          <ProjectCard {...project} />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-[#161616] px-6 py-24 text-white">
+    <div class="mx-auto grid max-w-7xl gap-14 md:grid-cols-2">
+      <div>
+        <p class="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-[#b08a57]">
+          International capability
+        </p>
+        <h2 class="text-4xl font-semibold tracking-tight md:text-6xl">
+          Malta-based. Delivering across the EU27.
+        </h2>
+      </div>
+      <div class="text-lg leading-9 text-white/70">
+        <p>
+          ACHV supports clients with cross-border project coordination, procurement, contractor management and design-to-completion delivery across Malta and selected EU markets.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <CTASection />
+</BaseLayout>

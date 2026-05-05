@@ -1,0 +1,96 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { company } from "../data/company";
+---
+
+<BaseLayout
+  title="Contact ACHV Ltd. | Start a Project"
+  description="Contact ACHV Ltd. to discuss project management, construction and finishing services across Malta and the EU27."
+>
+  <section class="bg-[#161616] px-6 py-28 text-white">
+    <div class="mx-auto max-w-7xl">
+      <p class="mb-5 text-sm font-semibold uppercase tracking-[0.3em] text-[#b08a57]">Contact</p>
+      <h1 class="max-w-4xl text-5xl font-semibold tracking-tight md:text-7xl">
+        Start your project with ACHV.
+      </h1>
+      <p class="mt-8 max-w-2xl text-xl leading-9 text-white/70">
+        Tell us what you are planning. We will review the scope and advise on the right route from design to delivery.
+      </p>
+    </div>
+  </section>
+
+  <section class="px-6 py-24">
+    <div class="mx-auto grid max-w-7xl gap-14 md:grid-cols-2">
+      <form
+        action={`mailto:${company.email}`}
+        method="post"
+        enctype="text/plain"
+        class="rounded-3xl border border-black/10 bg-white p-8 shadow-sm"
+      >
+        <div class="grid gap-6">
+          <label>
+            <span class="text-sm font-semibold">Name</span>
+            <input name="name" class="mt-2 w-full rounded-xl border border-black/10 px-4 py-3" required />
+          </label>
+
+          <label>
+            <span class="text-sm font-semibold">Email</span>
+            <input name="email" type="email" class="mt-2 w-full rounded-xl border border-black/10 px-4 py-3" required />
+          </label>
+
+          <label>
+            <span class="text-sm font-semibold">Phone</span>
+            <input name="phone" class="mt-2 w-full rounded-xl border border-black/10 px-4 py-3" />
+          </label>
+
+          <label>
+            <span class="text-sm font-semibold">Project location</span>
+            <input name="location" class="mt-2 w-full rounded-xl border border-black/10 px-4 py-3" />
+          </label>
+
+          <label>
+            <span class="text-sm font-semibold">Project type</span>
+            <select name="project_type" class="mt-2 w-full rounded-xl border border-black/10 px-4 py-3">
+              <option>Residential</option>
+              <option>Commercial</option>
+              <option>Hospitality</option>
+              <option>Institutional</option>
+              <option>EU27 project</option>
+              <option>Other</option>
+            </select>
+          </label>
+
+          <label>
+            <span class="text-sm font-semibold">Project stage</span>
+            <select name="project_stage" class="mt-2 w-full rounded-xl border border-black/10 px-4 py-3">
+              <option>Idea / concept</option>
+              <option>Design in progress</option>
+              <option>Permits / planning</option>
+              <option>Ready to build</option>
+              <option>Construction already started</option>
+            </select>
+          </label>
+
+          <label>
+            <span class="text-sm font-semibold">Message</span>
+            <textarea name="message" rows="6" class="mt-2 w-full rounded-xl border border-black/10 px-4 py-3" required></textarea>
+          </label>
+
+          <button class="rounded-full bg-[#161616] px-6 py-4 font-semibold text-white transition hover:bg-[#b08a57]">
+            Request a Project Review
+          </button>
+        </div>
+      </form>
+
+      <div>
+        <h2 class="text-4xl font-semibold tracking-tight">Prefer direct contact?</h2>
+        <div class="mt-8 space-y-5 text-lg text-black/65">
+          <p>Email: <a class="font-semibold text-[#161616]" href={`mailto:${company.email}`}>{company.email}</a></p>
+          <p>Phone: <a class="font-semibold text-[#161616]" href={`tel:${company.phone}`}>{company.phone}</a></p>
+          <p>WhatsApp: <a class="font-semibold text-[#161616]" href={company.whatsapp}>Message ACHV</a></p>
+          <p>Office: {company.location}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

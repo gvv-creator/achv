@@ -1,0 +1,42 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import SectionHeading from "../components/SectionHeading.astro";
+import ServiceCard from "../components/ServiceCard.astro";
+import CTASection from "../components/CTASection.astro";
+import { services } from "../data/services";
+---
+
+<BaseLayout
+  title="Construction, Finishes & Project Management Services | ACHV Ltd."
+  description="ACHV provides project management, construction and finishing services for residential, commercial and specialist projects in Malta and the EU27."
+>
+  <section class="bg-[#161616] px-6 py-28 text-white">
+    <div class="mx-auto max-w-7xl">
+      <p class="mb-5 text-sm font-semibold uppercase tracking-[0.3em] text-[#b08a57]">Services</p>
+      <h1 class="max-w-4xl text-5xl font-semibold tracking-tight md:text-7xl">
+        Project management, construction and finishes under one accountable structure.
+      </h1>
+      <p class="mt-8 max-w-2xl text-xl leading-9 text-white/70">
+        ACHV connects design ambition with controlled delivery — managing the technical, commercial and site realities that determine project success.
+      </p>
+    </div>
+  </section>
+
+  <section class="px-6 py-24">
+    <div class="mx-auto max-w-7xl">
+      <SectionHeading
+        eyebrow="Core services"
+        title="Built for clients who need more than a contractor."
+        text="We work best where design quality, coordination, budget control and finishing standards all matter."
+      />
+
+      <div class="mt-14 grid gap-6 md:grid-cols-3">
+        {services.map((service) => (
+          <ServiceCard {...service} />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <CTASection />
+</BaseLayout>

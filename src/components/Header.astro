@@ -1,0 +1,33 @@
+---
+import { navigation } from "../data/navigation";
+import { company } from "../data/company";
+---
+
+<header class="sticky top-0 z-50 border-b border-black/10 bg-[#f7f4ef]/90 backdrop-blur">
+  <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+    <a href="/" aria-label="ACHV Ltd. home" class="inline-flex items-center">
+      <img
+        src="/images/brand/achv-logo-black.png"
+        alt="ACHV Ltd."
+        class="h-8 w-auto"
+      />
+    </a>
+
+    <nav class="hidden items-center gap-8 text-sm font-medium md:flex">
+      {
+        navigation.map((item) => (
+          <a href={item.href} class="transition hover:text-[#b08a57]">
+            {item.label}
+          </a>
+        ))
+      }
+    </nav>
+
+    <a
+      href={company.whatsapp}
+      class="hidden rounded-full bg-[#161616] px-5 py-2 text-sm font-semibold text-white transition hover:bg-[#b08a57] md:inline-flex"
+    >
+      Start a Project
+    </a>
+  </div>
+</header>

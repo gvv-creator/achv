@@ -1,0 +1,39 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import CTASection from "../components/CTASection.astro";
+---
+
+<BaseLayout
+  title="About ACHV Ltd. | Design-Led Construction & Project Delivery"
+  description="ACHV Ltd. is a Malta-based design-led project management, construction and finishes company delivering projects from design stage to completion."
+>
+  <section class="bg-[#161616] px-6 py-28 text-white">
+    <div class="mx-auto max-w-7xl">
+      <p class="mb-5 text-sm font-semibold uppercase tracking-[0.3em] text-[#b08a57]">About ACHV</p>
+      <h1 class="max-w-4xl text-5xl font-semibold tracking-tight md:text-7xl">
+        We exist to build better — from design vision to completed space.
+      </h1>
+    </div>
+  </section>
+
+  <section class="px-6 py-24">
+    <div class="mx-auto grid max-w-7xl gap-16 md:grid-cols-2">
+      <div>
+        <h2 class="text-4xl font-semibold tracking-tight">More than project management.</h2>
+      </div>
+      <div class="space-y-6 text-lg leading-9 text-black/65">
+        <p>
+          ACHV has evolved beyond project management into a full project delivery company working across project management, construction and finishes.
+        </p>
+        <p>
+          Our strength is connecting design ambition with real-world execution. We help clients move from vision and design into controlled construction, detailed finishing and final handover.
+        </p>
+        <p>
+          We operate from Malta with the capability to support projects across the EU27.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <CTASection />
+</BaseLayout>
