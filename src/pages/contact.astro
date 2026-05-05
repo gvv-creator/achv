@@ -30,17 +30,17 @@ import { company } from "../data/company";
         <div class="grid gap-6">
           <label>
             <span class="text-sm font-semibold">Name</span>
-            <input name="name" class="mt-2 w-full rounded-xl border border-black/10 px-4 py-3" required />
+            <input name="name" autocomplete="name" class="mt-2 w-full rounded-xl border border-black/10 px-4 py-3" required />
           </label>
 
           <label>
             <span class="text-sm font-semibold">Email</span>
-            <input name="email" type="email" class="mt-2 w-full rounded-xl border border-black/10 px-4 py-3" required />
+            <input name="email" type="email" autocomplete="email" class="mt-2 w-full rounded-xl border border-black/10 px-4 py-3" required />
           </label>
 
           <label>
             <span class="text-sm font-semibold">Phone</span>
-            <input name="phone" class="mt-2 w-full rounded-xl border border-black/10 px-4 py-3" />
+            <input name="phone" type="tel" autocomplete="tel" class="mt-2 w-full rounded-xl border border-black/10 px-4 py-3" />
           </label>
 
           <label>
@@ -76,7 +76,7 @@ import { company } from "../data/company";
             <textarea name="message" rows="6" class="mt-2 w-full rounded-xl border border-black/10 px-4 py-3" required></textarea>
           </label>
 
-          <button class="rounded-full bg-[#161616] px-6 py-4 font-semibold text-white transition hover:bg-[#b08a57]">
+          <button type="submit" class="rounded-full bg-[#161616] px-6 py-4 font-semibold text-white transition hover:bg-[#b08a57]">
             Request a Project Review
           </button>
         </div>
@@ -86,7 +86,7 @@ import { company } from "../data/company";
         <h2 class="text-4xl font-semibold tracking-tight">Prefer direct contact?</h2>
         <div class="mt-8 space-y-5 text-lg text-black/65">
           <p>Email: <a class="font-semibold text-[#161616]" href={`mailto:${company.email}`}>{company.email}</a></p>
-          <p>Phone: <a class="font-semibold text-[#161616]" href={`tel:${company.phone}`}>{company.phone}</a></p>
+          <p>Phone: <a class="font-semibold text-[#161616]" href={`tel:${company.tel}`}>{company.phone}</a></p>
           <p>WhatsApp: <a class="font-semibold text-[#161616]" href={company.whatsapp}>Message ACHV</a></p>
           <p>Office: {company.location}</p>
         </div>

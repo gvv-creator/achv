@@ -1,22 +1,39 @@
 ---
 import { navigation } from "../data/navigation";
 import { company } from "../data/company";
+
+const currentPath = Astro.url.pathname.replace(/\/$/, "") || "/";
+
+const isActive = (href: string) => {
+  if (href === "/") {
+    return currentPath === "/";
+  }
+
+  return currentPath === href || currentPath.startsWith(`${href}/`);
+};
 ---
 
 <header class="sticky top-0 z-50 border-b border-black/10 bg-[#f7f4ef]/90 backdrop-blur">
   <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
     <a href="/" aria-label="ACHV Ltd. home" class="inline-flex items-center">
       <img
-        src="/images/brand/achv-logo-black.png"
+        src={company.logos.black}
         alt="ACHV Ltd."
         class="h-8 w-auto"
       />
     </a>
 
-    <nav class="hidden items-center gap-8 text-sm font-medium md:flex">
+    <nav class="hidden items-center gap-8 text-sm font-medium md:flex" aria-label="Primary navigation">
       {
         navigation.map((item) => (
-          <a href={item.href} class="transition hover:text-[#b08a57]">
+          <a
+            href={item.href}
+            aria-current={isActive(item.href) ? "page" : undefined}
+            class:list={[
+              "transition hover:text-[#b08a57]",
+              isActive(item.href) ? "text-[#b08a57]" : undefined,
+            ]}
+          >
             {item.label}
           </a>
         ))
@@ -30,4 +47,26 @@ import { company } from "../data/company";
       Start a Project
     </a>
   </div>
+
+  <nav
+    class="flex gap-2 overflow-x-auto border-t border-black/10 px-6 py-3 text-sm font-medium md:hidden"
+    aria-label="Primary navigation mobile"
+  >
+    {
+      navigation.map((item) => (
+        <a
+          href={item.href}
+          aria-current={isActive(item.href) ? "page" : undefined}
+          class:list={[
+            "shrink-0 rounded-full px-3 py-2 transition",
+            isActive(item.href)
+              ? "bg-[#161616] text-white"
+              : "text-[#161616]/75 hover:bg-black/5 hover:text-[#b08a57]",
+          ]}
+        >
+          {item.label}
+        </a>
+      ))
+    }
+  </nav>
 </header>

@@ -1,5 +1,6 @@
 ---
 import Button from "./Button.astro";
+import { company } from "../data/company";
 ---
 
 <section class="bg-[#1f2a24] px-6 py-24 text-white">
@@ -14,7 +15,7 @@ import Button from "./Button.astro";
       </p>
       <div class="mt-10 flex flex-wrap gap-4">
         <Button href="/contact" variant="light">Request a Project Review</Button>
-        <Button href="https://wa.me/35679360306" variant="light">Message on WhatsApp</Button>
+        <Button href={company.whatsapp} variant="light">Message on WhatsApp</Button>
       </div>
     </div>
   </div>

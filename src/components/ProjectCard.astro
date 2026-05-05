@@ -12,7 +12,7 @@ const { title, location, sector, services, image, summary } = Astro.props;
 ---
 
 <article class="overflow-hidden rounded-3xl border border-black/10 bg-white shadow-sm">
-  <img src={image} alt={title} class="h-80 w-full object-cover" />
+  <img src={image} alt={title} class="h-80 w-full object-cover" loading="lazy" decoding="async" />
 
   <div class="p-7">
     <div class="flex flex-wrap gap-2">

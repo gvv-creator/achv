@@ -2,6 +2,7 @@
 import "../styles/global.css";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import { company } from "../data/company";
 
 interface Props {
   title: string;
@@ -9,7 +10,10 @@ interface Props {
 }
 
 const { title, description } = Astro.props;
-const canonical = new URL(Astro.url.pathname, "https://www.achv.today").href;
+const siteUrl = company.website;
+const canonical = new URL(Astro.url.pathname, siteUrl).href;
+const ogImage = new URL("/images/brand/achv-og-image.jpg", siteUrl).href;
+const ogImageAlt = `${company.name} logo on dark background`;
 ---
 
 <!doctype html>
@@ -22,23 +26,35 @@ const canonical = new URL(Astro.url.pathname, "https://www.achv.today").href;
 
     <link rel="canonical" href={canonical} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="apple-touch-icon" href="/images/brand/achv-logo-full-colour.png" />
+    <link rel="apple-touch-icon" href={company.logos.fullColour} />
 
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonical} />
-    <meta property="og:image" content="/images/brand/achv-og-image.jpg" />
+    <meta property="og:site_name" content={company.name} />
+    <meta property="og:locale" content="en_MT" />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1565" />
+    <meta property="og:image:height" content="1103" />
+    <meta property="og:image:alt" content={ogImageAlt} />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image:alt" content={ogImageAlt} />
 
     <script
       type="application/ld+json"
       set:html={JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Organization",
-        name: "ACHV Ltd.",
-        url: "https://www.achv.today",
-        email: "hello@achv.today",
-        telephone: "+356 7936 0306",
+        name: company.name,
+        url: company.website,
+        logo: new URL(company.logos.fullColour, siteUrl).href,
+        email: company.email,
+        telephone: company.tel,
         address: {
           "@type": "PostalAddress",
           streetAddress: "Pendergardens Business Centre",
@@ -46,15 +62,20 @@ const canonical = new URL(Astro.url.pathname, "https://www.achv.today").href;
           addressCountry: "MT",
         },
         areaServed: ["Malta", "European Union"],
-        description:
-          "Design-led project management, construction and finishes from design stage to completion.",
+        description: company.positioning,
       })}
     />
   </head>
 
   <body>
+    <a
+      href="#main-content"
+      class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-full focus:bg-white focus:px-5 focus:py-3 focus:text-sm focus:font-semibold focus:text-[#161616] focus:shadow-lg"
+    >
+      Skip to content
+    </a>
     <Header />
-    <main>
+    <main id="main-content" tabindex="-1">
       <slot />
     </main>
     <Footer />

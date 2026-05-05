@@ -6,7 +6,7 @@ import { company } from "../data/company";
   <div class="mx-auto grid max-w-7xl gap-10 px-6 py-16 md:grid-cols-4">
     <div class="md:col-span-2">
       <img
-        src="/images/brand/achv-logo-white.jpg"
+        src={company.logos.white}
         alt="ACHV Ltd."
         class="h-10 w-auto"
       />
@@ -18,8 +18,8 @@ import { company } from "../data/company";
     <div>
       <p class="font-semibold">Contact</p>
       <div class="mt-4 space-y-2 text-sm text-white/70">
-        <p>{company.email}</p>
-        <p>{company.phone}</p>
+        <a href={`mailto:${company.email}`} class="block hover:text-white">{company.email}</a>
+        <a href={`tel:${company.tel}`} class="block hover:text-white">{company.phone}</a>
         <p>{company.location}</p>
       </div>
     </div>

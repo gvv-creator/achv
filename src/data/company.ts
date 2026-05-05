@@ -3,6 +3,7 @@ export const company = {
   slogan: "build better.",
   email: "hello@achv.today",
   phone: "+356 7936 0306",
+  tel: "+35679360306",
   whatsapp: "https://wa.me/35679360306",
   location: "Pendergardens Business Centre, St Julian’s, Malta",
   website: "https://www.achv.today",

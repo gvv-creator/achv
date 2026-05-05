@@ -32,25 +32,34 @@ export const projects = [
       "The project confirms ACHV’s operational capacity and ability to execute large-scale civil and finishing works directly.",
   },
   {
-    title: "Mercury Tower Packages — Finishes & Delivery Management",
-    slug: "mercury-tower-packages",
+    title: "Mercury Towers — Internal Finishes & Package Delivery",
+    slug: "mercury-towers-internal-finishes-package-delivery",
     location: "St Julian’s, Malta",
     sector: "Mixed-Use / Hospitality / High-Rise",
     services: [
       "Project Management",
       "Internal Finishes",
-      "External Balconies",
+      "Gypsum Works",
+      "MEP Coordination",
+      "External Balcony Works",
       "Hotel Package Management",
     ],
-    image: "/images/projects/mercury-tower-packages.jpg",
+    image: "/images/projects/mercury-towers-exterior.jpg",
+    gallery: [
+      "/images/projects/mercury-towers-exterior.jpg",
+      "/images/projects/mercury-towers-balcony-gypsum.jpg",
+      "/images/projects/mercury-towers-lighting-detail.jpg",
+      "/images/projects/mercury-towers-fitout-progress.jpg",
+      "/images/projects/mercury-towers-finishes-progress.jpg",
+    ],
     summary:
-      "Management of multiple specialist packages within one of Malta’s most prominent Tier-1 developments.",
+      "Management and delivery of multiple specialist packages within one of Malta’s most prominent high-rise developments.",
     challenge:
-      "Mercury Tower required coordination across multiple work packages, including internal finishes, external balconies and hospitality-related delivery interfaces.",
+      "The project required coordination across internal finishes, gypsum works, service routes, MEP interfaces, balcony areas and hospitality-related delivery requirements within a complex high-rise environment.",
     solution:
-      "ACHV managed package coordination, sequencing, project controls and delivery oversight across complex stakeholder and contractor environments.",
+      "ACHV managed package coordination, sequencing, site interfaces, MEP coordination and finishing works, helping maintain delivery control across multiple work areas and stakeholders.",
     outcome:
-      "The works demonstrate ACHV’s reliability on major national developments and its ability to manage complex specialist packages.",
+      "The project demonstrates ACHV’s ability to manage specialist packages within Tier-1 developments where finish quality, coordination and programme discipline are essential.",
   },
   {
     title: "Triq Paceville — Road Construction",
@@ -106,20 +115,34 @@ export const projects = [
       "The project confirms ACHV’s ability to deliver construction works in active, traffic-sensitive commercial environments.",
   },
   {
-    title: "Palazzo Ferreria — Restoration & Upgrading",
-    slug: "palazzo-ferreria-restoration-upgrading",
+    title: "Palazzo Ferreria — Heritage Restoration & Upgrading",
+    slug: "palazzo-ferreria-heritage-restoration-upgrading",
     location: "Valletta, Malta",
     sector: "Heritage / Restoration",
-    services: ["Restoration", "Civil Works", "Sensitive Demolition", "Finishes"],
+    services: [
+      "Heritage Restoration",
+      "Wood Restoration",
+      "Metal Restoration",
+      "Wall Feature Restoration",
+      "Civil Works",
+      "Sensitive Demolition",
+      "Finishes",
+    ],
     image: "/images/projects/palazzo-ferreria-restoration.jpg",
+    gallery: [
+      "/images/projects/palazzo-ferreria-restoration.jpg",
+      "/images/projects/palazzo-ferreria-atrium-restored.jpg",
+      "/images/projects/palazzo-ferreria-restoration-works.jpg",
+      "/images/projects/palazzo-ferreria-heritage-courtyard.jpg",
+    ],
     summary:
-      "Restoration and upgrading works within a Grade 1 historic building in Valletta.",
+      "Restoration and upgrading works within one of Valletta’s most prestigious historic buildings, including detailed wood, metal and architectural feature restoration.",
     challenge:
-      "The building required precision deconstruction, selective removal, vibration control, dust management and protection of historic architectural fabric.",
+      "The building required careful restoration within a highly sensitive heritage environment, including protection of ornate architectural elements, decorative metalwork, timber apertures, wall features and existing historic fabric.",
     solution:
-      "ACHV managed careful restoration and upgrading works across the central courtyard, offices and service areas while protecting the heritage context.",
+      "ACHV carried out heritage-sensitive restoration and upgrading works, including wood and metal restoration, wall feature restoration, civil interventions, careful finishing works and protection of architectural details throughout the building.",
     outcome:
-      "The project demonstrates ACHV’s capability in sensitive demolition, restoration and controlled works within prestige historic buildings.",
+      "The project demonstrates ACHV’s ability to work inside prestige heritage buildings where craftsmanship, sensitivity, sequencing and respect for historic detail are critical.",
   },
   {
     title: "Chamber of Commerce — Valletta",
@@ -206,5 +229,173 @@ export const projects = [
       "ACHV delivered the full strip out and coordinated tiling, gypsum, plastering, steel works, furniture installation, wallpaper installation, painting, glass works and MEPs.",
     outcome:
       "The project demonstrates ACHV’s ability to deliver high-speed commercial refurbishment works for a recognised international food and beverage brand.",
+  },
+  {
+    title: "INDIS Ta’ Qali — Infrastructure & Civil Works",
+    slug: "indis-ta-qali-infrastructure-civil-works",
+    location: "Ta’ Qali, Malta",
+    sector: "Industrial / Infrastructure",
+    services: [
+      "Infrastructure Works",
+      "Civil Works",
+      "Excavation",
+      "Reinforcement Works",
+      "Concrete Works",
+      "Blockwork",
+      "Site Logistics",
+    ],
+    image: "/images/projects/indis-ta-qali-infrastructure.jpg",
+    gallery: [
+      "/images/projects/indis-ta-qali-infrastructure.jpg",
+      "/images/projects/indis-ta-qali-civil-works.jpg",
+      "/images/projects/indis-ta-qali-blockwork.jpg",
+    ],
+    video: "/videos/projects/indis-ta-qali-infrastructure-works.mov",
+    videoPoster: "/images/projects/indis-ta-qali-infrastructure.jpg",
+    summary:
+      "Heavy infrastructural and civil works delivered within an industrial project environment at Ta’ Qali.",
+    challenge:
+      "The works involved demanding site conditions, excavation, structural preparation, retaining elements, reinforcement and concrete/blockwork coordination within an active construction environment.",
+    solution:
+      "ACHV coordinated excavation, reinforcement, concrete works, blockwork, site logistics and civil execution, managing the technical requirements of a heavy infrastructure package.",
+    outcome:
+      "The project demonstrates ACHV’s capability in serious civil and infrastructural works beyond finishing and project management alone.",
+  },
+  {
+    title: "Maritime House — Civil & Infrastructure Works",
+    slug: "maritime-house-civil-infrastructure-works",
+    location: "Malta",
+    sector: "Public / Infrastructure",
+    services: [
+      "Civil Works",
+      "Infrastructure Works",
+      "Structural Preparation",
+      "Reinforcement Works",
+      "Concrete Works",
+      "Opening Formation",
+    ],
+    image: "/images/projects/maritime-house-civil-works.jpg",
+    gallery: [
+      "/images/projects/maritime-house-civil-works.jpg",
+      "/images/projects/maritime-house-concrete-works.jpg",
+      "/images/projects/maritime-house-reinforcement-works.jpg",
+      "/images/projects/maritime-house-structural-formwork.jpg",
+    ],
+    summary:
+      "Civil and infrastructural works delivered at Maritime House, focused on structural preparation and construction execution rather than finishes.",
+    challenge:
+      "The project required careful civil works within an existing building environment, including reinforcement, concrete works, opening formation, surface preparation and structural coordination.",
+    solution:
+      "ACHV delivered the civil and infrastructural scope through coordinated site works, reinforcement preparation, concrete activity and controlled execution around the existing structure.",
+    outcome:
+      "The project reinforces ACHV’s capability to deliver technical civil works in existing building environments where access, structure and sequencing matter.",
+  },
+  {
+    title: "Għaxaq Housing Authority — Lift Shaft Works",
+    slug: "ghaxaq-housing-authority-lift-shaft-works",
+    location: "Għaxaq, Malta",
+    sector: "Public Housing / Accessibility Infrastructure",
+    services: [
+      "Civil Works",
+      "Infrastructure Works",
+      "Lift Shaft Construction",
+      "Excavation",
+      "Concrete Works",
+      "Structural Preparation",
+    ],
+    image: "/images/projects/ghaxaq-housing-authority-lift-shaft.jpg",
+    gallery: [
+      "/images/projects/ghaxaq-housing-authority-lift-shaft.jpg",
+      "/images/projects/ghaxaq-housing-authority-reinforcement.jpg",
+    ],
+    summary:
+      "Civil and infrastructural works for a Housing Authority lift shaft project in Għaxaq.",
+    challenge:
+      "The project required external works around an existing residential building, including excavation, shaft-related construction activity, trenching, concrete preparation and careful site coordination.",
+    solution:
+      "ACHV managed the civil and infrastructural elements of the lift shaft works, coordinating excavation, concrete works, access constraints and structural preparation.",
+    outcome:
+      "The project demonstrates ACHV’s ability to deliver accessibility-related infrastructure within existing public housing environments.",
+  },
+  {
+    title: "MIA Billboards — Finishes & Installation Works",
+    slug: "mia-billboards-finishes-installation-works",
+    location: "Malta International Airport, Malta",
+    sector: "Airport / Commercial Display Infrastructure",
+    services: [
+      "Finishes",
+      "Wall Preparation",
+      "Billboard Installation Support",
+      "Gypsum Works",
+      "Painting Works",
+      "MEP Coordination",
+    ],
+    image: "/images/projects/mia-billboards-finishes.jpg",
+    gallery: [
+      "/images/projects/mia-billboards-finishes.jpg",
+      "/images/projects/mia-billboards-video-poster.jpg",
+    ],
+    video: "/videos/projects/mia-billboards-installation.mov",
+    videoPoster: "/images/projects/mia-billboards-video-poster.jpg",
+    summary:
+      "Finishing and installation-support works for billboard/display areas within Malta International Airport.",
+    challenge:
+      "The project required clean execution in an operational airport environment, with attention to wall preparation, display surrounds, ceiling interfaces, protection and finishing quality.",
+    solution:
+      "ACHV coordinated finishing works, wall preparation, gypsum-related works, painting, protection and MEP interfaces around the display installation areas.",
+    outcome:
+      "The project demonstrates ACHV’s ability to deliver controlled finishing works in sensitive, high-traffic commercial environments.",
+  },
+  {
+    title: "Hard Rock Hotel — Spa & Gym Fit-Out Works",
+    slug: "hard-rock-hotel-spa-gym-fit-out-works",
+    location: "Malta",
+    sector: "Hospitality / Wellness",
+    services: [
+      "Fit-Out Works",
+      "Gypsum Works",
+      "Partitioning",
+      "MEP Coordination",
+      "Ceiling Works",
+      "Finishing Preparation",
+    ],
+    image: "/images/projects/hard-rock-hotel-spa-gym.jpg",
+    gallery: [
+      "/images/projects/hard-rock-hotel-spa-gym.jpg",
+      "/images/projects/hard-rock-hotel-spa-gym-curved-wall.jpg",
+      "/images/projects/hard-rock-hotel-spa-gym-arch-fitout.jpg",
+      "/images/projects/hard-rock-hotel-spa-gym-ceiling-services.jpg",
+    ],
+    summary:
+      "Fit-out and finishing-preparation works for spa and gym areas within a hospitality environment.",
+    challenge:
+      "The project required coordination of partitions, gypsum systems, ceiling works, MEP routes and finishing preparation within a technical wellness and hospitality setting.",
+    solution:
+      "ACHV managed gypsum, partitioning, ceiling interfaces, MEP coordination and site sequencing to support the delivery of the spa and gym areas.",
+    outcome:
+      "The project shows ACHV’s ability to deliver complex fit-out packages where services coordination, partitioning and finishing preparation must be tightly managed.",
+  },
+  {
+    title: "Saint George’s Shopping Mall — Interior Fit-Out Works",
+    slug: "saint-georges-shopping-mall-interior-fit-out-works",
+    location: "St Julian’s, Malta",
+    sector: "Retail / Commercial",
+    services: [
+      "Interior Fit-Out",
+      "Gypsum Works",
+      "Partitioning",
+      "Ceiling Framework",
+      "MEP Coordination",
+      "Commercial Site Works",
+    ],
+    image: "/images/projects/saint-georges-shopping-mall-fit-out.jpg",
+    summary:
+      "Interior fit-out works within a commercial shopping mall environment.",
+    challenge:
+      "The project required coordination of partitioning, ceiling framework, wall build-ups, MEP routes and commercial-site sequencing within an active retail development context.",
+    solution:
+      "ACHV delivered fit-out works including gypsum systems, partitioning, ceiling frameworks and MEP coordination, managing the practical site requirements of a commercial environment.",
+    outcome:
+      "The project demonstrates ACHV’s ability to deliver fit-out packages in retail and commercial environments where coordination, speed and clean execution are essential.",
   },
 ];
