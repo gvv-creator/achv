@@ -5,7 +5,12 @@ export const company = {
   phone: "+356 7936 0306",
   tel: "+35679360306",
   whatsapp: "https://wa.me/35679360306",
-  location: "Pendergardens Business Centre, St Julian’s, Malta",
+  location: "15, Triq Il-Plejju, Birkirkara, Malta",
+  address: {
+    streetAddress: "15, Triq Il-Plejju",
+    addressLocality: "Birkirkara",
+    addressCountry: "MT",
+  },
   website: "https://www.achv.today",
   positioning:
     "Design-led project management, construction and finishes from design stage to completion.",
