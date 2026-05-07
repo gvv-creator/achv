@@ -221,6 +221,16 @@ export const projects = [
       "Refurbishment Delivery",
     ],
     image: "/images/projects/mcdonalds-malta-naxxar-refurbishment.jpg",
+    gallery: [
+      "/images/projects/mcdonalds-malta-naxxar-refurbishment.jpg",
+      "/images/projects/mcdonalds-malta-naxxar-staircase.jpg",
+      "/images/projects/mcdonalds-malta-naxxar-seating.jpg",
+      "/images/projects/mcdonalds-malta-naxxar-dining.jpg",
+      "/images/projects/mcdonalds-malta-naxxar-booths.jpg",
+      "/images/projects/mcdonalds-malta-naxxar-play-area.jpg",
+      "/images/projects/mcdonalds-malta-naxxar-washroom.jpg",
+      "/images/projects/mcdonalds-malta-naxxar-mirror-detail.jpg",
+    ],
     summary:
       "Refurbishment of the McDonald’s Malta Naxxar outlet, delivered in March 2026.",
     challenge:

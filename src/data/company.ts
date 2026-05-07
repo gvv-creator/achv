@@ -10,6 +10,11 @@ export const company = {
   positioning:
     "Design-led project management, construction and finishes from design stage to completion.",
   markets: ["Malta", "EU27"],
+  social: {
+    facebook: "https://www.facebook.com/profile.php?id=61558724295588",
+    instagram: "https://www.instagram.com/__achv__/",
+    linkedin: "https://www.linkedin.com/company/achv-ltd/",
+  },
   logos: {
     black: "/images/brand/achv-logo-black.png",
     white: "/images/brand/achv-logo-white.jpg",

@@ -55,6 +55,7 @@ const ogImageAlt = `${company.name} logo on dark background`;
         logo: new URL(company.logos.fullColour, siteUrl).href,
         email: company.email,
         telephone: company.tel,
+        sameAs: Object.values(company.social),
         address: {
           "@type": "PostalAddress",
           streetAddress: "Pendergardens Business Centre",

@@ -5,6 +5,7 @@ interface Props {
 }
 
 const { href, variant = "dark" } = Astro.props;
+const isExternal = /^https?:\/\//.test(href);
 
 const classes = {
   dark: "bg-[#161616] text-white hover:bg-[#b08a57]",
@@ -15,6 +16,8 @@ const classes = {
 
 <a
   href={href}
+  target={isExternal ? "_blank" : undefined}
+  rel={isExternal ? "noopener noreferrer" : undefined}
   class={`inline-flex rounded-full px-6 py-3 text-sm font-semibold transition ${classes[variant]}`}
 >
   <slot />
