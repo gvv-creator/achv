@@ -3,12 +3,40 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import SectionHeading from "../components/SectionHeading.astro";
 import ServiceCard from "../components/ServiceCard.astro";
 import CTASection from "../components/CTASection.astro";
+import { company } from "../data/company";
 import { services } from "../data/services";
+
+const organizationId = `${company.website}/#organization`;
+const areaServed = [
+  { "@type": "Country", name: "Malta" },
+  { "@type": "AdministrativeArea", name: "European Union" },
+];
+const serviceSchema = [
+  {
+    "@type": "ItemList",
+    name: "ACHV project management, construction and finishes services",
+    itemListElement: services.map((service, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      item: {
+        "@type": "Service",
+        name: service.title,
+        serviceType: service.title,
+        description: service.summary,
+        provider: {
+          "@id": organizationId,
+        },
+        areaServed,
+      },
+    })),
+  },
+];
 ---
 
 <BaseLayout
-  title="Construction, Finishes & Project Management Services | ACHV Ltd."
-  description="ACHV provides project management, construction and finishing services for residential, commercial and specialist projects in Malta and the EU27."
+  title="Project Management, Construction, Civil Works & Finishes Malta | ACHV"
+  description="ACHV provides project management, construction, civil works, fit-out and finishing services for residential, commercial and specialist projects in Malta and the EU27."
+  schema={serviceSchema}
 >
   <section class="bg-[#161616] px-6 py-28 text-white">
     <div class="mx-auto max-w-7xl">

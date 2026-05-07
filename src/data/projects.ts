@@ -7,7 +7,7 @@ export const projects = [
     services: ["Project Management", "Civil Works Management", "Cost Coordination"],
     image: "/images/projects/trident-park-project-management.jpg",
     summary:
-      "Project management of major civil works packages within one of Malta’s leading commercial developments.",
+      "Project management of major civil works packages within a major Malta commercial development.",
     challenge:
       "The project required disciplined coordination of large-scale civil works, resources, contractors, scheduling, compliance and delivery interfaces.",
     solution:
@@ -53,13 +53,13 @@ export const projects = [
       "/images/projects/mercury-towers-finishes-progress.jpg",
     ],
     summary:
-      "Management and delivery of multiple specialist packages within one of Malta’s most prominent high-rise developments.",
+      "Management and delivery of multiple specialist packages within a major Malta high-rise development.",
     challenge:
       "The project required coordination across internal finishes, gypsum works, service routes, MEP interfaces, balcony areas and hospitality-related delivery requirements within a complex high-rise environment.",
     solution:
       "ACHV managed package coordination, sequencing, site interfaces, MEP coordination and finishing works, helping maintain delivery control across multiple work areas and stakeholders.",
     outcome:
-      "The project demonstrates ACHV’s ability to manage specialist packages within Tier-1 developments where finish quality, coordination and programme discipline are essential.",
+      "The project demonstrates ACHV’s ability to manage specialist packages within major developments where finish quality, coordination and programme discipline are essential.",
   },
   {
     title: "Triq Paceville — Road Construction",
@@ -136,13 +136,13 @@ export const projects = [
       "/images/projects/palazzo-ferreria-heritage-courtyard.jpg",
     ],
     summary:
-      "Restoration and upgrading works within one of Valletta’s most prestigious historic buildings, including detailed wood, metal and architectural feature restoration.",
+      "Restoration and upgrading works within a historic Valletta building, including detailed wood, metal and architectural feature restoration.",
     challenge:
       "The building required careful restoration within a highly sensitive heritage environment, including protection of ornate architectural elements, decorative metalwork, timber apertures, wall features and existing historic fabric.",
     solution:
       "ACHV carried out heritage-sensitive restoration and upgrading works, including wood and metal restoration, wall feature restoration, civil interventions, careful finishing works and protection of architectural details throughout the building.",
     outcome:
-      "The project demonstrates ACHV’s ability to work inside prestige heritage buildings where craftsmanship, sensitivity, sequencing and respect for historic detail are critical.",
+      "The project demonstrates ACHV’s ability to work inside heritage buildings where craftsmanship, sensitivity, sequencing and respect for historic detail are critical.",
   },
   {
     title: "Chamber of Commerce — Valletta",
@@ -152,13 +152,13 @@ export const projects = [
     services: ["Restoration", "Civil Alterations", "Finishes"],
     image: "/images/projects/chamber-of-commerce-valletta.jpg",
     summary:
-      "Restoration, civil alterations and finishing works within an occupied prestige building.",
+      "Restoration, civil alterations and finishing works within an occupied heritage and commercial building.",
     challenge:
       "The project required execution of structural alterations and finishes without disrupting operations or damaging the surrounding architecture.",
     solution:
       "ACHV coordinated restoration, alterations and finishing works with sensitivity to building operations, architectural value and site constraints.",
     outcome:
-      "The project proves ACHV’s ability to work in prestigious occupied buildings while protecting both operations and architectural integrity.",
+      "The project proves ACHV’s ability to work in occupied heritage buildings while protecting both operations and architectural integrity.",
   },
   {
     title: "Farsons Old Brew House — Finishes Management",

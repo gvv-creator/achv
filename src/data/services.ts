@@ -2,7 +2,7 @@ export const services = [
   {
     title: "Project Management",
     summary:
-      "Programme control, procurement, cost coordination, contractor management, site reporting and handover.",
+      "Project planning, programme control, procurement, cost coordination, contractor management, site reporting and handover for Malta and EU27 projects.",
     deliverables: [
       "Project planning",
       "Budget coordination",
@@ -15,7 +15,7 @@ export const services = [
   {
     title: "Construction",
     summary:
-      "Civil works, alterations, MEP coordination, turnkey construction and site execution under one accountable structure.",
+      "Civil works, alterations, infrastructure works, MEP coordination, turnkey construction and site execution under one accountable structure.",
     deliverables: [
       "Construction coordination",
       "Alterations and civil works",
@@ -28,7 +28,7 @@ export const services = [
   {
     title: "Finishes",
     summary:
-      "Gypsum, plastering, painting, tiling, flooring, bathrooms, kitchens, bespoke details and final snagging.",
+      "Internal finishes, gypsum, plastering, painting, tiling, flooring, bathrooms, kitchens, fit-out details and final snagging.",
     deliverables: [
       "Internal finishes",
       "Gypsum and plastering",

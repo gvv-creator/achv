@@ -10,11 +10,27 @@ const steps = [
   ["Finishes", "We manage the details that define the final experience: surfaces, junctions, materials, lighting, bathrooms, kitchens and final snagging."],
   ["Handover", "We close the project properly, ensuring the space is ready, documented and complete."],
 ];
+
+const processSchema = [
+  {
+    "@type": "HowTo",
+    name: "ACHV design-to-completion project delivery process",
+    description:
+      "A structured project management, construction and finishes process from client vision to handover.",
+    step: steps.map(([title, text], index) => ({
+      "@type": "HowToStep",
+      position: index + 1,
+      name: title,
+      text,
+    })),
+  },
+];
 ---
 
 <BaseLayout
-  title="Design-to-Completion Process | ACHV Ltd."
-  description="ACHV manages projects from design vision to completed space through a structured project management, construction and finishing process."
+  title="Design-to-Completion Construction Process Malta | ACHV Ltd."
+  description="ACHV manages projects from design vision to completed space through structured project management, construction, civil works and finishing controls."
+  schema={processSchema}
 >
   <section class="bg-[#161616] px-6 py-28 text-white">
     <div class="mx-auto max-w-7xl">

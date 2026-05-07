@@ -15,10 +15,10 @@ const { title, summary, deliverables } = Astro.props;
   <ul class="mt-6 space-y-3 text-sm text-black/70">
     {
       deliverables.map((item) => (
-        <li class="flex gap-3">
-          <span class="mt-2 h-1.5 w-1.5 rounded-full bg-[#b08a57]" />
-          <span>{item}</span>
-        </li>
+      <li class="flex gap-3">
+        <span class="mt-2 h-1.5 w-1.5 rounded-full bg-[#b08a57]" aria-hidden="true" />
+        <span>{item}</span>
+      </li>
       ))
     }
   </ul>

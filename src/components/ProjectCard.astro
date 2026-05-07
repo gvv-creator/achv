@@ -6,13 +6,23 @@ interface Props {
   services: string[];
   image: string;
   summary: string;
+  slug?: string;
 }
 
-const { title, location, sector, services, image, summary } = Astro.props;
+const { title, location, sector, services, image, summary, slug } = Astro.props;
+const imageAlt = `${title} project in ${location}: ${sector}`;
 ---
 
-<article class="overflow-hidden rounded-3xl border border-black/10 bg-white shadow-sm">
-  <img src={image} alt={title} class="h-80 w-full object-cover" loading="lazy" decoding="async" />
+<article id={slug} class="overflow-hidden rounded-3xl border border-black/10 bg-white shadow-sm">
+  <img
+    src={image}
+    alt={imageAlt}
+    width="1200"
+    height="800"
+    class="h-80 w-full object-cover"
+    loading="lazy"
+    decoding="async"
+  />
 
   <div class="p-7">
     <div class="flex flex-wrap gap-2">

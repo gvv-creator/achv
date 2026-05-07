@@ -7,13 +7,114 @@ import { company } from "../data/company";
 interface Props {
   title: string;
   description: string;
+  robots?: string;
+  pageType?: string | string[];
+  schema?: Record<string, unknown>[];
 }
 
-const { title, description } = Astro.props;
+const {
+  title,
+  description,
+  robots = "index, follow",
+  pageType = "WebPage",
+  schema = [],
+} = Astro.props;
 const siteUrl = company.website;
 const canonical = new URL(Astro.url.pathname, siteUrl).href;
 const ogImage = new URL("/images/brand/achv-og-image.jpg", siteUrl).href;
 const ogImageAlt = `${company.name} logo on dark background`;
+const organizationId = new URL("/#organization", siteUrl).href;
+const websiteId = new URL("/#website", siteUrl).href;
+const webpageId = `${canonical}#webpage`;
+const breadcrumbId = `${canonical}#breadcrumb`;
+const pageName = title.split("|")[0].trim();
+const address = {
+  "@type": "PostalAddress",
+  streetAddress: company.address.streetAddress,
+  addressLocality: company.address.addressLocality,
+  addressCountry: company.address.addressCountry,
+};
+const areaServed = [
+  { "@type": "Country", name: "Malta" },
+  { "@type": "AdministrativeArea", name: "European Union" },
+];
+const breadcrumbItems = [
+  {
+    "@type": "ListItem",
+    position: 1,
+    name: "Home",
+    item: new URL("/", siteUrl).href,
+  },
+  ...(Astro.url.pathname === "/"
+    ? []
+    : [
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: pageName,
+          item: canonical,
+        },
+      ]),
+];
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["Organization", "LocalBusiness", "ProfessionalService"],
+      "@id": organizationId,
+      name: company.name,
+      legalName: company.name,
+      slogan: company.slogan,
+      url: company.website,
+      logo: {
+        "@type": "ImageObject",
+        url: new URL(company.logos.fullColour, siteUrl).href,
+      },
+      image: ogImage,
+      email: company.email,
+      telephone: company.phone,
+      address,
+      areaServed,
+      sameAs: Object.values(company.social),
+      description: company.positioning,
+    },
+    {
+      "@type": "WebSite",
+      "@id": websiteId,
+      url: company.website,
+      name: company.name,
+      description: company.positioning,
+      inLanguage: "en-MT",
+      publisher: {
+        "@id": organizationId,
+      },
+    },
+    {
+      "@type": pageType,
+      "@id": webpageId,
+      url: canonical,
+      name: pageName,
+      headline: pageName,
+      description,
+      isPartOf: {
+        "@id": websiteId,
+      },
+      publisher: {
+        "@id": organizationId,
+      },
+      breadcrumb: {
+        "@id": breadcrumbId,
+      },
+      inLanguage: "en-MT",
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": breadcrumbId,
+      itemListElement: breadcrumbItems,
+    },
+    ...schema,
+  ],
+};
 ---
 
 <!doctype html>
@@ -21,6 +122,7 @@ const ogImageAlt = `${company.name} logo on dark background`;
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content={description} />
+    <meta name="robots" content={robots} />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
 
@@ -47,24 +149,7 @@ const ogImageAlt = `${company.name} logo on dark background`;
 
     <script
       type="application/ld+json"
-      set:html={JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": ["Organization", "LocalBusiness", "ProfessionalService"],
-        name: company.name,
-        url: company.website,
-        logo: new URL(company.logos.fullColour, siteUrl).href,
-        email: company.email,
-        telephone: company.tel,
-        sameAs: Object.values(company.social),
-        address: {
-          "@type": "PostalAddress",
-          streetAddress: company.address.streetAddress,
-          addressLocality: company.address.addressLocality,
-          addressCountry: company.address.addressCountry,
-        },
-        areaServed: ["Malta", "European Union"],
-        description: company.positioning,
-      })}
+      set:html={JSON.stringify(jsonLd)}
     />
   </head>
 

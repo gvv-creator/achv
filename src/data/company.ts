@@ -2,9 +2,9 @@ export const company = {
   name: "ACHV Ltd.",
   slogan: "build better.",
   email: "hello@achv.today",
-  phone: "+356 7936 0306",
-  tel: "+35679360306",
-  whatsapp: "https://wa.me/35679360306",
+  phone: "+356 7993 2893",
+  tel: "+35679932893",
+  whatsapp: "https://wa.me/35679932893",
   location: "15, Triq Il-Plejju, Birkirkara, Malta",
   address: {
     streetAddress: "15, Triq Il-Plejju",

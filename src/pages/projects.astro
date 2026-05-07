@@ -3,12 +3,37 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import SectionHeading from "../components/SectionHeading.astro";
 import ProjectCard from "../components/ProjectCard.astro";
 import CTASection from "../components/CTASection.astro";
+import { company } from "../data/company";
 import { projects } from "../data/projects";
+
+const projectSchema = [
+  {
+    "@type": "ItemList",
+    name: "ACHV selected project portfolio",
+    itemListElement: projects.map((project, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      item: {
+        "@type": "CreativeWork",
+        name: project.title,
+        url: `${company.website}/projects#${project.slug}`,
+        image: new URL(project.image, company.website).href,
+        description: project.summary,
+        contentLocation: {
+          "@type": "Place",
+          name: project.location,
+        },
+        about: project.services,
+      },
+    })),
+  },
+];
 ---
 
 <BaseLayout
-  title="ACHV Projects | Construction, Finishes & Project Delivery"
-  description="Explore ACHV project work across project management, construction and finishes in Malta and the EU27."
+  title="ACHV Projects | Civil Works, Fit-Out & Restoration Malta"
+  description="Explore ACHV project work across project management, construction, civil works, finishes, fit-out, infrastructure and restoration projects in Malta."
+  schema={projectSchema}
 >
   <section class="bg-[#161616] px-6 py-28 text-white">
     <div class="mx-auto max-w-7xl">
