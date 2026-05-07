@@ -335,7 +335,7 @@ export const projects = [
       "/images/projects/mia-billboards-finishes.jpg",
       "/images/projects/mia-billboards-video-poster.jpg",
     ],
-    video: "/videos/projects/mia-billboards-installation.mov",
+    video: "/videos/projects/mia-billboards-installation.mp4",
     videoPoster: "/images/projects/mia-billboards-video-poster.jpg",
     summary:
       "Finishing and installation-support works for billboard/display areas within Malta International Airport.",
