@@ -1,0 +1,73 @@
+<script is:inline>
+  (() => {
+    const CONSENT_KEY = "achv-consent-v1";
+
+    const readConsent = () => {
+      try {
+        const stored = window.localStorage.getItem(CONSENT_KEY);
+        return stored ? JSON.parse(stored) : null;
+      } catch {
+        return null;
+      }
+    };
+
+    const normalizeConsent = (consent) => ({
+      version: 1,
+      analytics: consent?.analytics === true,
+      marketing: consent?.marketing === true,
+      updatedAt: consent?.updatedAt || new Date().toISOString(),
+    });
+
+    const toGoogleConsent = (consent) => {
+      const normalized = consent ? normalizeConsent(consent) : null;
+      const analytics = normalized?.analytics ? "granted" : "denied";
+      const marketing = normalized?.marketing ? "granted" : "denied";
+
+      return {
+        analytics_storage: analytics,
+        ad_storage: marketing,
+        ad_user_data: marketing,
+        ad_personalization: marketing,
+        personalization_storage: marketing,
+        functionality_storage: "granted",
+        security_storage: "granted",
+      };
+    };
+
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = window.gtag || function(){window.dataLayer.push(arguments);};
+
+    window.achvConsent = {
+      key: CONSENT_KEY,
+      read: readConsent,
+      save(consent) {
+        const normalized = normalizeConsent(consent);
+
+        try {
+          window.localStorage.setItem(CONSENT_KEY, JSON.stringify(normalized));
+        } catch {
+          // Consent still applies to the current page if storage is unavailable.
+        }
+
+        window.achvApplyConsent(normalized);
+        return normalized;
+      },
+    };
+
+    window.achvApplyConsent = (consent) => {
+      const normalized = normalizeConsent(consent);
+      window.gtag("consent", "update", toGoogleConsent(normalized));
+      window.dispatchEvent(
+        new CustomEvent("achv:consent-change", { detail: normalized }),
+      );
+    };
+
+    const storedConsent = readConsent();
+
+    window.gtag("consent", "default", {
+      ...toGoogleConsent(storedConsent),
+      wait_for_update: storedConsent ? 0 : 500,
+    });
+    window.gtag("set", "ads_data_redaction", true);
+  })();
+</script>
