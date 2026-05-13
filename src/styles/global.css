@@ -23,3 +23,21 @@ body {
   background: var(--achv-brass);
   color: white;
 }
+
+[data-project-filter][aria-pressed="true"] {
+  border-color: var(--achv-charcoal);
+  background: var(--achv-charcoal);
+  color: white;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+  }
+}

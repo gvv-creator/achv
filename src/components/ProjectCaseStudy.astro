@@ -1,0 +1,83 @@
+---
+interface Project {
+  title: string;
+  location: string;
+  sector: string;
+  services: string[];
+  image: string;
+  summary: string;
+  challenge?: string;
+  solution?: string;
+  outcome?: string;
+  gallery?: string[];
+}
+
+interface Props {
+  project: Project;
+}
+
+const { project } = Astro.props;
+const details = [
+  ["Location", project.location],
+  ["Sector", project.sector],
+  ["Scope", project.services.join(", ")],
+  ["Delivery challenge", project.challenge],
+  ["ACHV role", project.solution],
+  ["Outcome", project.outcome],
+].filter(([, value]) => value && String(value).trim().length > 0);
+---
+
+<article class="px-6 py-24">
+  <div class="mx-auto grid max-w-7xl gap-14 md:grid-cols-[0.9fr_1.1fr]">
+    <div>
+      <p class="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-[#b08a57]">
+        Case study
+      </p>
+      <h1 class="text-5xl font-semibold tracking-tight md:text-7xl">{project.title}</h1>
+      <p class="mt-8 text-xl leading-9 text-black/65">{project.summary}</p>
+    </div>
+
+    <div class="overflow-hidden rounded-3xl border border-black/10 bg-white shadow-sm">
+      <img
+        src={project.image}
+        alt={`${project.title} project in ${project.location}`}
+        width="1200"
+        height="900"
+        class="aspect-[4/3] h-auto w-full object-cover"
+        loading="eager"
+        decoding="async"
+      />
+    </div>
+  </div>
+
+  <div class="mx-auto mt-14 grid max-w-7xl gap-6 md:grid-cols-2">
+    {
+      details.map(([label, value]) => (
+        <section class="rounded-3xl border border-black/10 bg-white p-8 shadow-sm">
+          <h2 class="text-sm font-semibold uppercase tracking-[0.22em] text-[#b08a57]">
+            {label}
+          </h2>
+          <p class="mt-4 text-lg leading-8 text-black/65">{value}</p>
+        </section>
+      ))
+    }
+  </div>
+
+  {
+    project.gallery && project.gallery.length > 1 && (
+      <div class="mx-auto mt-14 grid max-w-7xl gap-6 md:grid-cols-3">
+        {project.gallery.slice(1).map((image) => (
+          <img
+            src={image}
+            alt={`${project.title} project gallery image`}
+            width="1200"
+            height="900"
+            class="aspect-[4/3] rounded-3xl object-cover"
+            loading="lazy"
+            decoding="async"
+          />
+        ))}
+      </div>
+    )
+  }
+</article>

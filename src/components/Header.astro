@@ -15,7 +15,11 @@ const isActive = (href: string) => {
 
 <header class="sticky top-0 z-50 border-b border-black/10 bg-[#f7f4ef]/90 backdrop-blur">
   <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-    <a href="/" aria-label="ACHV Ltd. home" class="inline-flex items-center">
+    <a
+      href="/"
+      aria-label="ACHV Ltd. home"
+      class="inline-flex items-center rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b08a57]"
+    >
       <img
         src={company.logos.black}
         alt="ACHV Ltd."
@@ -32,7 +36,7 @@ const isActive = (href: string) => {
             href={item.href}
             aria-current={isActive(item.href) ? "page" : undefined}
             class:list={[
-              "transition hover:text-[#b08a57]",
+              "transition hover:text-[#b08a57] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b08a57]",
               isActive(item.href) ? "text-[#b08a57]" : undefined,
             ]}
           >
@@ -46,31 +50,151 @@ const isActive = (href: string) => {
       href={company.whatsapp}
       target="_blank"
       rel="noopener noreferrer"
-      class="hidden rounded-full bg-[#161616] px-5 py-2 text-sm font-semibold text-white transition hover:bg-[#b08a57] md:inline-flex"
+      class="hidden min-h-11 items-center rounded-full bg-[#161616] px-5 py-2 text-sm font-semibold text-white transition hover:bg-[#b08a57] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b08a57] md:inline-flex"
     >
       Start a Project
     </a>
+
+    <button
+      type="button"
+      data-mobile-menu-toggle
+      aria-controls="mobile-menu"
+      aria-expanded="false"
+      class="inline-flex min-h-11 items-center rounded-full border border-black/10 px-4 py-2 text-sm font-semibold text-[#161616] transition hover:border-[#161616] hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b08a57] md:hidden"
+    >
+      Menu
+    </button>
   </div>
 
   <nav
-    class="flex gap-2 overflow-x-auto border-t border-black/10 px-6 py-3 text-sm font-medium md:hidden"
+    id="mobile-menu"
+    data-mobile-menu
+    hidden
+    class="border-t border-black/10 px-6 py-4 text-sm font-medium md:hidden"
     aria-label="Primary navigation mobile"
   >
-    {
-      navigation.map((item) => (
-        <a
-          href={item.href}
-          aria-current={isActive(item.href) ? "page" : undefined}
-          class:list={[
-            "shrink-0 rounded-full px-3 py-2 transition",
-            isActive(item.href)
-              ? "bg-[#161616] text-white"
-              : "text-[#161616]/75 hover:bg-black/5 hover:text-[#b08a57]",
-          ]}
-        >
-          {item.label}
-        </a>
-      ))
-    }
+    <div class="grid gap-2">
+      {
+        navigation.map((item) => (
+          <a
+            href={item.href}
+            aria-current={isActive(item.href) ? "page" : undefined}
+            class:list={[
+              "min-h-11 rounded-full px-4 py-3 transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b08a57]",
+              isActive(item.href)
+                ? "bg-[#161616] text-white"
+                : "text-[#161616]/75 hover:bg-white hover:text-[#b08a57]",
+            ]}
+          >
+            {item.label}
+          </a>
+        ))
+      }
+      <a
+        href={company.whatsapp}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="mt-2 inline-flex min-h-11 items-center justify-center rounded-full bg-[#161616] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#b08a57] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b08a57]"
+      >
+        Start a Project
+      </a>
+    </div>
   </nav>
 </header>
+
+<script>
+  (() => {
+    const toggle = document.querySelector("[data-mobile-menu-toggle]");
+    const menu = document.querySelector("[data-mobile-menu]");
+
+    if (!(toggle instanceof HTMLButtonElement) || !(menu instanceof HTMLElement)) {
+      return;
+    }
+
+    const focusableSelector = 'a[href], button:not([disabled])';
+    let returnFocusTarget = null;
+
+    const getFocusableElements = () => [
+      toggle,
+      ...Array.from(menu.querySelectorAll(focusableSelector)).filter(
+        (element) => element instanceof HTMLElement && !element.hasAttribute("hidden"),
+      ),
+    ];
+
+    const isOpen = () => toggle.getAttribute("aria-expanded") === "true";
+
+    const openMenu = () => {
+      returnFocusTarget = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+      menu.hidden = false;
+      toggle.setAttribute("aria-expanded", "true");
+      menu.querySelector(focusableSelector)?.focus({ preventScroll: true });
+    };
+
+    const closeMenu = (returnFocus = true) => {
+      menu.hidden = true;
+      toggle.setAttribute("aria-expanded", "false");
+
+      if (returnFocus) {
+        returnFocusTarget?.focus({ preventScroll: true });
+      }
+
+      returnFocusTarget = null;
+    };
+
+    toggle.addEventListener("click", () => {
+      if (isOpen()) {
+        closeMenu(false);
+      } else {
+        openMenu();
+      }
+    });
+
+    menu.addEventListener("click", (event) => {
+      const target = event.target;
+
+      if (target instanceof HTMLAnchorElement) {
+        closeMenu(false);
+      }
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (!isOpen()) {
+        return;
+      }
+
+      if (event.key === "Escape") {
+        event.preventDefault();
+        closeMenu();
+        return;
+      }
+
+      if (event.key !== "Tab") {
+        return;
+      }
+
+      const focusableElements = getFocusableElements();
+      const firstElement = focusableElements[0];
+      const lastElement = focusableElements[focusableElements.length - 1];
+
+      if (event.shiftKey && document.activeElement === firstElement) {
+        event.preventDefault();
+        lastElement.focus();
+      } else if (!event.shiftKey && document.activeElement === lastElement) {
+        event.preventDefault();
+        firstElement.focus();
+      }
+    });
+
+    document.addEventListener("click", (event) => {
+      const target = event.target;
+
+      if (!isOpen() || !(target instanceof Node)) {
+        return;
+      }
+
+      if (!menu.contains(target) && !toggle.contains(target)) {
+        closeMenu(false);
+      }
+    });
+  })();
+</script>

@@ -6,6 +6,90 @@ import CTASection from "../components/CTASection.astro";
 import { company } from "../data/company";
 import { projects } from "../data/projects";
 
+const projectFilters = [
+  "All",
+  "Project Management",
+  "Civil Works",
+  "Finishes",
+  "Heritage",
+  "Commercial",
+  "Infrastructure",
+  "Hospitality / Fit-out",
+];
+
+const getProjectCategories = (project: (typeof projects)[number]) => {
+  const text = `${project.sector} ${project.services.join(" ")}`.toLowerCase();
+  const categories = ["All"];
+
+  if (text.includes("project management") || text.includes("cost coordination")) {
+    categories.push("Project Management");
+  }
+
+  if (
+    text.includes("civil") ||
+    text.includes("road") ||
+    text.includes("excavation") ||
+    text.includes("concrete") ||
+    text.includes("reinforcement") ||
+    text.includes("blockwork")
+  ) {
+    categories.push("Civil Works");
+  }
+
+  if (
+    text.includes("finishes") ||
+    text.includes("finish") ||
+    text.includes("gypsum") ||
+    text.includes("painting") ||
+    text.includes("tiling") ||
+    text.includes("flooring")
+  ) {
+    categories.push("Finishes");
+  }
+
+  if (text.includes("heritage") || text.includes("restoration")) {
+    categories.push("Heritage");
+  }
+
+  if (
+    text.includes("commercial") ||
+    text.includes("retail") ||
+    text.includes("business park") ||
+    text.includes("food & beverage") ||
+    text.includes("airport") ||
+    text.includes("media")
+  ) {
+    categories.push("Commercial");
+  }
+
+  if (
+    text.includes("infrastructure") ||
+    text.includes("road") ||
+    text.includes("public") ||
+    text.includes("airport") ||
+    text.includes("industrial")
+  ) {
+    categories.push("Infrastructure");
+  }
+
+  if (
+    text.includes("hospitality") ||
+    text.includes("fit-out") ||
+    text.includes("hotel") ||
+    text.includes("wellness") ||
+    text.includes("food & beverage")
+  ) {
+    categories.push("Hospitality / Fit-out");
+  }
+
+  return Array.from(new Set(categories));
+};
+
+const categorizedProjects = projects.map((project) => ({
+  ...project,
+  categories: getProjectCategories(project),
+}));
+
 const projectSchema = [
   {
     "@type": "ItemList",
@@ -31,7 +115,7 @@ const projectSchema = [
 ---
 
 <BaseLayout
-  title="ACHV Projects | Civil Works, Fit-Out & Restoration Malta"
+  title="ACHV Projects | Civil Works, Fit-Out, Finishes & Restoration Malta"
   description="Explore ACHV project work across project management, construction, civil works, finishes, fit-out, infrastructure and restoration projects in Malta."
   schema={projectSchema}
 >
@@ -55,8 +139,41 @@ const projectSchema = [
         text="Project examples across management, construction, finishes and constrained delivery environments."
       />
 
-      <div class="mt-14 grid gap-8 md:grid-cols-3">
-        {projects.map((project) => (
+      <div class="mt-10 rounded-3xl border border-black/10 bg-white p-4 shadow-sm sm:p-5">
+        <div class="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+          <div class="flex flex-wrap gap-2" aria-label="Filter projects by category">
+            {
+              projectFilters.map((filter) => (
+                <button
+                  type="button"
+                  data-project-filter={filter}
+                  aria-pressed={filter === "All" ? "true" : "false"}
+                  class="min-h-11 rounded-full border border-black/10 px-4 py-2 text-sm font-semibold text-[#161616] transition hover:border-[#161616] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b08a57]"
+                >
+                  {filter}
+                </button>
+              ))
+            }
+          </div>
+
+          <label class="block lg:w-80">
+            <span class="sr-only">Search projects</span>
+            <input
+              type="search"
+              data-project-search-input
+              placeholder="Search projects"
+              class="min-h-11 w-full rounded-full border border-black/10 bg-[#f7f4ef] px-4 py-2 text-sm font-medium text-[#161616] outline-none transition placeholder:text-black/40 focus:border-[#b08a57] focus:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b08a57]"
+            />
+          </label>
+        </div>
+
+        <p data-project-results class="mt-4 text-sm text-black/55">
+          Showing all projects
+        </p>
+      </div>
+
+      <div id="project-grid" class="mt-10 grid gap-8 md:grid-cols-3">
+        {categorizedProjects.map((project) => (
           <ProjectCard {...project} />
         ))}
       </div>
@@ -65,3 +182,69 @@ const projectSchema = [
 
   <CTASection />
 </BaseLayout>
+
+<script>
+  (() => {
+    const filterButtons = Array.from(document.querySelectorAll("[data-project-filter]"));
+    const searchInput = document.querySelector("[data-project-search-input]");
+    const cards = Array.from(document.querySelectorAll("[data-project-card]"));
+    const results = document.querySelector("[data-project-results]");
+
+    if (!(searchInput instanceof HTMLInputElement) || !results) {
+      return;
+    }
+
+    let activeFilter = "All";
+
+    const updateProjects = () => {
+      const query = searchInput.value.trim().toLowerCase();
+      let visibleCount = 0;
+
+      cards.forEach((card) => {
+        if (!(card instanceof HTMLElement)) {
+          return;
+        }
+
+        const categories = (card.dataset.projectCategories ?? "").split("|");
+        const searchText = card.dataset.projectSearch ?? "";
+        const matchesFilter = activeFilter === "All" || categories.includes(activeFilter);
+        const matchesSearch = !query || searchText.includes(query);
+        const isVisible = matchesFilter && matchesSearch;
+
+        card.hidden = !isVisible;
+
+        if (isVisible) {
+          visibleCount += 1;
+        }
+      });
+
+      filterButtons.forEach((button) => {
+        if (!(button instanceof HTMLButtonElement)) {
+          return;
+        }
+
+        button.setAttribute("aria-pressed", String(button.dataset.projectFilter === activeFilter));
+      });
+
+      const filterText = activeFilter === "All" ? "all categories" : activeFilter;
+      results.textContent =
+        visibleCount === 1
+          ? `Showing 1 project in ${filterText}`
+          : `Showing ${visibleCount} projects in ${filterText}`;
+    };
+
+    filterButtons.forEach((button) => {
+      if (!(button instanceof HTMLButtonElement)) {
+        return;
+      }
+
+      button.addEventListener("click", () => {
+        activeFilter = button.dataset.projectFilter ?? "All";
+        updateProjects();
+      });
+    });
+
+    searchInput.addEventListener("input", updateProjects);
+    updateProjects();
+  })();
+</script>

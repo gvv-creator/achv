@@ -26,32 +26,63 @@ import { company } from "../data/company";
         action={`mailto:${company.email}`}
         method="post"
         enctype="text/plain"
+        aria-describedby="contact-form-note"
         class="rounded-3xl border border-black/10 bg-white p-8 shadow-sm"
       >
-        <div class="grid gap-6">
+        <div>
+          <h2 class="text-2xl font-semibold">Request a project review</h2>
+          <p id="contact-form-note" class="mt-3 leading-7 text-black/65">
+            Share a few details and we’ll advise on the most practical next step.
+          </p>
+        </div>
+
+        <div class="mt-8 grid gap-6 md:grid-cols-2">
           <label>
-            <span class="text-sm font-semibold">Name</span>
-            <input name="name" autocomplete="name" class="mt-2 w-full rounded-xl border border-black/10 px-4 py-3" required />
+            <span class="text-sm font-semibold">Name <span class="text-[#b08a57]">*</span></span>
+            <input
+              name="name"
+              autocomplete="name"
+              placeholder="Your name"
+              class="mt-2 min-h-12 w-full rounded-xl border border-black/10 px-4 py-3 outline-none transition placeholder:text-black/35 focus:border-[#b08a57] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b08a57]"
+              required
+            />
           </label>
 
           <label>
-            <span class="text-sm font-semibold">Email</span>
-            <input name="email" type="email" autocomplete="email" class="mt-2 w-full rounded-xl border border-black/10 px-4 py-3" required />
+            <span class="text-sm font-semibold">Email <span class="text-[#b08a57]">*</span></span>
+            <input
+              name="email"
+              type="email"
+              autocomplete="email"
+              placeholder="you@example.com"
+              class="mt-2 min-h-12 w-full rounded-xl border border-black/10 px-4 py-3 outline-none transition placeholder:text-black/35 focus:border-[#b08a57] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b08a57]"
+              required
+            />
           </label>
 
           <label>
             <span class="text-sm font-semibold">Phone</span>
-            <input name="phone" type="tel" autocomplete="tel" class="mt-2 w-full rounded-xl border border-black/10 px-4 py-3" />
+            <input
+              name="phone"
+              type="tel"
+              autocomplete="tel"
+              placeholder="+356"
+              class="mt-2 min-h-12 w-full rounded-xl border border-black/10 px-4 py-3 outline-none transition placeholder:text-black/35 focus:border-[#b08a57] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b08a57]"
+            />
           </label>
 
           <label>
             <span class="text-sm font-semibold">Project location</span>
-            <input name="location" class="mt-2 w-full rounded-xl border border-black/10 px-4 py-3" />
+            <input
+              name="location"
+              placeholder="Malta, EU27 or project address"
+              class="mt-2 min-h-12 w-full rounded-xl border border-black/10 px-4 py-3 outline-none transition placeholder:text-black/35 focus:border-[#b08a57] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b08a57]"
+            />
           </label>
 
           <label>
             <span class="text-sm font-semibold">Project type</span>
-            <select name="project_type" class="mt-2 w-full rounded-xl border border-black/10 px-4 py-3">
+            <select name="project_type" class="mt-2 min-h-12 w-full rounded-xl border border-black/10 px-4 py-3 outline-none transition focus:border-[#b08a57] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b08a57]">
               <option>Residential</option>
               <option>Commercial</option>
               <option>Hospitality</option>
@@ -63,7 +94,7 @@ import { company } from "../data/company";
 
           <label>
             <span class="text-sm font-semibold">Project stage</span>
-            <select name="project_stage" class="mt-2 w-full rounded-xl border border-black/10 px-4 py-3">
+            <select name="project_stage" class="mt-2 min-h-12 w-full rounded-xl border border-black/10 px-4 py-3 outline-none transition focus:border-[#b08a57] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b08a57]">
               <option>Idea / concept</option>
               <option>Design in progress</option>
               <option>Permits / planning</option>
@@ -72,12 +103,18 @@ import { company } from "../data/company";
             </select>
           </label>
 
-          <label>
-            <span class="text-sm font-semibold">Message</span>
-            <textarea name="message" rows="6" class="mt-2 w-full rounded-xl border border-black/10 px-4 py-3" required></textarea>
+          <label class="md:col-span-2">
+            <span class="text-sm font-semibold">Message <span class="text-[#b08a57]">*</span></span>
+            <textarea
+              name="message"
+              rows="6"
+              placeholder="Tell us about the scope, timeline, site constraints or current stage."
+              class="mt-2 w-full rounded-xl border border-black/10 px-4 py-3 outline-none transition placeholder:text-black/35 focus:border-[#b08a57] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b08a57]"
+              required
+            ></textarea>
           </label>
 
-          <button type="submit" class="rounded-full bg-[#161616] px-6 py-4 font-semibold text-white transition hover:bg-[#b08a57]">
+          <button type="submit" class="min-h-12 rounded-full bg-[#161616] px-6 py-4 font-semibold text-white transition hover:bg-[#b08a57] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b08a57] md:col-span-2">
             Request a Project Review
           </button>
         </div>
@@ -86,9 +123,9 @@ import { company } from "../data/company";
       <div>
         <h2 class="text-4xl font-semibold tracking-tight">Prefer direct contact?</h2>
         <div class="mt-8 space-y-5 text-lg text-black/65">
-          <p>Email: <a class="font-semibold text-[#161616]" href={`mailto:${company.email}`}>{company.email}</a></p>
-          <p>Phone: <a class="font-semibold text-[#161616]" href={`tel:${company.tel}`}>{company.phone}</a></p>
-          <p>WhatsApp: <a class="font-semibold text-[#161616]" href={company.whatsapp} target="_blank" rel="noopener noreferrer">Message ACHV</a></p>
+          <p>Email: <a class="font-semibold text-[#161616] underline decoration-[#b08a57]/40 underline-offset-4 transition hover:text-[#b08a57] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b08a57]" href={`mailto:${company.email}`}>{company.email}</a></p>
+          <p>Phone: <a class="font-semibold text-[#161616] underline decoration-[#b08a57]/40 underline-offset-4 transition hover:text-[#b08a57] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b08a57]" href={`tel:${company.tel}`}>{company.phone}</a></p>
+          <p>WhatsApp: <a class="font-semibold text-[#161616] underline decoration-[#b08a57]/40 underline-offset-4 transition hover:text-[#b08a57] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b08a57]" href={company.whatsapp} target="_blank" rel="noopener noreferrer">Message ACHV</a></p>
           <p>Office: {company.location}</p>
         </div>
       </div>

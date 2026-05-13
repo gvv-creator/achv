@@ -3,12 +3,36 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import CTASection from "../components/CTASection.astro";
 
 const steps = [
-  ["Vision", "We understand the client’s ambitions, desired outcome, constraints and commercial priorities."],
-  ["Design coordination", "We align design intent with buildability, budget, procurement and site execution."],
-  ["Planning", "We structure the project programme, responsibilities, procurement route and reporting cadence."],
-  ["Construction", "We coordinate contractors, site works, technical decisions, quality control and progress."],
-  ["Finishes", "We manage the details that define the final experience: surfaces, junctions, materials, lighting, bathrooms, kitchens and final snagging."],
-  ["Handover", "We close the project properly, ensuring the space is ready, documented and complete."],
+  {
+    title: "Vision",
+    text: "We understand the client’s ambitions, desired outcome, constraints and commercial priorities.",
+    output: "Brief and priorities",
+  },
+  {
+    title: "Design coordination",
+    text: "We align design intent with buildability, budget, procurement and site execution.",
+    output: "Buildability and scope alignment",
+  },
+  {
+    title: "Planning",
+    text: "We structure the project programme, responsibilities, procurement route and reporting cadence.",
+    output: "Programme, procurement route and responsibilities",
+  },
+  {
+    title: "Construction",
+    text: "We coordinate contractors, site works, technical decisions, quality control and progress.",
+    output: "Site coordination and reporting",
+  },
+  {
+    title: "Finishes",
+    text: "We manage the details that define the final experience: surfaces, junctions, materials, lighting, bathrooms, kitchens and final snagging.",
+    output: "Detail control and snagging",
+  },
+  {
+    title: "Handover",
+    text: "We close the project properly, ensuring the space is ready, documented and complete.",
+    output: "Completion checks and close-out",
+  },
 ];
 
 const processSchema = [
@@ -17,11 +41,11 @@ const processSchema = [
     name: "ACHV design-to-completion project delivery process",
     description:
       "A structured project management, construction and finishes process from client vision to handover.",
-    step: steps.map(([title, text], index) => ({
+    step: steps.map((step, index) => ({
       "@type": "HowToStep",
       position: index + 1,
-      name: title,
-      text,
+      name: step.title,
+      text: `${step.text} Output: ${step.output}.`,
     })),
   },
 ];
@@ -43,12 +67,16 @@ const processSchema = [
 
   <section class="px-6 py-24">
     <div class="mx-auto max-w-5xl space-y-8">
-      {steps.map(([title, text], index) => (
-        <article class="grid gap-6 rounded-3xl border border-black/10 bg-white p-8 md:grid-cols-[120px_1fr]">
+      {steps.map((step, index) => (
+        <article class="grid gap-6 rounded-3xl border border-black/10 bg-white p-8 shadow-sm md:grid-cols-[120px_1fr]">
           <p class="text-5xl font-semibold text-[#b08a57]">{String(index + 1).padStart(2, "0")}</p>
           <div>
-            <h2 class="text-3xl font-semibold">{title}</h2>
-            <p class="mt-4 text-lg leading-8 text-black/65">{text}</p>
+            <h2 class="text-3xl font-semibold">{step.title}</h2>
+            <p class="mt-4 text-lg leading-8 text-black/65">{step.text}</p>
+            <p class="mt-5 rounded-2xl bg-[#f7f4ef] px-4 py-3 text-sm leading-6 text-black/70">
+              <span class="font-semibold text-[#161616]">Client output: </span>
+              {step.output}
+            </p>
           </div>
         </article>
       ))}

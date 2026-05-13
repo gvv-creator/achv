@@ -1,6 +1,14 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import CTASection from "../components/CTASection.astro";
+
+const reasons = [
+  ["Design-aware delivery", "We protect design intent while managing buildability, procurement, programme and site realities."],
+  ["Clear accountability", "Clients have one project structure connecting planning, contractors, construction decisions and handover."],
+  ["Site coordination discipline", "ACHV focuses on sequencing, reporting, logistics, quality control and practical delivery constraints."],
+  ["Finishing detail", "The final stage is managed with attention to surfaces, junctions, materials, snagging and the completed experience."],
+  ["Malta and EU27 capability", "ACHV operates from Malta and supports selected EU27 projects through structured project control and coordination."],
+];
 ---
 
 <BaseLayout
@@ -32,6 +40,29 @@ import CTASection from "../components/CTASection.astro";
         <p>
           We operate from Malta with the capability to support projects across the EU27.
         </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-white px-6 py-24">
+    <div class="mx-auto grid max-w-7xl gap-16 md:grid-cols-[0.8fr_1.2fr]">
+      <div>
+        <p class="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-[#b08a57]">Why ACHV</p>
+        <h2 class="text-4xl font-semibold tracking-tight">
+          Good design only becomes valuable when delivery is controlled.
+        </h2>
+        <p class="mt-6 text-lg leading-8 text-black/65">
+          ACHV connects ambition, planning, construction realities and finishing standards into one accountable project structure.
+        </p>
+      </div>
+
+      <div class="grid gap-5 sm:grid-cols-2">
+        {reasons.map(([title, text]) => (
+          <article class="rounded-3xl border border-black/10 bg-[#f7f4ef] p-6">
+            <h3 class="text-xl font-semibold">{title}</h3>
+            <p class="mt-3 leading-7 text-black/65">{text}</p>
+          </article>
+        ))}
       </div>
     </div>
   </section>

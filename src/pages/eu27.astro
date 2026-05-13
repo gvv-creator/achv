@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import Button from "../components/Button.astro";
 import CTASection from "../components/CTASection.astro";
 ---
 
@@ -14,17 +15,20 @@ import CTASection from "../components/CTASection.astro";
         Malta-based. Internationally capable.
       </h1>
       <p class="mt-8 max-w-2xl text-xl leading-9 text-white/70">
-        ACHV supports clients with cross-border project management, procurement coordination, contractor management and project delivery across Malta and selected EU27 markets.
+        ACHV supports selected EU27 projects through Malta-based project control, procurement coordination, contractor alignment and structured reporting.
       </p>
+      <div class="mt-10">
+        <Button href="/contact" variant="light">Discuss an EU27 project</Button>
+      </div>
     </div>
   </section>
 
   <section class="px-6 py-24">
     <div class="mx-auto grid max-w-7xl gap-8 md:grid-cols-3">
       {[
-        ["Cross-border coordination", "Structured reporting, stakeholder alignment and delivery control across jurisdictions."],
-        ["Procurement support", "Coordination of suppliers, materials and procurement routes for international projects."],
-        ["Delivery accountability", "One project structure connecting design, contractors, site works and handover."]
+        ["Cross-border coordination", "Malta-based project control for selected projects involving multiple stakeholders, suppliers or delivery locations."],
+        ["Procurement and supplier alignment", "Coordination of suppliers, materials and procurement routes where international delivery needs clear responsibilities."],
+        ["Reporting and delivery control", "Structured reporting, contractor alignment and delivery oversight connecting design, site works and handover."]
       ].map(([title, text]) => (
         <article class="rounded-3xl border border-black/10 bg-white p-8 shadow-sm">
           <h2 class="text-2xl font-semibold">{title}</h2>

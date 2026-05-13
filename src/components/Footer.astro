@@ -1,9 +1,10 @@
 ---
 import { company } from "../data/company";
+import { navigation } from "../data/navigation";
 ---
 
 <footer class="bg-[#161616] text-white">
-  <div class="mx-auto grid max-w-7xl gap-10 px-6 py-16 md:grid-cols-4">
+  <div class="mx-auto grid max-w-7xl gap-10 px-6 py-16 md:grid-cols-5">
     <div class="md:col-span-2">
       <img
         src={company.logos.white}
@@ -20,27 +21,43 @@ import { company } from "../data/company";
     <div>
       <p class="font-semibold">Contact</p>
       <div class="mt-4 space-y-2 text-sm text-white/70">
-        <a href={`mailto:${company.email}`} class="block hover:text-white">{company.email}</a>
-        <a href={`tel:${company.tel}`} class="block hover:text-white">{company.phone}</a>
+        <a href={`mailto:${company.email}`} class="block transition hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b08a57]">{company.email}</a>
+        <a href={`tel:${company.tel}`} class="block transition hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b08a57]">{company.phone}</a>
         <p>{company.location}</p>
+      </div>
+    </div>
+
+    <div>
+      <p class="font-semibold">Explore</p>
+      <div class="mt-4 space-y-2 text-sm text-white/70">
+        {
+          navigation.map((item) => (
+            <a
+              href={item.href}
+              class="block transition hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b08a57]"
+            >
+              {item.label}
+            </a>
+          ))
+        }
       </div>
     </div>
 
     <div>
       <p class="font-semibold">Legal</p>
       <div class="mt-4 space-y-2 text-sm text-white/70">
-        <a href="/privacy-policy" class="block hover:text-white">Privacy Policy</a>
-        <a href="/cookie-policy" class="block hover:text-white">Cookie Policy</a>
-        <button type="button" data-consent-settings class="block text-left hover:text-white">
+        <a href="/privacy-policy" class="block transition hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b08a57]">Privacy Policy</a>
+        <a href="/cookie-policy" class="block transition hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b08a57]">Cookie Policy</a>
+        <button type="button" data-consent-settings class="block text-left transition hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b08a57]">
           Cookie Settings
         </button>
       </div>
 
       <p class="mt-8 font-semibold">Social</p>
       <div class="mt-4 space-y-2 text-sm text-white/70">
-        <a href={company.social.facebook} target="_blank" rel="noopener noreferrer" class="block hover:text-white">Facebook</a>
-        <a href={company.social.instagram} target="_blank" rel="noopener noreferrer" class="block hover:text-white">Instagram</a>
-        <a href={company.social.linkedin} target="_blank" rel="noopener noreferrer" class="block hover:text-white">LinkedIn</a>
+        <a href={company.social.facebook} target="_blank" rel="noopener noreferrer" class="block transition hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b08a57]">Facebook</a>
+        <a href={company.social.instagram} target="_blank" rel="noopener noreferrer" class="block transition hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b08a57]">Instagram</a>
+        <a href={company.social.linkedin} target="_blank" rel="noopener noreferrer" class="block transition hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b08a57]">LinkedIn</a>
       </div>
     </div>
   </div>
