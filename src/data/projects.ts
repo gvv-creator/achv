@@ -260,7 +260,7 @@ export const projects = [
       "/images/projects/indis-ta-qali-civil-works.jpg",
       "/images/projects/indis-ta-qali-blockwork.jpg",
     ],
-    video: "/videos/projects/indis-ta-qali-infrastructure-works.mov",
+    video: "/videos/projects/indis-ta-qali-infrastructure-works.mp4",
     videoPoster: "/images/projects/indis-ta-qali-infrastructure.jpg",
     summary:
       "Heavy infrastructural and civil works delivered within an industrial project environment at Ta’ Qali.",
