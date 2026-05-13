@@ -23,6 +23,7 @@ import { company } from "../data/company";
   <section class="px-6 py-24">
     <div class="mx-auto grid max-w-7xl gap-14 md:grid-cols-2">
       <form
+        id="project_review_form"
         action={`mailto:${company.email}`}
         method="post"
         enctype="text/plain"
@@ -131,4 +132,34 @@ import { company } from "../data/company";
       </div>
     </div>
   </section>
+
+  <script>
+    const projectReviewForm = document.getElementById("project_review_form");
+
+    if (projectReviewForm instanceof HTMLFormElement) {
+      projectReviewForm.addEventListener("submit", (event) => {
+        if (!projectReviewForm.checkValidity()) {
+          return;
+        }
+
+        event.preventDefault();
+
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+          event: "generate_lead",
+          form_id: "project_review_form",
+          lead_source: "website_project_review",
+          service_interest: "construction_finishes",
+          project_type: "residential",
+          project_value_band: "unknown",
+          currency: "EUR",
+          value: 50
+        });
+
+        window.setTimeout(() => {
+          projectReviewForm.submit();
+        }, 150);
+      });
+    }
+  </script>
 </BaseLayout>
