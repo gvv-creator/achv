@@ -3,6 +3,8 @@ import "../styles/global.css";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import GoogleAnalytics from "../components/GoogleAnalytics.astro";
+import FacebookPixel from "../components/FacebookPixel.astro";
+import FacebookPixelNoscript from "../components/FacebookPixelNoscript.astro";
 import { company } from "../data/company";
 
 interface Props {
@@ -153,9 +155,11 @@ const jsonLd = {
       set:html={JSON.stringify(jsonLd)}
     />
     <GoogleAnalytics />
+    <FacebookPixel />
   </head>
 
   <body>
+    <FacebookPixelNoscript />
     <a
       href="#main-content"
       class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-full focus:bg-white focus:px-5 focus:py-3 focus:text-sm focus:font-semibold focus:text-[#161616] focus:shadow-lg"
