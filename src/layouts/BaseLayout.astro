@@ -4,6 +4,7 @@ import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import ConsentMode from "../components/ConsentMode.astro";
 import ConsentBanner from "../components/ConsentBanner.astro";
+import GoogleTagManager from "../components/GoogleTagManager.astro";
 import GoogleAnalytics from "../components/GoogleAnalytics.astro";
 import FacebookPixel from "../components/FacebookPixel.astro";
 import { company } from "../data/company";
@@ -124,6 +125,9 @@ const jsonLd = {
 <!doctype html>
 <html lang="en">
   <head>
+    <ConsentMode />
+    <GoogleTagManager />
+
     <meta charset="UTF-8" />
     <meta name="description" content={description} />
     <meta name="robots" content={robots} />
@@ -155,12 +159,15 @@ const jsonLd = {
       type="application/ld+json"
       set:html={JSON.stringify(jsonLd)}
     />
-    <ConsentMode />
     <GoogleAnalytics />
     <FacebookPixel />
   </head>
 
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKDTXDS6"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <a
       href="#main-content"
       class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-full focus:bg-white focus:px-5 focus:py-3 focus:text-sm focus:font-semibold focus:text-[#161616] focus:shadow-lg"
