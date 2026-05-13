@@ -22,7 +22,7 @@ export const company = {
   },
   logos: {
     black: "/images/brand/achv-logo-black.png",
-    white: "/images/brand/achv-logo-white.jpg",
+    white: "/images/brand/achv-logo-white-transparent.png",
     fullColour: "/images/brand/achv-logo-full-colour.png",
     reverse: "/images/brand/achv-logo-full-colour-reverse.png",
   },
