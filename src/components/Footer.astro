@@ -21,7 +21,7 @@ import { navigation } from "../data/navigation";
     <div>
       <p class="font-semibold">Contact</p>
       <div class="mt-4 space-y-2 text-sm text-white/70">
-        <a href={`mailto:${company.email}`} class="block transition hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b08a57]">{company.email}</a>
+        <p>{company.email}</p>
         <a href={`tel:${company.tel}`} class="block transition hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b08a57]">{company.phone}</a>
         <p>{company.location}</p>
       </div>
