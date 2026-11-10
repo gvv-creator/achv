@@ -1,0 +1,20 @@
+{
+  "id": "P095",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 12,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 30,
+  "approvers": "Owner decides alone; the glazing subcontractor and client may need to agree",
+  "reason_code": "roi",
+  "reason": "We spend about 885 euro a year on damage and just fix it at snagging from contingency. Paying around 19 euro per m2 up front, with a 150 m2 minimum and a deposit, makes no sense against that. Glazing damage is also the glazing subcontractor's problem until handover, not ours.",
+  "objection": "I'd be paying thousands to prevent a cost of under 900 a year that I don't even carry myself, since the glazing sub is responsible until handover.",
+  "instead": "Keep doing nothing, clean and polish at snagging, and push damage back to the glazing subcontractor. If needed, buy cheap film or tape locally.",
+  "would_change_my_mind": "Proof that glazing damage is costing us several thousand euro a job, or the glazing subcontractor or client paying for the protection.",
+  "price_too_cheap": 2,
+  "price_cheap": 4,
+  "price_expensive": 9,
+  "price_too_expensive": 14
+}

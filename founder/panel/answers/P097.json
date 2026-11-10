@@ -1,0 +1,20 @@
+{
+  "id": "P097",
+  "take_meeting": true,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 9,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Site manager, project quantity surveyor, client or developer if specified",
+  "reason_code": "price",
+  "reason": "I pay about €12 a m² today with film and my own lads, and you want €19 plus a 50% deposit when I pay my suppliers at 60 to 90 days. Our whole film spend is under €5,000 a year, so I can't justify a paid pilot and a new supplier file for that.",
+  "objection": "It costs about 60% more than what I do now, and I can't see on paper that it saves me more in damaged glazing than the extra €7 a m². A deposit up front is a non-starter for me.",
+  "instead": "Keep using self-adhesive film and sheet with tape applied by my own labour. I might try the OMNIGUARD supply-only option on one job if the price per m² came in below film.",
+  "would_change_my_mind": "A local reference contractor showing fewer glazing claims at handover with numbers, 60-day terms with no deposit, and a total price close to €14 a m².",
+  "price_too_cheap": 8,
+  "price_cheap": 11,
+  "price_expensive": 15,
+  "price_too_expensive": 19
+}

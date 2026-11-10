@@ -1,0 +1,20 @@
+{
+  "id": "P093",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 12,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Owner decides; main contractor if it touches their finishes",
+  "reason_code": "price",
+  "reason": "We spend about 3k a year on film and tape applied by our own lads at around 12 a m2. Paying 19 for a coating is over 50% more for something we already solve cheaply, and I would rather not have a stranger's applicator near finished frames.",
+  "objection": "Anything sprayed or rolled onto coated glass and powder-coated frames could leave residue, stain the finish or lift it on peeling, and then it is my name on the defect claim. For 19 a m2 against film that costs almost nothing, the risk is not worth it.",
+  "instead": "Keep using self-adhesive film, plastic sheet and tape applied by our own labour, from the suppliers we have used for years.",
+  "would_change_my_mind": "Written confirmation from my glass and coating suppliers that it is compatible with our finishes, plus a reference from another glazing contractor who used it, at a price close to what film costs me now.",
+  "price_too_cheap": 7,
+  "price_cheap": 11,
+  "price_expensive": 15,
+  "price_too_expensive": 19
+}

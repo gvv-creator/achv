@@ -1,0 +1,20 @@
+{
+  "id": "P098",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 0,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Owner decides alone; main contractor may have a say on site access",
+  "reason_code": "roi",
+  "reason": "We spend about 1,500 euro a year on damage at snagging. At 19 euro per m2 a 1,000 m2 year would cost 19,000, more than ten times what the problem costs us. It makes no sense.",
+  "objection": "In July and August half the façade is in full sun, so when can anyone even apply and peel it? And I'd pay 19 euro per m2 to avoid a cost I carry at near zero.",
+  "instead": "Keep doing nothing, or use cheap film and tape on the worst items, and pay for the odd cleaning or replacement from the job contingency.",
+  "would_change_my_mind": "A price near film and tape level, under 2 euro per m2 all-in, or the main contractor paying for it and writing it into the contract.",
+  "price_too_cheap": 0.3,
+  "price_cheap": 1,
+  "price_expensive": 3,
+  "price_too_expensive": 6
+}

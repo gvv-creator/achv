@@ -1,0 +1,20 @@
+{
+  "id": "P092",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 12,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Developer / main contractor, glazing subcontractor, commercial director",
+  "reason_code": "price",
+  "reason": "I spend about 12 euro per m2 now with film and our own labour, and this is about 19, so it is over 50% dearer for something that mostly protects the glazing sub's work. The subcontract package says who protects what, and I cannot change that on my own.",
+  "objection": "The glazing subcontractor is responsible for damage until handover, not me, and the developer sets the protection spec and who pays. Why would I pay 58% more for something I can't charge to anyone?",
+  "instead": "Keep using self-adhesive film and plastic sheet with tape, applied and removed by our own labour.",
+  "would_change_my_mind": "A developer or glazing subcontractor naming it in the subcontract package and paying for it, or proof from a local premium block that it cut glazing callbacks and snagging by more than the extra cost, at roughly the price of film.",
+  "price_too_cheap": 7,
+  "price_cheap": 11,
+  "price_expensive": 15,
+  "price_too_expensive": 20
+}
