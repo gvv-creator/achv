@@ -1,0 +1,20 @@
+{
+  "id": "P061",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 12,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Contracts manager, director, main contractor",
+  "reason_code": "price",
+  "reason": "We pay about €12 per m² today with film and our own labour, and this is about €19, so I would be paying over 50% more. I am not going to push that to my director or put a new supplier through credit and insurance checks for it.",
+  "objection": "If the coating marks the frame or the coated glass when it comes off, who pays? The manufacturer excludes it, and a damaged unit at handover lands on us and the main contractor. A minimum of 150 m² per job and a 50% deposit make it worse.",
+  "instead": "Keep using self-adhesive film, plastic sheet and tape with our own labour at about €12 per m².",
+  "would_change_my_mind": "A written guarantee that ACHV covers any damage to frames or glass from the coating or its removal, at a price close to €12 per m² all-in. Or the main contractor specifying it and paying for it.",
+  "price_too_cheap": 6,
+  "price_cheap": 9,
+  "price_expensive": 14,
+  "price_too_expensive": 17
+}

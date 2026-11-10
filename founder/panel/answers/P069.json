@@ -1,0 +1,20 @@
+{
+  "id": "P069",
+  "take_meeting": true,
+  "would_pilot": true,
+  "intent": "might",
+  "decision_months": 6,
+  "annual_value": 6500,
+  "first_order_value": 2400,
+  "payment_terms_days": 60,
+  "approvers": "Contracts director/owner, plus developer client sign-off on spec",
+  "reason_code": "risk",
+  "reason": "Window and frame damage and snagging delays on premium blocks cost us real money, so I would take a call and try one floor. But I do not sign spend like this, and I will not roll it out until I have seen it come off our own frames and glass clean.",
+  "objection": "If the coating marks the frame or the coated glass when it comes off, who pays? The manufacturer excludes it, and I am not going to carry that risk on a handover.",
+  "instead": "Keep relying on the factory film on the aluminium profiles, plus cheap site-bought tape and sheeting on the glass, and manage damage through snagging.",
+  "would_change_my_mind": "A written statement that ACHV or the applicator covers damage to frames and glass caused by the coating or its removal, plus a successful test panel on our own frames and a reference from another Maltese contractor.",
+  "price_too_cheap": 6,
+  "price_cheap": 10,
+  "price_expensive": 19,
+  "price_too_expensive": 28
+}
