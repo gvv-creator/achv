@@ -1,0 +1,20 @@
+{
+  "id": "P024",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 12,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Main contractor or developer who sets protection in the subcontract package; my MD",
+  "reason_code": "risk",
+  "reason": "Protection is specified in the subcontract package and the main contractor decides who pays, so I can't choose this myself. My real worry is the coating marking coated glass or frames when it comes off, and nobody has told me who pays for that.",
+  "objection": "If it marks the frame or the coated glass when it peels off, who pays? Glass and coating manufacturers exclude this, and a test panel doesn't cover 18 months on site in the Maltese sun.",
+  "instead": "Keep using the current protective film or coating where the package asks for it, or simply careful site management and cleaning at handover.",
+  "would_change_my_mind": "Written confirmation from the main glass and coating manufacturers that it is compatible with their warranty, plus ACHV carrying the damage liability in writing with insurance, and a local reference on a similar job.",
+  "price_too_cheap": 7,
+  "price_cheap": 10,
+  "price_expensive": 17,
+  "price_too_expensive": 22
+}

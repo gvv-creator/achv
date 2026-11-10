@@ -1,0 +1,20 @@
+{
+  "id": "P026",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 9,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Owner/director, procurement, glazing subcontractor",
+  "reason_code": "contract",
+  "reason": "We pay suppliers at 60 to 90 days, not 50% up front, and a credit check on top is a non-starter. We spend about 9k a year on snagging damage from contingency, and 19 per m2 across a block would cost more than the damage it prevents.",
+  "objection": "Deposit and balance-before-handover terms, plus a price that costs more than the snagging damage it saves. The glazing subcontractor would also have to agree to work around a coating.",
+  "instead": "Carry on with no protection and pay for cleaning or replacement at snagging from the contingency, or have the glazing subcontractor put basic protection film on.",
+  "would_change_my_mind": "60 to 90 day payment terms with no deposit, a price near 5 to 6 per m2, and a reference from another main contractor showing real savings at snagging.",
+  "price_too_cheap": 2,
+  "price_cheap": 4,
+  "price_expensive": 9,
+  "price_too_expensive": 14
+}

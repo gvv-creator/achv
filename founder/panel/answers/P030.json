@@ -1,0 +1,20 @@
+{
+  "id": "P030",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 9,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 30,
+  "approvers": "Just me; site foreman and the developer client if they asked for it",
+  "reason_code": "roi",
+  "reason": "The aluminium already comes with factory film, and for the few scratches and cement splashes we get, my lads wipe it down or the glazier fixes it. Paying about €19 a m2 on top is real money on a €350k turnover, and I would have to put a new supplier and a new budget line in place for it.",
+  "objection": "€19 a m2 for something I do not pay for today, when the factory film and a bit of care on site already cover most of it. I do not see the callbacks it would save.",
+  "instead": "Keep the factory film, tape and cardboard where needed, and have the installer fix any damage at handover.",
+  "would_change_my_mind": "A developer client who asks for it on a premium block and pays for it as a separate line, or proof from a Maltese site that it cost less than the glazing damage claims I actually get.",
+  "price_too_cheap": 3,
+  "price_cheap": 5,
+  "price_expensive": 9,
+  "price_too_expensive": 14
+}
