@@ -1,0 +1,20 @@
+{
+  "id": "P029",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 0,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 30,
+  "approvers": "None, I decide alone, but the glazing subcontractor would have to agree",
+  "reason_code": "fit",
+  "reason": "The glazing subcontractor is responsible for damage until handover, not me, so why would I pay extra to protect their windows? On my small jobs a cheap film and a bit of care does the job, and I would not add a new budget line and supplier for it.",
+  "objection": "It is not my cost or my risk. At about 19 euro per m2 plus a 150 m2 minimum and a 50% deposit, it eats margin on a small job for something the glazier already covers.",
+  "instead": "Keep using cheap protection film and tape from the hardware store, and leave damage to glazing to the glazing subcontractor under our contract.",
+  "would_change_my_mind": "If a client or developer specifically asked for it and paid for it as a separate line on the quote, I would listen.",
+  "price_too_cheap": 2,
+  "price_cheap": 4,
+  "price_expensive": 9,
+  "price_too_expensive": 14
+}

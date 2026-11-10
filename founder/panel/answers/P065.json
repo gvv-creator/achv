@@ -1,0 +1,20 @@
+{
+  "id": "P065",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 0,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Site manager, director, glazing subcontractor",
+  "reason_code": "fit",
+  "reason": "We spend about 885 a year on glazing protection, roughly 74 m2, so a 150 m2 minimum job and a 100 m2 paid pilot are bigger than our whole year. At about 19 per m2 against the 12 we pay now for film and tape, it costs more, and the glazing sub carries damage until handover, not us.",
+  "objection": "The glazing subcontractor is responsible for damage until handover, not me, and I would be paying 60 percent more per m2 for a volume I never reach.",
+  "instead": "Keep using self-adhesive film, plastic sheet and tape with our own labour, and leave protection to the glazing sub.",
+  "would_change_my_mind": "A price at or below about 12 per m2 all-in, no minimum job size, and a main contract that makes us, not the sub, liable for glazing damage.",
+  "price_too_cheap": 5,
+  "price_cheap": 9,
+  "price_expensive": 14,
+  "price_too_expensive": 18
+}

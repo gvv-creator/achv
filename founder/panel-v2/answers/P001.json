@@ -1,0 +1,20 @@
+{
+  "id": "P001",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 9,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Site manager and glazing/aluminium subcontractor; developer if cost is passed on",
+  "reason_code": "price",
+  "reason": "I already spend about 12 euro a m2 all-in with my own labour and the aluminium arrives with factory film. You want about 19 a m2, which is more than I pay now, to protect against damage I mostly handle already. A 2,500 euro cap on a block with hundreds of windows does not make me feel covered.",
+  "objection": "It costs more than what my crew does today, the frames already come with film, and I would be your first Maltese reference job with no local track record.",
+  "instead": "Keep using factory film plus film or board and tape applied by my own crew, and push glazing damage back to the aluminium subcontractor.",
+  "would_change_my_mind": "A price at or below 12 euro a m2 all-in, plus a finished Maltese block where the coating peeled off cleanly and damage claims dropped.",
+  "price_too_cheap": 6,
+  "price_cheap": 9,
+  "price_expensive": 14,
+  "price_too_expensive": 18
+}

@@ -1,0 +1,20 @@
+{
+  "id": "P091",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 9,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Owner decides alone; I only recommend",
+  "reason_code": "trust",
+  "reason": "ACHV is a contractor too and I don't want a competitor on my site seeing my programme. We don't buy this today, so it means a new budget line and a new supplier, and the owner decides after one site visit and a quote.",
+  "objection": "A competing contractor on my site, seeing my programme and my clients, for a coating I can get done cheaper with a roll of film and a labourer.",
+  "instead": "Keep protecting glazing with cheap film and tape and our own labourers, and pay for the odd repair when something gets scratched.",
+  "would_change_my_mind": "The product supplied only, from a neutral distributor, with no ACHV people on site, plus a Maltese contractor reference who used it and saw less glazing damage and lower snagging costs.",
+  "price_too_cheap": 4,
+  "price_cheap": 7,
+  "price_expensive": 13,
+  "price_too_expensive": 19
+}

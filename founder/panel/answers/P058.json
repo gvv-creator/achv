@@ -1,0 +1,20 @@
+{
+  "id": "P058",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 12,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 30,
+  "approvers": "Owner/director; glazing subcontractor; client or developer",
+  "reason_code": "fit",
+  "reason": "The glazing sub is responsible for damage until handover, not me, so I have no budget line for this and I would have to convince the owner and the sub to pay for it. At around 19 euro a m2 on top of what we already do with cheap film and tape, it is hard to justify on small jobs.",
+  "objection": "Damage to glazing before handover is the glazing subcontractor's problem and cost. Why would I add a new supplier and a 150 m2 minimum on a small house or block when film and tape cost almost nothing?",
+  "instead": "Keep using cheap protection film and tape, and keep telling the glazing sub to protect their own work and fix any damage.",
+  "would_change_my_mind": "Proof from a premium block that it cut snagging and callbacks by more than it costs, or the glazing sub or developer agreeing to pay for it so it is not our money.",
+  "price_too_cheap": 4,
+  "price_cheap": 7,
+  "price_expensive": 14,
+  "price_too_expensive": 20
+}

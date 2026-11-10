@@ -1,0 +1,20 @@
+{
+  "id": "P019",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 9,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Owner decides alone; I would need to get the glazing subcontractor and client on board",
+  "reason_code": "risk",
+  "reason": "We don't buy this today and I have no budget line for it. The first thing I ask is who pays if the coating marks the frame or the glass, and a 2,500 euro cap per job is thin against a full floor of glazing.",
+  "objection": "If the coating marks the frame or the coated glass when it comes off, the manufacturer excludes it, and ACHV's cap of 2,500 euro per job would not cover a floor of windows. There is also no Maltese reference job.",
+  "instead": "Keep using cheap protection film and tape on the glass, and tell the crew to be careful with cement and plaster. We pay for the odd replacement pane at the end.",
+  "would_change_my_mind": "The coating maker's written confirmation, signed, that it is safe on our glass coating and frame finish, plus a finished Maltese block I can visit, and a damage cover that matches the real value of the glazing.",
+  "price_too_cheap": 4,
+  "price_cheap": 7,
+  "price_expensive": 14,
+  "price_too_expensive": 20
+}

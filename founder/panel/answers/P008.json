@@ -1,0 +1,20 @@
+{
+  "id": "P008",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 12,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Just me; maybe the site foreman and the developer client",
+  "reason_code": "trust",
+  "reason": "I've never seen this used in Malta and I don't pay for window protection today. €19 per m² is real money on a small house job and I'd have to absorb it or argue it with the client. We tape and board the frames ourselves.",
+  "objection": "Nobody I know has used it here. What if it leaves glue marks or won't peel off properly on my frames after a year of cement and sun, and I'm the one who pays for the damage?",
+  "instead": "Keep using cheap protection film, tape and cardboard on the frames and being careful on site. Clean the glass at handover.",
+  "would_change_my_mind": "A local job I can go and see, with a contractor I know vouching for it, and a free test panel on my own frames. The price would also have to be much lower, or the client would have to pay for it.",
+  "price_too_cheap": 3,
+  "price_cheap": 6,
+  "price_expensive": 12,
+  "price_too_expensive": 19
+}

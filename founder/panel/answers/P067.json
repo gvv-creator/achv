@@ -1,0 +1,20 @@
+{
+  "id": "P067",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 12,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Developer or main contractor, who set what protection the subcontract package requires and who pays",
+  "reason_code": "contract",
+  "reason": "The subcontract package tells me what protection I must provide and who pays for it, and nobody has asked for this. I don't buy it today, and a 50% deposit goes against how I pay.",
+  "objection": "We pay suppliers at 60 to 90 days, not deposits up front. Around €19 per m² is also a new cost on small house jobs. The developer would have to pay it, and I won't take it out of my margin.",
+  "instead": "Cardboard, cheap protection film and tape from the hardware store, and cleaning the frames before handover, as we do now.",
+  "would_change_my_mind": "A developer or main contractor putting this in the subcontract package and paying for it, with 60-day terms and no deposit.",
+  "price_too_cheap": 3,
+  "price_cheap": 6,
+  "price_expensive": 12,
+  "price_too_expensive": 19
+}

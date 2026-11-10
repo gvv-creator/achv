@@ -1,0 +1,20 @@
+{
+  "id": "P002",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 12,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Nobody else; my site manager would have to agree it works",
+  "reason_code": "risk",
+  "reason": "I pay about 12 a square metre today with my own lads and it works. This is around 19, so more than half again, and I still carry the risk if it marks a frame. I'm not changing something that works for that.",
+  "objection": "If the coating marks the frame or the glass when it comes off, who pays? The manufacturer excludes it, so it ends up on me with the client at handover.",
+  "instead": "Keep using self-adhesive film and sheet with tape, applied and removed by my own labour.",
+  "would_change_my_mind": "A written guarantee from ACHV or an insurer that they pay for any damage to frames or glass from the coating or its removal, plus a price near 12 to 13 all-in and a local contractor I know who has used it.",
+  "price_too_cheap": 7,
+  "price_cheap": 10,
+  "price_expensive": 15,
+  "price_too_expensive": 19
+}

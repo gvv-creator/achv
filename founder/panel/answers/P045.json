@@ -1,0 +1,20 @@
+{
+  "id": "P045",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 12,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 30,
+  "approvers": "Nobody, I sign it myself, but the client or architect would need to be happy",
+  "reason_code": "price",
+  "reason": "The aluminium already comes with factory film and I don't budget anything for window protection today. €19 per m² is real money on a small job, and I'd just tape and cover the glass myself for next to nothing.",
+  "objection": "Why pay €19 a m² when the factory film is already on and a roll of tape and some board costs me almost nothing? My margin on a small job is thin and I'm not adding a new supplier and a 50% deposit for this.",
+  "instead": "Keep the factory film, tape and cardboard or board over the glass, and have the lads wipe down at handover.",
+  "would_change_my_mind": "A client or developer specifying it and paying for it as a separate line, or a price near €5 per m² all-in on a trial on one of my floors.",
+  "price_too_cheap": 2,
+  "price_cheap": 4,
+  "price_expensive": 9,
+  "price_too_expensive": 15
+}

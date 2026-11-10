@@ -1,0 +1,20 @@
+{
+  "id": "P025",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 12,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Contracts manager, site project manager, main contractor or developer",
+  "reason_code": "risk",
+  "reason": "I am a glazing man and my worry is a coating sitting on coated glass and frames for months and then marking or staining them when it comes off. We do not buy this today, and a new budget line plus a new supplier is a hard sell when we can use film and tape.",
+  "objection": "In July and August half the facade is in full sun. Can it be applied and cured, and will it peel off cleanly months later without leaving residue or marking low-E coatings, anodised or PVC frames? If it does mark them, I carry the cost.",
+  "instead": "Keep using cheap protection film and tape, and make the other trades clean up after themselves. Absorb the occasional scratched pane as a cost.",
+  "would_change_my_mind": "A reference from another glazing contractor on a Maltese summer job, plus written confirmation from the glass and frame manufacturers that it is compatible with their coatings and does not void warranty.",
+  "price_too_cheap": 5,
+  "price_cheap": 8,
+  "price_expensive": 15,
+  "price_too_expensive": 22
+}

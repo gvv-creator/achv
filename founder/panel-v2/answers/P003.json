@@ -1,0 +1,20 @@
+{
+  "id": "P003",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 12,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Main contractor or developer via subcontract package; my managing director",
+  "reason_code": "price",
+  "reason": "Our aluminium arrives with factory film and what we add costs about €12 a m² with our own people, and we only spend around €1,244 a year on it. €19 a m² is well above that, and the main contractor decides who pays for protection anyway.",
+  "objection": "A coating on coated glass and finished frames is a risk to my frames and my relationships, and the €2,500 cap would not cover a full-unit replacement. There is no Maltese reference job, and I would be paying more than my current film for it.",
+  "instead": "Keep the factory film plus our own film or board and tape, applied and removed by our own labour.",
+  "would_change_my_mind": "A main contractor writing protection into the subcontract package as a paid line, plus written coating-maker compatibility approval for my glass coatings and frame finishes and a Maltese reference job at or below about €12 a m².",
+  "price_too_cheap": 6,
+  "price_cheap": 9,
+  "price_expensive": 14,
+  "price_too_expensive": 20
+}

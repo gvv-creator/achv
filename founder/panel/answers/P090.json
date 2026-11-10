@@ -1,0 +1,20 @@
+{
+  "id": "P090",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 0,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Main contractor would have to specify it; I sign suppliers myself",
+  "reason_code": "price",
+  "reason": "I pay about €4,300 a year for snagging damage, and you want €19 per m² up front, which on 1,000 m² is more than four times what the damage costs me. I buy on cost per m² and I'm not paying that on jobs where the main contractor won't cover it.",
+  "objection": "It costs far more than the damage it prevents, and I've never seen it used on a job in Malta. Nobody is asking me for it.",
+  "instead": "Keep doing nothing, or use cheap film and tape on the odd high-end job, and clean or replace at snagging from contingency.",
+  "would_change_my_mind": "A main contractor or developer who specifies it and pays for it as a line item, plus a local reference job.",
+  "price_too_cheap": 0.5,
+  "price_cheap": 1.5,
+  "price_expensive": 4,
+  "price_too_expensive": 7
+}

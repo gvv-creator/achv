@@ -1,0 +1,20 @@
+{
+  "id": "P004",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 12,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Main contractor or developer, who set protection in the subcontract package; owner of the firm",
+  "reason_code": "price",
+  "reason": "We don't buy this today and it would be a new budget line. Film and tape cost next to nothing, and the main contractor decides what protection we provide and who pays, so I can't just add €19/m² myself.",
+  "objection": "Why pay about €19/m² when film and tape cost almost nothing, with no Maltese reference job and nobody in the subcontract package asking for it?",
+  "instead": "Keep using cheap protection film and tape on the glazing and frames, and deal with snagging at handover as we do now.",
+  "would_change_my_mind": "The main contractor or developer specifying it as a separate paid line in the subcontract package, plus a local reference job showing it saved more in damage than it cost.",
+  "price_too_cheap": 3,
+  "price_cheap": 5,
+  "price_expensive": 9,
+  "price_too_expensive": 14
+}

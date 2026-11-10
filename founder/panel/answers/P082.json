@@ -1,0 +1,20 @@
+{
+  "id": "P082",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 12,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Nobody else, I sign it myself",
+  "reason_code": "roi",
+  "reason": "I spend about €1,047 a year on damage and clean it at snagging out of contingency. At €19 a m² on even a small house this costs far more than the damage it prevents. I'm two people, I buy from people I've known for years, and I'm not filling in a credit application for a new supplier.",
+  "objection": "I'd be paying thousands to avoid a few hundred euro of cleaning and the odd replaced pane. And in July and August the façade is in full sun, so when does anyone even apply it and peel it off?",
+  "instead": "Carry on with no protection. Clean and polish at snagging, and pay for any damage from the job's contingency. Maybe some cheap tape or film from the hardware store on the worst frames.",
+  "would_change_my_mind": "Proof that it costs me less than my current damage bill, which would mean well under €3 a m², or a client who pays for it as a line item in the contract.",
+  "price_too_cheap": 1,
+  "price_cheap": 2,
+  "price_expensive": 4,
+  "price_too_expensive": 7
+}

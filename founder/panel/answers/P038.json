@@ -1,0 +1,20 @@
+{
+  "id": "P038",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 0,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 30,
+  "approvers": "Owner decides alone; glazing subcontractor and developer would have to agree",
+  "reason_code": "fit",
+  "reason": "Damage to installed glazing before handover is the glazing subcontractor's problem, not mine, so I have no budget line for this and no reason to add a new supplier. A coating sprayed on coated glass and frames is also a worry for me, because it could mark or stain the finishes.",
+  "objection": "I do not pay for glazing protection and I would not risk a peelable coating on coated glass and frames. If it left residue or marked a frame, I would be the one answering for it.",
+  "instead": "Keep doing what we do now: cheap protection film and tape on frames, and leave glazing damage with the subcontractor until handover.",
+  "would_change_my_mind": "A glazing manufacturer's written approval of the coating on coated glass and frames, plus a developer who requires it and pays for it as a separate line.",
+  "price_too_cheap": 1.5,
+  "price_cheap": 3,
+  "price_expensive": 7,
+  "price_too_expensive": 12
+}

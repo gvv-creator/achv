@@ -1,0 +1,20 @@
+{
+  "id": "P028",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 0,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 30,
+  "approvers": "None, I decide alone, but the main contractor would have to allow it on site",
+  "reason_code": "trust",
+  "reason": "I spend about 1,340 euro a year on glazing damage and pay it from the job contingency. ACHV is a contractor too, and I don't want a competitor on my site or looking at my programme. At 19 euro per m2 the cost would be many times what damage costs me today.",
+  "objection": "A competitor on my site who sees my programme and my customers, at a price far above the damage I actually pay for.",
+  "instead": "Carry on as now: no protection, clean or replace at snagging from the contingency. I might ask my own fitters to tape or film the worst frames.",
+  "would_change_my_mind": "A main contractor that makes protection mandatory and pays for it, or a supplier that is not a contractor and sells only the product at a few euro per m2.",
+  "price_too_cheap": 1.5,
+  "price_cheap": 3,
+  "price_expensive": 6,
+  "price_too_expensive": 10
+}

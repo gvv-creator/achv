@@ -1,0 +1,20 @@
+{
+  "id": "P005",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 9,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Owner decides alone; site manager input on programme",
+  "reason_code": "roi",
+  "reason": "We spend about 8k a year on frame protection and the factory film does most of the job for free. At 19 a m2 this is a big new cost line on a small saving, and I am not taking on an unproven coating with no Maltese reference.",
+  "objection": "Film and tape cost almost nothing, so why pay about 19 per m2 for something nobody here has used, when a bad peel could hold up handover on a premium block?",
+  "instead": "Keep the factory film on the profiles, add cheap film and board protection on the glass where needed, and fix snagging at handover.",
+  "would_change_my_mind": "A Maltese reference block where a contractor like us saw damage cost clearly above 19 per m2, plus the compatibility letter for our glass and frame finish.",
+  "price_too_cheap": 6,
+  "price_cheap": 9,
+  "price_expensive": 15,
+  "price_too_expensive": 22
+}

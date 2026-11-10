@@ -1,0 +1,20 @@
+{
+  "id": "P033",
+  "take_meeting": true,
+  "would_pilot": true,
+  "intent": "probably_not",
+  "decision_months": 7,
+  "annual_value": 12000,
+  "first_order_value": 2850,
+  "payment_terms_days": 60,
+  "approvers": "Commercial manager, procurement, project director",
+  "reason_code": "price",
+  "reason": "At about 19 a m2 against the 12 we pay now with our own labour, it is over 50% dearer, and a 50% deposit does not fit how we pay suppliers at 60 to 90 days. I would put one floor of a premium block through a trial because snagging callbacks on glazing cost us, but I would not move the whole programme on that.",
+  "objection": "I am paying 7 more per m2 plus a deposit, and I have no proof yet that it saves me more in glazing replacements and cleaning than film and tape do.",
+  "instead": "Keep using self-adhesive film, plastic sheet and tape with our own labour, and keep the glazing damage in the snagging budget.",
+  "would_change_my_mind": "A trial on our own floor showing a clear drop in glass and frame damage and snagging time, with 60-day terms, no deposit, and a price closer to 14 to 15 a m2 all-in.",
+  "price_too_cheap": 7,
+  "price_cheap": 11,
+  "price_expensive": 16,
+  "price_too_expensive": 24
+}

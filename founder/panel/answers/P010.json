@@ -1,0 +1,20 @@
+{
+  "id": "P010",
+  "take_meeting": true,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 12,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Owner/director, plus the aluminium subcontractor and procurement",
+  "reason_code": "price",
+  "reason": "I pay about 12 a square metre today with film and my own lads, and this is 19 plus a minimum job size and a deposit. The aluminium already comes with factory film, so I'd be paying 60% more to fix a problem I mostly manage with snagging.",
+  "objection": "It costs a lot more than film and our own labour, and I can't see the saving. I need proof it cuts glazing and joinery damage claims by more than the extra 7 euro a square metre.",
+  "instead": "Keep using factory film topped up with our own film, board and tape, applied by our own labour, on the next block.",
+  "would_change_my_mind": "A reference from a main contractor of similar size showing real snagging and replacement savings on glazing, and a total price close to 12 to 13 per m2 with no deposit.",
+  "price_too_cheap": 6,
+  "price_cheap": 10,
+  "price_expensive": 15,
+  "price_too_expensive": 19
+}

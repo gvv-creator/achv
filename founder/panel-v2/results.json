@@ -1,0 +1,730 @@
+{
+ "model": "b2b",
+ "business": "ACHV Performance Systems (Hevadex Malta): 'Protected Handover', peelable OMNIGUARD protection of installed glazing and aluminium/PVC joinery, applied by ACHV-approved applicators with a signed QA handover pack",
+ "region": "Malta and Gozo",
+ "currency": "EUR",
+ "symbol": "€",
+ "seed": 404539,
+ "dealt": 100,
+ "answered": 20,
+ "skipped": [
+  [
+   "P021",
+   "missing"
+  ],
+  [
+   "P022",
+   "missing"
+  ],
+  [
+   "P023",
+   "missing"
+  ],
+  [
+   "P024",
+   "missing"
+  ],
+  [
+   "P025",
+   "missing"
+  ],
+  [
+   "P026",
+   "missing"
+  ],
+  [
+   "P027",
+   "missing"
+  ],
+  [
+   "P028",
+   "missing"
+  ],
+  [
+   "P029",
+   "missing"
+  ],
+  [
+   "P030",
+   "missing"
+  ],
+  [
+   "P031",
+   "missing"
+  ],
+  [
+   "P032",
+   "missing"
+  ],
+  [
+   "P033",
+   "missing"
+  ],
+  [
+   "P034",
+   "missing"
+  ],
+  [
+   "P035",
+   "missing"
+  ],
+  [
+   "P036",
+   "missing"
+  ],
+  [
+   "P037",
+   "missing"
+  ],
+  [
+   "P038",
+   "missing"
+  ],
+  [
+   "P039",
+   "missing"
+  ],
+  [
+   "P040",
+   "missing"
+  ],
+  [
+   "P041",
+   "missing"
+  ],
+  [
+   "P042",
+   "missing"
+  ],
+  [
+   "P043",
+   "missing"
+  ],
+  [
+   "P044",
+   "missing"
+  ],
+  [
+   "P045",
+   "missing"
+  ],
+  [
+   "P046",
+   "missing"
+  ],
+  [
+   "P047",
+   "missing"
+  ],
+  [
+   "P048",
+   "missing"
+  ],
+  [
+   "P049",
+   "missing"
+  ],
+  [
+   "P050",
+   "missing"
+  ],
+  [
+   "P051",
+   "missing"
+  ],
+  [
+   "P052",
+   "missing"
+  ],
+  [
+   "P053",
+   "missing"
+  ],
+  [
+   "P054",
+   "missing"
+  ],
+  [
+   "P055",
+   "missing"
+  ],
+  [
+   "P056",
+   "missing"
+  ],
+  [
+   "P057",
+   "missing"
+  ],
+  [
+   "P058",
+   "missing"
+  ],
+  [
+   "P059",
+   "missing"
+  ],
+  [
+   "P060",
+   "missing"
+  ],
+  [
+   "P061",
+   "missing"
+  ],
+  [
+   "P062",
+   "missing"
+  ],
+  [
+   "P063",
+   "missing"
+  ],
+  [
+   "P064",
+   "missing"
+  ],
+  [
+   "P065",
+   "missing"
+  ],
+  [
+   "P066",
+   "missing"
+  ],
+  [
+   "P067",
+   "missing"
+  ],
+  [
+   "P068",
+   "missing"
+  ],
+  [
+   "P069",
+   "missing"
+  ],
+  [
+   "P070",
+   "missing"
+  ],
+  [
+   "P071",
+   "missing"
+  ],
+  [
+   "P072",
+   "missing"
+  ],
+  [
+   "P073",
+   "missing"
+  ],
+  [
+   "P074",
+   "missing"
+  ],
+  [
+   "P075",
+   "missing"
+  ],
+  [
+   "P076",
+   "missing"
+  ],
+  [
+   "P077",
+   "missing"
+  ],
+  [
+   "P078",
+   "missing"
+  ],
+  [
+   "P079",
+   "missing"
+  ],
+  [
+   "P080",
+   "missing"
+  ],
+  [
+   "P081",
+   "missing"
+  ],
+  [
+   "P082",
+   "missing"
+  ],
+  [
+   "P083",
+   "missing"
+  ],
+  [
+   "P084",
+   "missing"
+  ],
+  [
+   "P085",
+   "missing"
+  ],
+  [
+   "P086",
+   "missing"
+  ],
+  [
+   "P087",
+   "missing"
+  ],
+  [
+   "P088",
+   "missing"
+  ],
+  [
+   "P089",
+   "missing"
+  ],
+  [
+   "P090",
+   "missing"
+  ],
+  [
+   "P091",
+   "missing"
+  ],
+  [
+   "P092",
+   "missing"
+  ],
+  [
+   "P093",
+   "missing"
+  ],
+  [
+   "P094",
+   "missing"
+  ],
+  [
+   "P095",
+   "missing"
+  ],
+  [
+   "P096",
+   "missing"
+  ],
+  [
+   "P097",
+   "missing"
+  ],
+  [
+   "P098",
+   "missing"
+  ],
+  [
+   "P099",
+   "missing"
+  ],
+  [
+   "P100",
+   "missing"
+  ]
+ ],
+ "buys": 0,
+ "passes": 20,
+ "buy_rate": 0.0,
+ "stated_buy_rate": 0.0,
+ "realistic_buy_rate": 0.0,
+ "calibration": {
+  "definitely": 0.3,
+  "probably": 0.1,
+  "might": 0.02,
+  "probably_not": 0.0,
+  "definitely_not": 0.0
+ },
+ "meeting_calibration": 0.25,
+ "intents": [
+  [
+   "definitely",
+   0
+  ],
+  [
+   "probably",
+   0
+  ],
+  [
+   "might",
+   0
+  ],
+  [
+   "probably_not",
+   20
+  ],
+  [
+   "definitely_not",
+   0
+  ]
+ ],
+ "meeting_rate_stated": 0.2,
+ "meeting_rate_realistic": 0.05,
+ "pilot_rate_stated": 0.0,
+ "deal_value_median": null,
+ "first_order_median": null,
+ "cycle_months_median": null,
+ "payment_terms_median": 60.0,
+ "per_account": {
+  "deals": 0.0,
+  "revenue_year1": 0.0,
+  "run_rate": 0.0
+ },
+ "pipeline": {
+  "population": 924.0,
+  "reach": 0.15,
+  "reached": 138.6,
+  "meetings": 6.93,
+  "deals_year1": 0.0,
+  "revenue_year1": 0.0,
+  "run_rate_end_year1": 0.0,
+  "population_sourced": true,
+  "reach_sourced": false
+ },
+ "demand": null,
+ "benchmark": null,
+ "evidence": [
+  [
+   "segments",
+   1,
+   4
+  ],
+  [
+   "behaviours",
+   0,
+   5
+  ],
+  [
+   "objections",
+   4,
+   8
+  ],
+  [
+   "current options",
+   1,
+   4
+  ],
+  [
+   "roles",
+   0,
+   4
+  ],
+  [
+   "buying process",
+   0,
+   4
+  ],
+  [
+   "market context",
+   5,
+   6
+  ],
+  [
+   "population",
+   1,
+   1
+  ],
+  [
+   "reach",
+   0,
+   1
+  ]
+ ],
+ "by_segment": [
+  [
+   "Large contractor or developer-builder",
+   2,
+   0.0,
+   0.0,
+   0.5
+  ],
+  [
+   "Mid-size building contractor",
+   7,
+   0.0,
+   0.0,
+   0.2857142857142857
+  ],
+  [
+   "Small building contractor",
+   10,
+   0.0,
+   0.0,
+   0.1
+  ],
+  [
+   "Glazing and aluminium installer",
+   1,
+   0.0,
+   0.0,
+   0.0
+  ]
+ ],
+ "by_role": [
+  [
+   "Owner or managing director",
+   9,
+   0.0,
+   0.0,
+   0.1111111111111111
+  ],
+  [
+   "Technical director of a glazing contractor",
+   4,
+   0.0,
+   0.0,
+   0.5
+  ],
+  [
+   "Project or site manager",
+   5,
+   0.0,
+   0.0,
+   0.2
+  ],
+  [
+   "Quantity surveyor or procurement",
+   2,
+   0.0,
+   0.0,
+   0.0
+  ]
+ ],
+ "by_process": [
+  [
+   "Owner decides alone",
+   13,
+   0.0,
+   0.0,
+   0.23076923076923078
+  ],
+  [
+   "Specified in the subcontract package",
+   3,
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   "Trial on one floor or one block first",
+   3,
+   0.0,
+   0.0,
+   0.3333333333333333
+  ],
+  [
+   "Approved supplier list or tender",
+   1,
+   0.0,
+   0.0,
+   0.0
+  ]
+ ],
+ "by_category": [
+  [
+   "buys or outsources this today",
+   10,
+   0.0,
+   0.0,
+   0.4
+  ],
+  [
+   "does not buy this today",
+   10,
+   0.0,
+   0.0,
+   0.0
+  ]
+ ],
+ "by_current_option": [
+  [
+   "Self-adhesive film, plastic sheet or board with tape, applied and removed by own labour",
+   6,
+   0.0,
+   0.0,
+   0.6666666666666666
+  ],
+  [
+   "nothing",
+   10,
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   "Relies on the factory film already on the aluminium profiles",
+   1,
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   "No protection; cleans, polishes or replaces damaged items at snagging",
+   2,
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   "Another peelable or spray-on protective coating",
+   1,
+   0.0,
+   0.0,
+   0.0
+  ]
+ ],
+ "by_size": [
+  [
+   "43+ people",
+   7,
+   0.0,
+   0.0,
+   0.42857142857142855
+  ],
+  [
+   "under 8 people",
+   6,
+   0.0,
+   0.0,
+   0.16666666666666666
+  ],
+  [
+   "8 to 42 people",
+   7,
+   0.0,
+   0.0,
+   0.0
+  ]
+ ],
+ "approvers": [],
+ "why_not": [
+  [
+   "price",
+   7,
+   [
+    "I already spend about 12 euro a m2 all-in with my own labour and the aluminium arrives with factory film. You want about 19 a m2, which is more than I pay now, to protect against damage I mostly handle already. A 2,500 euro cap on a block with hundreds of windows does not make me feel covered.",
+    "I pay about 12 euro a m2 now with my own lads and film, and this is 19. The cap of 2,500 euro is small next to a bad block of frames. I will take a free test panel and a coffee, but I am not paying more to change what works."
+   ],
+   [
+    "P001",
+    "P002"
+   ]
+  ],
+  [
+   "roi",
+   5,
+   [
+    "We spend about 8k a year on frame protection and the factory film does most of the job for free. At 19 a m2 this is a big new cost line on a small saving, and I am not taking on an unproven coating with no Maltese reference.",
+    "We spend about 1,800 euro a year on handover damage and cover it from the job contingency. At 19 euro per m2 one block of glazing would cost more than a whole year of damage. It doesn't pay for us."
+   ],
+   [
+    "P005",
+    "P006"
+   ]
+  ],
+  [
+   "trust",
+   4,
+   [
+    "We don't buy this today, so it would mean a new supplier and a new budget line. ACHV is a contractor too, and I don't want a competitor on my site or seeing my programme. A confidentiality undertaking doesn't change that for me.",
+    "ACHV is a contractor too and I don't want a competitor on my site or seeing my programme, whatever confidentiality paper they sign. We spend under a thousand a year on this, so it is not worth the supplier paperwork and the risk for me."
+   ],
+   [
+    "P007",
+    "P014"
+   ]
+  ],
+  [
+   "fit",
+   1,
+   [
+    "I do houses and small blocks, our windows are not that many square metres and 100 m² minimum is more than some of my jobs have. We cover scratched glass with cardboard and tape or deal with it at cleaning, and I have never paid anyone for this."
+   ],
+   [
+    "P008"
+   ]
+  ],
+  [
+   "contract",
+   1,
+   [
+    "Protection is set in the subcontract package, so the developer or main contractor decides what is specified and who pays. I do not buy this today and a new supplier means a new budget line I would have to fight for on every job."
+   ],
+   [
+    "P013"
+   ]
+  ],
+  [
+   "risk",
+   1,
+   [
+    "We don't buy this today and I have no budget line for it. The first thing I ask is who pays if the coating marks the frame or the glass, and a 2,500 euro cap per job is thin against a full floor of glazing."
+   ],
+   [
+    "P019"
+   ]
+  ],
+  [
+   "switching_cost",
+   1,
+   [
+    "We don't buy this today and it would mean a new line and a new supplier, with no Maltese reference job. I buy from people I've worked with for years, and glazing damage is something we already absorb or fix at snagging."
+   ],
+   [
+    "P020"
+   ]
+  ]
+ ],
+ "why_yes": [],
+ "instead": [
+  "Keep using factory film plus film or board and tape applied by my own crew, and push glazing damage back to the aluminium subcontractor.",
+  "Keep using self-adhesive film and plastic sheet with tape, applied and removed by my own crew.",
+  "Keep the factory film plus our own film or board and tape, applied and removed by our own labour.",
+  "Keep using cheap protection film and tape on the glazing and frames, and deal with snagging at handover as we do now.",
+  "Keep the factory film on the profiles, add cheap film and board protection on the glass where needed, and fix snagging at handover.",
+  "Keep doing nothing: clean, polish or replace at snagging from the contingency. Use cheap film or tape on the worst spots if a block needs it.",
+  "Keep using our own protection film and tape and careful site sequencing, and charge back damage to the trades that cause it.",
+  "Cardboard, tape and cheap film from the hardware store, and make the installer fit windows late and clean at the end.",
+  "Keep using cheap protection film and tape on the frames and leave handover damage with the glazing subcontractor.",
+  "Keep using factory film, self-adhesive film and board with tape applied by our own labour, and keep the existing snagging and claim routes with the glazing subcontractor.",
+  "Keep using self-adhesive film and sheet with tape, applied and removed by my own people.",
+  "Keep using cheap protection film and tape, and keep absorbing the occasional broken or scratched pane as part of the job cost.",
+  "Keep using cheap protection film and tape, plus a cleaning crew at handover, and push damage cost back to the glazing subcontractor.",
+  "Keep using the peelable coating we have now, or plain protection film and tape, and let the glazing subcontractor handle their own protection.",
+  "Keep using self-adhesive film and board with tape, applied and removed by our own crew.",
+  "Keep using my own crew with cheap protection film and tape, and fix the odd scratched window at handover.",
+  "Keep doing nothing, clean and replace at snagging from the contingency. Maybe cheap tape or film on a few exposed windows if a block is high risk.",
+  "Keep using cheap protection film and tape from the hardware store, have the crew clean the glass at handover, and let the glazing subcontractor deal with any scratches.",
+  "Keep using cheap protection film and tape on the glass, and tell the crew to be careful with cement and plaster. We pay for the odd replacement pane at the end.",
+  "Keep using cheap protection film and tape from the hardware store, have the crew be careful, and pay for the odd repair at handover."
+ ],
+ "flip": [
+  "A price at or below 12 euro a m2 all-in, plus a finished Maltese block where the coating peeled off cleanly and damage claims dropped.",
+  "A Maltese block I can visit where it came off clean, written confirmation from the coating maker for my glass and frames, and a price at or under 12 euro a m2 all in.",
+  "A main contractor writing protection into the subcontract package as a paid line, plus written coating-maker compatibility approval for my glass coatings and frame finishes and a Maltese reference job at or below about €12 a m².",
+  "The main contractor or developer specifying it as a separate paid line in the subcontract package, plus a local reference job showing it saved more in damage than it cost.",
+  "A Maltese reference block where a contractor like us saw damage cost clearly above 19 per m2, plus the compatibility letter for our glass and frame finish.",
+  "A main contractor or developer who puts it in the tender as a paid line, so it is not my cost. Or a price at the cost of a roll of film, with a local reference job showing no glass or frame damage.",
+  "Written compatibility confirmation from the coating maker for our specific glass coatings and frame finishes. A Maltese reference on a glazed block. A guarantee that only an independent applicator touches our site, with no ACHV visits beyond a test panel I control.",
+  "Seeing it on a finished local block of similar size, and the window installer I use telling me it works and the glass came out clean.",
+  "A Maltese reference on a similar small block and a price near film and tape, or a glazing sub or developer who asks for it and pays for it.",
+  "A Maltese block finished with it, with documented before-and-after damage figures and the coating maker's written compatibility confirmation for our glass and frame finish, at a price close to what we pay today.",
+  "A written compatibility confirmation from the coating maker for my exact glass coating and frame finish, plus a test panel left in summer sun and removed cleanly, at a price near what I pay now.",
+  "A local reference block where I can see the damage savings, and a price close to 5 to 6 euro per m2 all-in, or proof that my last block lost more to glazing damage than this would cost.",
+  "A developer or main contractor that specifies it in the package and pays for it as a separate line, with a local reference job and a damage cover well above 2,500 euro.",
+  "A finished Maltese job I can visit, written compatibility confirmation from the coating maker for our glass, and a pure supply option with no ACHV staff on site.",
+  "A test panel on our own glass and frames with the coating maker's written sign-off, and a local reference job showing it costs no more than about 12 to 14 per m2 all-in or clearly cuts my damage claims.",
+  "Seeing finished Maltese jobs by contractors I know, with the work done by an independent applicator and ACHV nowhere near my site, and the cost passed to the client as a separate line.",
+  "A finished local block I can walk through, and a price down near 3 to 4 euro per m2 all-in.",
+  "A Maltese reference job I can visit, plus written confirmation from the coating maker that it is compatible with our glass coating and frame finish, with liability cover that is not capped at €2,500.",
+  "The coating maker's written confirmation, signed, that it is safe on our glass coating and frame finish, plus a finished Maltese block I can visit, and a damage cover that matches the real value of the glazing.",
+  "A finished Maltese block from a contractor I know, where the coating came off clean in summer and the damage saved was clearly more than the cost per m²."
+ ],
+ "price_answers": 20
+}

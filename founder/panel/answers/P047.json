@@ -1,0 +1,20 @@
+{
+  "id": "P047",
+  "take_meeting": true,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 6,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Owner decides; glazing subcontractor and client contract terms",
+  "reason_code": "fit",
+  "reason": "The glazing subcontractor is responsible for damage until handover, not me, so I have no budget line for this and the owner won't open one for a cost I don't carry. I'd hear them out because we like trying new site methods, but I'm not paying about 19 euro per m2 on top of what the glazier already covers.",
+  "objection": "Why would we pay for protecting glazing that the glazing subcontractor is liable for? It's a new supplier, a new budget line and another trade on site for a problem that isn't ours.",
+  "instead": "Keep relying on the glazing subcontractor's responsibility until handover, with our usual cheap protection film and tape and snagging at the end.",
+  "would_change_my_mind": "A written reference from a Maltese main contractor showing fewer glazing claims and snagging items, or a client or developer who specifies and pays for it so it isn't our cost.",
+  "price_too_cheap": 5,
+  "price_cheap": 8,
+  "price_expensive": 14,
+  "price_too_expensive": 22
+}

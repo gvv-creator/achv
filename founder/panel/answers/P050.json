@@ -1,0 +1,20 @@
+{
+  "id": "P050",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 9,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Owner/director signs; client or developer would have to accept the cost",
+  "reason_code": "price",
+  "reason": "The aluminium already arrives with factory film and I buy the cheapest thing that is good enough. At about €19 per m2 this is far above film and tape, and nobody is paying me extra for it.",
+  "objection": "€19 per m2 against well under €1 per m2 for film and tape. A new supplier, a new budget line and a 150 m2 minimum for a small house job makes no sense.",
+  "instead": "Keep the factory film and add tape and cheap protection film where needed, and make the trades take care.",
+  "would_change_my_mind": "A price close to film and tape cost, or a client or developer who agrees in writing to pay for it as a line item.",
+  "price_too_cheap": 2,
+  "price_cheap": 3,
+  "price_expensive": 6,
+  "price_too_expensive": 10
+}

@@ -1,0 +1,6 @@
+Protected Handover (ACHV Performance Systems, using HEVADEX OMNIGUARD): a peelable coating sprayed or rolled onto installed glazing and aluminium or PVC frames that protects them from cement, plaster, paint and scratches until handover, then peels off. Applied and removed by an ACHV-approved applicator, with a site survey, a test panel on your frames, supervision on your first job and a signed QA handover pack.
+Price: €12.26 per m² to ACHV (product, survey, testing, supervision and QA pack) plus the applicator's labour and preparation, about €6.70 per m², so about €19 per m² ex VAT in total. A 1,000 m² year is about €19,000 all-in.
+Minimum 150 m² per job. Removal is scheduled in the quote; the coating must come off within 18 months on windows.
+Payment: 50% deposit on the first order, balance before handover; after that, 30 days from invoice after a credit check.
+Pilot offer: a paid pilot from 100 m² at the full price, with written pass/fail criteria. If it passes and you order the next building within 90 days, €1 per m² of the pilot is credited against that order.
+If you prefer to use your own installer: OMNIGUARD supplied at €15.50 per kg (about €10.20 per m²) with the method statement and substrate exclusion list.

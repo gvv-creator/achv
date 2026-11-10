@@ -1,0 +1,20 @@
+{
+  "id": "P006",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 9,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Main contractor or developer would have to specify and pay for it",
+  "reason_code": "roi",
+  "reason": "We spend about 1,800 euro a year on handover damage and cover it from the job contingency. At 19 euro per m2 one block of glazing would cost more than a whole year of damage. It doesn't pay for us.",
+  "objection": "The coating costs more than the damage it prevents. It is also one more trade on site and one more thing that has to come off cleanly before handover.",
+  "instead": "Keep doing nothing: clean, polish or replace at snagging from the contingency. Use cheap film or tape on the worst spots if a block needs it.",
+  "would_change_my_mind": "A main contractor or developer who puts it in the tender as a paid line, so it is not my cost. Or a price at the cost of a roll of film, with a local reference job showing no glass or frame damage.",
+  "price_too_cheap": 3,
+  "price_cheap": 5,
+  "price_expensive": 10,
+  "price_too_expensive": 15
+}

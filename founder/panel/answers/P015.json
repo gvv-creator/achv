@@ -1,0 +1,20 @@
+{
+  "id": "P015",
+  "take_meeting": true,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 6,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Own decision; site manager and main contractor's coating specs",
+  "reason_code": "price",
+  "reason": "We spend about 5,000 a year on film and board at 12 a m2 with our own labour, and this is 19 a m2 plus a 150 m2 minimum and a 50% deposit. Film works and I know what it does to coated glass; a coating is a new risk for me.",
+  "objection": "Almost 60% dearer than what we do now, deposit up front when I pay suppliers at 60 to 90 days, and I do not know what a sprayed coating does to coated glass and frame finishes when it comes off.",
+  "instead": "Keep using self-adhesive film and board with tape, applied and removed by our own people.",
+  "would_change_my_mind": "A test panel on our own coated glass and frames that peels clean with no marks, at or near 12 to 14 a m2 all-in, with no deposit and 60-day terms, plus a Maltese contractor reference.",
+  "price_too_cheap": 8,
+  "price_cheap": 11,
+  "price_expensive": 15,
+  "price_too_expensive": 19
+}

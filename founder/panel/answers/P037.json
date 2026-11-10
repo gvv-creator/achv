@@ -1,0 +1,20 @@
+{
+  "id": "P037",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 9,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Main contractor, site manager, managing director",
+  "reason_code": "trust",
+  "reason": "We don't buy this today and I'm not adding a new supplier and budget line for it. ACHV is a contractor too, and I don't want a competitor on my site seeing my programme.",
+  "objection": "A competing contractor on my site, seeing my programme and my frames, and a new supplier who isn't one of the people we've worked with for years. On top of that, at about 19 euro per m2 it costs more than our own labour and some film or tape.",
+  "instead": "Keep protecting frames ourselves with cheap film and tape, and chase the main contractor for damage claims. If I wanted a coating I'd buy it from a supplier we know.",
+  "would_change_my_mind": "The main contractor requiring it and paying for it, or a local supplier we already use stocking it so we apply it ourselves, with a reference from another glazing installer.",
+  "price_too_cheap": 4,
+  "price_cheap": 7,
+  "price_expensive": 12,
+  "price_too_expensive": 17
+}

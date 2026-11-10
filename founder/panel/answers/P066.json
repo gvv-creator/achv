@@ -1,0 +1,20 @@
+{
+  "id": "P066",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 0,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 30,
+  "approvers": "Owner decides alone; client or main contractor would object to any frame risk",
+  "reason_code": "fit",
+  "reason": "The aluminium already arrives with factory film, and that is what protects the frames on site. I have no budget line for this and I am not putting a sprayed coating on coated glass and finished frames when any residue or mark comes back to me.",
+  "objection": "A coating sprayed onto installed coated glass and frames could stain, mark or leave residue when it peels. I would be liable for that, and I get no benefit over the factory film.",
+  "instead": "Keep the factory film, add taped edge protection and cardboard where needed, and make sure the other trades are careful.",
+  "would_change_my_mind": "Written approval from the glazing and coating manufacturers that it is compatible with their warranty, plus a reference from a premium block with no marks after removal.",
+  "price_too_cheap": 4,
+  "price_cheap": 7,
+  "price_expensive": 12,
+  "price_too_expensive": 18
+}

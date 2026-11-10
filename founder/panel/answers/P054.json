@@ -1,0 +1,20 @@
+{
+  "id": "P054",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 12,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Owner decides alone",
+  "reason_code": "fit",
+  "reason": "The glazing subcontractor is responsible for damage until handover, not me, so I have no budget line for this. At about 19 euro per m2 on top of what the glazier already does, it is a new supplier and a new cost for a problem I don't carry.",
+  "objection": "Glass damage before handover is the glazier's cost, not ours. I would be paying to protect someone else's risk, and my owner will not add a supplier for that.",
+  "instead": "Keep using cheap protection film and tape on the worst frames, and leave it to the glazing subcontractor to protect their own work.",
+  "would_change_my_mind": "If the glazing subcontractor paid for it, or if I had a callback or snagging claim on a premium block that this clearly would have avoided.",
+  "price_too_cheap": 3,
+  "price_cheap": 6,
+  "price_expensive": 12,
+  "price_too_expensive": 19
+}

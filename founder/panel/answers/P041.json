@@ -1,0 +1,20 @@
+{
+  "id": "P041",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 9,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Main contractor, project manager, directors",
+  "reason_code": "price",
+  "reason": "We spend about 1,500 a year on frame protection and rely on the factory film, so 19 euro per m2 is a huge jump for something I have never seen on a Maltese site. I buy the cheapest option that is good enough, and a 150 m2 minimum plus 50% deposit does not suit us.",
+  "objection": "I have never seen it used in Malta. Show me a local job. Who carries the risk if it damages the glass or will not peel off after months on site?",
+  "instead": "Keep using the factory film on the profiles, with cheap tape and cardboard on glass where needed, and charge the main contractor for any cleaning or damage.",
+  "would_change_my_mind": "A local reference job with a main contractor I know, a price near 5 to 6 euro per m2 all-in, and the main contractor agreeing to pay for it in the subcontract.",
+  "price_too_cheap": 3,
+  "price_cheap": 5,
+  "price_expensive": 9,
+  "price_too_expensive": 14
+}

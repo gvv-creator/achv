@@ -1,0 +1,20 @@
+{
+  "id": "P013",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 9,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Developer / main contractor, glazing subcontractor, site project manager",
+  "reason_code": "contract",
+  "reason": "Protection is set in the subcontract package, so the developer or main contractor decides what is specified and who pays. I do not buy this today and a new supplier means a new budget line I would have to fight for on every job.",
+  "objection": "No Maltese reference job, and if the coating damages a client's glass I carry the risk while the cover stops at 2,500 euro. Cheap film and tape do the job well enough already, and I do not want another line item to defend to the developer.",
+  "instead": "Keep using cheap protection film and tape, plus a cleaning crew at handover, and push damage cost back to the glazing subcontractor.",
+  "would_change_my_mind": "A developer or main contractor that specifies it in the package and pays for it as a separate line, with a local reference job and a damage cover well above 2,500 euro.",
+  "price_too_cheap": 4,
+  "price_cheap": 7,
+  "price_expensive": 14,
+  "price_too_expensive": 20
+}

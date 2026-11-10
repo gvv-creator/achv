@@ -1,0 +1,20 @@
+{
+  "id": "P031",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 6,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Nobody, I decide alone; site manager's opinion only",
+  "reason_code": "roi",
+  "reason": "The aluminium already comes with factory film and I buy the cheapest thing that is good enough. At about 19 euro per m2 this is many times what film and tape cost me, and I would be adding a new supplier and a new budget line.",
+  "objection": "Paying around 19 euro per m2 plus a 50% deposit and a 150 m2 minimum to protect glazing that already has factory film. Damage claims on my jobs are small compared with that bill.",
+  "instead": "Keep the factory film, add cheap protection film and tape on exposed frames, and have my own labourers clean up before handover.",
+  "would_change_my_mind": "Documented cases where factory film failed on jobs like mine and the repair cost me more than this would, plus a price near 5 euro per m2 all-in with no deposit.",
+  "price_too_cheap": 1.5,
+  "price_cheap": 3,
+  "price_expensive": 7,
+  "price_too_expensive": 12
+}

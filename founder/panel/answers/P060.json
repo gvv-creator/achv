@@ -1,0 +1,20 @@
+{
+  "id": "P060",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 0,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "None, I decide alone",
+  "reason_code": "roi",
+  "reason": "I spend about 9,800 a year on glazing damage, all of it out of contingency. You want around 19,000 a year to prevent it, which is double what the problem costs me. It makes no sense on my margins.",
+  "objection": "If the coating marks the frame or the coated glass when it comes off, who pays? The manufacturer excludes it. So I would pay 19 a m2 and still carry the risk. Also 50% upfront and 150 m2 minimums on small jobs.",
+  "instead": "Carry on as now: no protection, clean or replace at snagging from contingency, or buy cheap tape and film for the worst frames.",
+  "would_change_my_mind": "A written guarantee that ACHV pays for any frame or glass damage from the coating or its removal, at a price under about 6 per m2 all-in.",
+  "price_too_cheap": 2,
+  "price_cheap": 4,
+  "price_expensive": 8,
+  "price_too_expensive": 12
+}

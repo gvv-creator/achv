@@ -1,0 +1,20 @@
+{
+  "id": "P002",
+  "take_meeting": true,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 9,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Site manager and the glazing subcontractor; developer if it is a separate line",
+  "reason_code": "price",
+  "reason": "I pay about 12 euro a m2 now with my own lads and film, and this is 19. The cap of 2,500 euro is small next to a bad block of frames. I will take a free test panel and a coffee, but I am not paying more to change what works.",
+  "objection": "If the coating marks the frame or the glass when it comes off, who pays? The manufacturer excludes it, and 2,500 euro will not cover a floor of damaged glazing. And it costs more than what I do now.",
+  "instead": "Keep using self-adhesive film and plastic sheet with tape, applied and removed by my own crew.",
+  "would_change_my_mind": "A Maltese block I can visit where it came off clean, written confirmation from the coating maker for my glass and frames, and a price at or under 12 euro a m2 all in.",
+  "price_too_cheap": 6,
+  "price_cheap": 9,
+  "price_expensive": 14,
+  "price_too_expensive": 18
+}

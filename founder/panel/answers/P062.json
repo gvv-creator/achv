@@ -1,0 +1,20 @@
+{
+  "id": "P062",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 6,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 30,
+  "approvers": "Nobody, I decide alone",
+  "reason_code": "fit",
+  "reason": "The aluminium already comes with factory film, and on my small house jobs I'd rather mask the odd frame with tape and cover than pay a new supplier about €19 a square metre. It's a new budget line for something my clients don't ask me to protect.",
+  "objection": "I'd be paying €19 per m² plus a 50% deposit and a 150 m² minimum, for a problem the factory film mostly solves and that a few euro of tape and sheeting handles on my small jobs.",
+  "instead": "Keep the factory film on until handover and use cheap protection film, tape and cardboard where needed. I'd clean up any splashes myself.",
+  "would_change_my_mind": "A local contractor of my size showing me real handover claims for glazing damage that factory film didn't prevent, and a price near €6 to €8 per m² with no minimum and no deposit.",
+  "price_too_cheap": 3,
+  "price_cheap": 6,
+  "price_expensive": 10,
+  "price_too_expensive": 14
+}

@@ -1,0 +1,20 @@
+{
+  "id": "P063",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 0,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Owner/director; client or developer would have to accept the extra cost",
+  "reason_code": "price",
+  "reason": "We spend about €1,461 a year on snagging damage, and at €19 per m² this would cost many times that. I buy on cost per m² and film and tape cost well under €1/m², so I can't justify it.",
+  "objection": "€19/m² is far more than our damage costs us. A new supplier also needs documents, insurance and a credit application, and it wants a 50% deposit. In July and August half the façade is in full sun, so when would you even apply it?",
+  "instead": "Keep going with no protection, or cheap film and tape on the few frames at risk, and pay for cleaning or replacement at snagging from the job contingency.",
+  "would_change_my_mind": "A price near film-and-tape level, or a client or developer who pays for it as a specified item.",
+  "price_too_cheap": 1.5,
+  "price_cheap": 2.5,
+  "price_expensive": 5,
+  "price_too_expensive": 8
+}

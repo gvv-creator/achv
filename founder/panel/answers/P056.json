@@ -1,0 +1,20 @@
+{
+  "id": "P056",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 12,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Owner/partner, and the developer or main contractor on the job",
+  "reason_code": "price",
+  "reason": "We don't buy this today and it would mean a new budget line and a new supplier. At about 19 euro per m2 plus a 50% deposit up front, when we pay our own suppliers at 60 to 90 days, it is not worth the hassle on small house and block jobs.",
+  "objection": "50% deposit up front and 19 euro per m2 all-in, for a coating that only protects windows we can cover with cheap film or just clean afterwards. I don't see who carries the risk if it marks the frames.",
+  "instead": "Keep using cheap protection film and tape and cleaning the glazing at handover, with the same trades we've used for years.",
+  "would_change_my_mind": "A reference from a Maltese contractor I know, proof it costs us less than the glazing damage claims we actually have, and normal 60 day terms with no deposit.",
+  "price_too_cheap": 3,
+  "price_cheap": 5,
+  "price_expensive": 9,
+  "price_too_expensive": 14
+}

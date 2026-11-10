@@ -1,0 +1,20 @@
+{
+  "id": "P014",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 9,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Owner/director, the client or developer, and the glazing subcontractor",
+  "reason_code": "trust",
+  "reason": "ACHV is a contractor too and I don't want a competitor on my site or seeing my programme, whatever confidentiality paper they sign. We spend under a thousand a year on this, so it is not worth the supplier paperwork and the risk for me.",
+  "objection": "A competing contractor on my site with access to my programme, and no Maltese reference job to show it works on our glass and frames.",
+  "instead": "Keep using the peelable coating we have now, or plain protection film and tape, and let the glazing subcontractor handle their own protection.",
+  "would_change_my_mind": "A finished Maltese job I can visit, written compatibility confirmation from the coating maker for our glass, and a pure supply option with no ACHV staff on site.",
+  "price_too_cheap": 6,
+  "price_cheap": 9,
+  "price_expensive": 15,
+  "price_too_expensive": 22
+}

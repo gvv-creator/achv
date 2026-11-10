@@ -1,0 +1,20 @@
+{
+  "id": "P072",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 12,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Developer / main contractor, site manager, glazing subcontractor",
+  "reason_code": "contract",
+  "reason": "Glazing protection is set in the subcontract package and the developer or main contractor decides who pays, so I can't just add a new supplier line. I've never seen this used in Malta, and tape and film already do the job cheaply enough.",
+  "objection": "Never seen it on a Maltese job, and at about 19 euro/m2 it costs many times what film or tape does. I'd also be carrying the risk if it damages seals or leaves residue.",
+  "instead": "Keep specifying standard protection film and tape, with the glazing subcontractor carrying the damage risk under the subcontract.",
+  "would_change_my_mind": "A reference local job on a Maltese apartment block with a developer or main contractor naming it in the spec, plus insurance cover and a manufacturer guarantee on frame finishes.",
+  "price_too_cheap": 3,
+  "price_cheap": 6,
+  "price_expensive": 12,
+  "price_too_expensive": 19
+}

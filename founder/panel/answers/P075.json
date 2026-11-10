@@ -1,0 +1,20 @@
+{
+  "id": "P075",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 0,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Main contractor or developer via the subcontract package",
+  "reason_code": "price",
+  "reason": "We don't buy this today and the main contractor decides what protection we provide. At about €19 per m² against film and tape for well under €1 per m², I'd never pay it out of my own margin. And a 50% deposit doesn't suit how we run cash.",
+  "objection": "€19 per m² for a coating I'd have to pay for myself, with a deposit up front, when we pay suppliers at 60 to 90 days and film and tape does the job for pennies.",
+  "instead": "Cheap protection film and tape, bought from the local hardware or builders' merchant, as the subcontract package specifies.",
+  "would_change_my_mind": "The developer or main contractor writing it into the spec and paying for it, on 60-day terms with no deposit.",
+  "price_too_cheap": 1.5,
+  "price_cheap": 3,
+  "price_expensive": 6,
+  "price_too_expensive": 10
+}

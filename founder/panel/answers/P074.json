@@ -1,0 +1,20 @@
+{
+  "id": "P074",
+  "take_meeting": true,
+  "would_pilot": true,
+  "intent": "might",
+  "decision_months": 9,
+  "annual_value": 12000,
+  "first_order_value": 1900,
+  "payment_terms_days": 60,
+  "approvers": "Contracts manager, site director, glazing subcontractor, procurement",
+  "reason_code": "trust",
+  "reason": "I've never seen this used on a Maltese site, so I'd want to see it applied and peeled off on one of our own floors before anyone above me signs. A small paid trial on one floor is something I could push through; a yearly commitment is not.",
+  "objection": "Does it really peel off clean after months of sun and cement dust without marking the glass or the frames, and who pays if it doesn't? Our glazing subcontractor already leaves the factory film on, so I also have to justify about 19 euro per m2 on top of that.",
+  "instead": "Keep the factory film on the profiles, cover the glass with cheap sheeting and tape, and handle the damage through snagging and the glazing subcontractor.",
+  "would_change_my_mind": "A local reference job with a contractor we know, plus a clean test panel on our own frames, with ACHV covering any glass or frame damage from removal.",
+  "price_too_cheap": 6,
+  "price_cheap": 10,
+  "price_expensive": 22,
+  "price_too_expensive": 32
+}

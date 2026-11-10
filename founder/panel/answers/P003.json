@@ -1,0 +1,20 @@
+{
+  "id": "P003",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 0,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Main contractor / developer who sets protection in the subcontract package",
+  "reason_code": "fit",
+  "reason": "The aluminium already comes with factory film, and what protection we add is decided by the main contractor in the subcontract package, not by me. At about 19 a m2 against 12 today, I would be paying more to change something that works and that I have used for years.",
+  "objection": "A sprayed coating on coated glass and frames could mark or stain them or leave residue when peeled, and if it does, the damage is on me. It also costs more than film and tape.",
+  "instead": "Keep the factory film on the frames, plus self-adhesive film and board with tape on the glass, applied and removed by my own people.",
+  "would_change_my_mind": "The main contractor or developer specifying it and paying for it in the package, together with the glass and coating manufacturers confirming in writing that it is compatible with our coated glass and finishes.",
+  "price_too_cheap": 6,
+  "price_cheap": 9,
+  "price_expensive": 14,
+  "price_too_expensive": 17
+}
