@@ -1,0 +1,20 @@
+{
+  "id": "P010",
+  "take_meeting": true,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 12,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Owner/director decides; site manager recommends; glazing subcontractor and insurer may weigh in",
+  "reason_code": "roi",
+  "reason": "We already protect frames with the factory film plus our own film and board at about 12 euro per m2, and this is around 19. For a glazing-damage problem that is small per block I cannot show my owner why we should pay more, with no Maltese reference job.",
+  "objection": "It costs more than what we do now, the aluminium already comes with factory film, and I do not want to be the one who recommended a coating that marks the glass or does not peel cleanly at handover.",
+  "instead": "Keep using factory film, self-adhesive film and board with tape applied by our own labour, and keep the existing snagging and claim routes with the glazing subcontractor.",
+  "would_change_my_mind": "A Maltese block finished with it, with documented before-and-after damage figures and the coating maker's written compatibility confirmation for our glass and frame finish, at a price close to what we pay today.",
+  "price_too_cheap": 7,
+  "price_cheap": 11,
+  "price_expensive": 15,
+  "price_too_expensive": 20
+}

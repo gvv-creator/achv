@@ -1,0 +1,20 @@
+{
+  "id": "P008",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 12,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Just me; maybe the developer client and the window installer",
+  "reason_code": "fit",
+  "reason": "I do houses and small blocks, our windows are not that many square metres and 100 m² minimum is more than some of my jobs have. We cover scratched glass with cardboard and tape or deal with it at cleaning, and I have never paid anyone for this.",
+  "objection": "Never seen it used in Malta. I am not putting a coating on a client's glass on my site when nobody here has done it and I would be the first.",
+  "instead": "Cardboard, tape and cheap film from the hardware store, and make the installer fit windows late and clean at the end.",
+  "would_change_my_mind": "Seeing it on a finished local block of similar size, and the window installer I use telling me it works and the glass came out clean.",
+  "price_too_cheap": 4,
+  "price_cheap": 8,
+  "price_expensive": 14,
+  "price_too_expensive": 22
+}

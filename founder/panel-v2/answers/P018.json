@@ -1,0 +1,20 @@
+{
+  "id": "P018",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 9,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Owner decides alone; glazing subcontractor and developer would need to agree who pays",
+  "reason_code": "trust",
+  "reason": "We have never bought this and I buy from people I have worked with for years. No Maltese reference job, and the coating maker excludes damage to coated glass and frames, so I would be relying on a €2,500 cap from a supplier with no track record.",
+  "objection": "If the coating marks the frame or the coated glass when it comes off, who pays? The manufacturer excludes it, and a €2,500 cap from a new company does not cover a block's worth of glazing.",
+  "instead": "Keep using cheap protection film and tape from the hardware store, have the crew clean the glass at handover, and let the glazing subcontractor deal with any scratches.",
+  "would_change_my_mind": "A Maltese reference job I can visit, plus written confirmation from the coating maker that it is compatible with our glass coating and frame finish, with liability cover that is not capped at €2,500.",
+  "price_too_cheap": 4,
+  "price_cheap": 7,
+  "price_expensive": 12,
+  "price_too_expensive": 18
+}

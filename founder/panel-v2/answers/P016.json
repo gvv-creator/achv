@@ -1,0 +1,20 @@
+{
+  "id": "P016",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 9,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Nobody else; I decide alone, but the client or developer would have to accept the extra line in the quote",
+  "reason_code": "trust",
+  "reason": "ACHV is a contractor too and I don't want them on my site or seeing my programme. I have never paid for this, my crew tapes and covers the frames when needed, and damage at handover is cheaper to fix than a new budget line plus a new supplier.",
+  "objection": "A competitor on my site with no Maltese reference job, and a coating on glass that I would have to answer for if it goes wrong, whatever the 2,500 cap says.",
+  "instead": "Keep using my own crew with cheap protection film and tape, and fix the odd scratched window at handover.",
+  "would_change_my_mind": "Seeing finished Maltese jobs by contractors I know, with the work done by an independent applicator and ACHV nowhere near my site, and the cost passed to the client as a separate line.",
+  "price_too_cheap": 6,
+  "price_cheap": 9,
+  "price_expensive": 15,
+  "price_too_expensive": 22
+}

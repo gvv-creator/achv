@@ -1,0 +1,20 @@
+{
+  "id": "P011",
+  "take_meeting": true,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 9,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Owner/partner, plus the main contractor or developer if they would pay for it",
+  "reason_code": "roi",
+  "reason": "I spend about 500 euro a year on glass protection, which is roughly 40 m2, so a 100 m2 minimum is more than I use in a year. At 19 euro all-in it costs more than the film and tape my lads put up at 12, and I would not take a first job on a new coating with no local reference.",
+  "objection": "A peelable coating on coated glass and anodised frames in full July sun. If it bakes on or leaves a mark, it is my name on the frames, and a 2,500 euro cap does not cover a block of glazing.",
+  "instead": "Keep using self-adhesive film and sheet with tape, applied and removed by my own people.",
+  "would_change_my_mind": "A written compatibility confirmation from the coating maker for my exact glass coating and frame finish, plus a test panel left in summer sun and removed cleanly, at a price near what I pay now.",
+  "price_too_cheap": 6,
+  "price_cheap": 9,
+  "price_expensive": 15,
+  "price_too_expensive": 20
+}

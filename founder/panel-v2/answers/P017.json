@@ -1,0 +1,20 @@
+{
+  "id": "P017",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 12,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Nobody else; I decide, but the site manager and glazing subcontractor would need to accept it on site",
+  "reason_code": "roi",
+  "reason": "I spend about 2,400 euro a year on handover damage and it comes out of the job contingency. At 14 to 19 euro per m2 a block of glazing would cost me more than a year of damage, so it does not pay.",
+  "objection": "I have never seen it used in Malta and there is no local job to visit. For that money I would rather just pay for snagging and cleaning.",
+  "instead": "Keep doing nothing, clean and replace at snagging from the contingency. Maybe cheap tape or film on a few exposed windows if a block is high risk.",
+  "would_change_my_mind": "A finished local block I can walk through, and a price down near 3 to 4 euro per m2 all-in.",
+  "price_too_cheap": 1.5,
+  "price_cheap": 3,
+  "price_expensive": 7,
+  "price_too_expensive": 12
+}

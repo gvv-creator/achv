@@ -1,0 +1,20 @@
+{
+  "id": "P012",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 6,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "None, I decide alone; site manager would have to confirm it saves rework",
+  "reason_code": "price",
+  "reason": "Film and tape cost me almost nothing and my crew puts it on, so I will not pay about 19 euro per m2 for a coating I have never seen used on a Maltese job. I have not been budgeting for this and damage to glazing is something I absorb in the job margin.",
+  "objection": "19 euro per m2 against film and tape at well under 1 euro per m2 in material. A 2,500 euro damage cap does not cover what I would spend across a block, and nobody here has used it on a real job.",
+  "instead": "Keep using cheap protection film and tape, and keep absorbing the occasional broken or scratched pane as part of the job cost.",
+  "would_change_my_mind": "A local reference block where I can see the damage savings, and a price close to 5 to 6 euro per m2 all-in, or proof that my last block lost more to glazing damage than this would cost.",
+  "price_too_cheap": 3,
+  "price_cheap": 5,
+  "price_expensive": 9,
+  "price_too_expensive": 14
+}
