@@ -1,0 +1,28 @@
+{
+  "_note": "SCENARIO, not a forecast. Unit = one acquired micro business held for one month; price = its monthly operating cash after tax, capex and working capital. All figures are assumptions except the 3.9x multiple (DealSuite). All-equity, no debt, no founder salary. Replace with real quotes.",
+  "business": "Always Broke Ltd, scenario: first acquisition of one micro business with EUR 200k EBITDA",
+  "unit": "acquired business, per month",
+  "per": "month",
+  "currency_symbol": "€",
+  "price": 12500,
+  "variable": [
+    {"label": "Local management retention bonus / incentive pool (estimate, per business per month)", "cost": 0}
+  ],
+  "fixed_monthly": [
+    {"label": "Holding company accounting, audit, registered agent, insurance (estimate)", "cost": 3000},
+    {"label": "Legal and tax adviser retainer (estimate)", "cost": 2000}
+  ],
+  "startup": [
+    {"label": "Purchase price: 3.9x EBITDA of EUR 200k", "cost": 780000},
+    {"label": "Deal costs, due diligence, legal, tax (estimate 8% of price)", "cost": 62400},
+    {"label": "Search and pipeline costs before first deal (estimate)", "cost": 20000}
+  ],
+  "payment_terms_days": 0,
+  "supplier_terms_days": 0,
+  "inventory_days": 0,
+  "bad_debt_pct": 0,
+  "largest_customer_share": 0.25,
+  "capacity_per_month": 1,
+  "plan_per_month": 1,
+  "ramp_per_month": [0,0,0,1,1,1,1,1,1,1,1,1]
+}
