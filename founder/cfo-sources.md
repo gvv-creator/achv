@@ -12,3 +12,9 @@
 | Timing | First deal in month 4 | Estimate | No pipeline exists yet. |
 | Debt, tax, founder pay | none | Assumption | No information given. |
 | Ramp / panel | n/a | The buyer panel has not been run, so month 1 is not set from it. |
+
+## Offer terms (confirmed by the founder, 2026-11-10)
+- Purchase multiple range 3.5x to 4.5x EBITDA: confirmed.
+- 90% cash at close, 10% within 12 months bank-guaranteed: confirmed.
+- Adviser contribution cap EUR 5,000: confirmed.
+- Still estimates: guarantee/letter set-up EUR 2,000, deal costs 8%, holding costs EUR 5,000 a month, search EUR 20,000.

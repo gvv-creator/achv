@@ -4,6 +4,8 @@ Offer name: **The Permanent Home Agreement** (working name).
 
 Method: the Offers lens (a summary of a published framework; not anyone's words). Inputs: `founder/panel/results.md` (v1: 20 of 20 sellers said no, all for trust), `founder/numbers.json`, `founder/board.md`.
 
+**Terms confirmed by the founder (2026-11-10):** the 3.5x to 4.5x EBITDA multiple, the 90% cash at close / 10% within 12 months split, and the EUR 5,000 adviser contribution cap are confirmed. The EUR 2,000 guarantee set-up cost and other costs remain my estimates.
+
 **Read this first.** The v1 panel said no to the *company*, not to the price: a Belize shell with no track record, no committed funding and 30% of the price deferred. An offer cannot fix that by wording alone. Two of the fixes below (the EU entity with named directors and legal opinion, and the bank letter of funds) are *preconditions the founder must actually put in place*, and the bank-guaranteed deferred part depends on them. The v2 pitch describes the offer **as if those exist**, so the re-test shows what changes when trust is fixed. It is a scenario, not the company today, and nothing in the v2 pitch may be sent to a real seller until each claim is true.
 
 ## 1. The problem list (from the panel, in sellers' words; count = buyers who said it)
