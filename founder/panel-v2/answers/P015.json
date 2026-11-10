@@ -1,0 +1,20 @@
+{
+  "id": "P015",
+  "take_meeting": true,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 14,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 0,
+  "approvers": "Tax adviser, lawyer, spouse, house bank, key staff",
+  "reason_code": "trust",
+  "reason": "A free first meeting costs me nothing, so I would let my adviser look at them. But I have never heard of this firm, they have no earlier sellers to vouch for them, and I will not hand over my life's work to an unknown buyer on the strength of a bank letter alone.",
+  "objection": "No track record and no references. Why should I give my 20 people and my name to a buyer nobody can vouch for, when others will pay more cash at closing?",
+  "instead": "Keep running the business, list it on nexxt-change, or sell through my adviser to a competitor or a strategic buyer who pays more cash up front.",
+  "would_change_my_mind": "A verifiable reference, for example a seller of a comparable business or a named, established backer, plus 100% cash at closing at the top of the range, checked by my adviser.",
+  "price_too_cheap": 300000,
+  "price_cheap": 450000,
+  "price_expensive": 800000,
+  "price_too_expensive": 1000000
+}

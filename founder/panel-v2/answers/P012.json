@@ -1,0 +1,20 @@
+{
+  "id": "P012",
+  "take_meeting": true,
+  "would_pilot": false,
+  "intent": "might",
+  "decision_months": 14,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 0,
+  "approvers": "My bank, my tax adviser and lawyer, and my wife and staff informally",
+  "reason_code": "trust",
+  "reason": "I'd give a free first meeting because the staff, name and location guarantees are what I care about, and the bank letter is a good start. But they have no earlier sellers and I have no successor yet, so I'd check them thoroughly and take my time; this is my life's work.",
+  "objection": "They have no track record and no seller I can call. If it goes wrong after I've handed over, my staff and my name pay for it, not me.",
+  "instead": "Keep looking for a successor in the family or among my staff, and list the business quietly on nexxt-change to see who else comes.",
+  "would_change_my_mind": "A reference from a seller they have already bought from, or a named owner I can phone, plus the staff and name guarantees written into the contract as enforceable terms.",
+  "price_too_cheap": 300000,
+  "price_cheap": 450000,
+  "price_expensive": 750000,
+  "price_too_expensive": 1000000
+}

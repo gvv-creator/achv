@@ -1,0 +1,20 @@
+{
+  "id": "P010",
+  "take_meeting": true,
+  "would_pilot": false,
+  "intent": "might",
+  "decision_months": 14,
+  "annual_value": 800000,
+  "first_order_value": 800000,
+  "payment_terms_days": 0,
+  "approvers": "My adviser, my bank, my wife and family, key staff informally",
+  "reason_code": "trust",
+  "reason": "I have no successor and I am 71, so a confidential talk costs me nothing and I will listen. But I will not hand over my life's work to a company nobody has bought from before, and the 10 percent held back for a year still makes me nervous.",
+  "objection": "They have no earlier sellers I can call. A new buyer with no track record, and part of my money arrives only later.",
+  "instead": "Keep looking on nexxt-change, talk to other buyers who offer a higher cash price, or hand over to a staff member at a low price.",
+  "would_change_my_mind": "A seller who already sold to them and will talk to me, plus all 100 percent in cash at closing, or the 10 percent paid into my adviser's escrow account at closing.",
+  "price_too_cheap": 450000,
+  "price_cheap": 600000,
+  "price_expensive": 950000,
+  "price_too_expensive": 1250000
+}

@@ -1,0 +1,348 @@
+{
+ "model": "b2b",
+ "business": "Always Broke Ltd: a permanent holding company that buys owner-managed small and micro businesses and keeps their management and culture",
+ "region": "Germany (proxy for the EU27 market)",
+ "currency": "EUR",
+ "symbol": "€",
+ "seed": 357363,
+ "dealt": 20,
+ "answered": 20,
+ "skipped": [],
+ "buys": 0,
+ "passes": 20,
+ "buy_rate": 0.0,
+ "stated_buy_rate": 0.0,
+ "realistic_buy_rate": 0.012,
+ "calibration": {
+  "definitely": 0.3,
+  "probably": 0.1,
+  "might": 0.02,
+  "probably_not": 0.0,
+  "definitely_not": 0.0
+ },
+ "meeting_calibration": 0.25,
+ "intents": [
+  [
+   "definitely",
+   0
+  ],
+  [
+   "probably",
+   0
+  ],
+  [
+   "might",
+   12
+  ],
+  [
+   "probably_not",
+   7
+  ],
+  [
+   "definitely_not",
+   1
+  ]
+ ],
+ "meeting_rate_stated": 0.95,
+ "meeting_rate_realistic": 0.2375,
+ "pilot_rate_stated": 0.0,
+ "deal_value_median": null,
+ "first_order_median": null,
+ "cycle_months_median": null,
+ "payment_terms_median": 0.0,
+ "per_account": {
+  "deals": 0.0,
+  "revenue_year1": 0.0,
+  "run_rate": 0.0
+ },
+ "pipeline": {
+  "population": 545000.0,
+  "reach": 0.0005,
+  "reached": 272.5,
+  "meetings": 64.71875,
+  "deals_year1": 0.0,
+  "revenue_year1": 0.0,
+  "run_rate_end_year1": 0.0,
+  "population_sourced": true,
+  "reach_sourced": false
+ },
+ "demand": null,
+ "benchmark": {
+  "value": 0.05,
+  "what": "assumed share of approached owners who sign a deal within a year (no sourced benchmark found; this is a placeholder)",
+  "sources": [],
+  "above": false
+ },
+ "evidence": [
+  [
+   "segments",
+   4,
+   4
+  ],
+  [
+   "behaviours",
+   0,
+   4
+  ],
+  [
+   "objections",
+   4,
+   6
+  ],
+  [
+   "current options",
+   3,
+   3
+  ],
+  [
+   "roles",
+   0,
+   3
+  ],
+  [
+   "buying process",
+   0,
+   4
+  ],
+  [
+   "market context",
+   5,
+   5
+  ],
+  [
+   "population",
+   1,
+   1
+  ],
+  [
+   "reach",
+   0,
+   1
+  ]
+ ],
+ "by_segment": [
+  [
+   "Local retail, hospitality or consumer service",
+   5,
+   0.0,
+   0.016,
+   1.0
+  ],
+  [
+   "Craft and trade business",
+   7,
+   0.0,
+   0.014285714285714287,
+   1.0
+  ],
+  [
+   "Niche B2B product or service firm",
+   6,
+   0.0,
+   0.01,
+   1.0
+  ],
+  [
+   "Owner-dependent micro firm",
+   2,
+   0.0,
+   0.0,
+   0.5
+  ]
+ ],
+ "by_role": [
+  [
+   "Owner guided by tax adviser or lawyer",
+   3,
+   0.0,
+   0.013333333333333334,
+   1.0
+  ],
+  [
+   "Owner-manager",
+   14,
+   0.0,
+   0.012857142857142857,
+   1.0
+  ],
+  [
+   "Owner with spouse or co-owner",
+   3,
+   0.0,
+   0.006666666666666667,
+   0.6666666666666666
+  ]
+ ],
+ "by_process": [
+  [
+   "Bank and adviser vet the buyer first",
+   4,
+   0.0,
+   0.02,
+   1.0
+  ],
+  [
+   "Owner decides after meeting the buyer",
+   8,
+   0.0,
+   0.0125,
+   1.0
+  ],
+  [
+   "Adviser or broker runs a process",
+   6,
+   0.0,
+   0.01,
+   1.0
+  ],
+  [
+   "Family or management buyout preferred",
+   2,
+   0.0,
+   0.0,
+   0.5
+  ]
+ ],
+ "by_category": [
+  [
+   "buys or outsources this today",
+   8,
+   0.0,
+   0.0175,
+   1.0
+  ],
+  [
+   "does not buy this today",
+   12,
+   0.0,
+   0.008333333333333333,
+   0.9166666666666666
+  ]
+ ],
+ "by_current_option": [
+  [
+   "Sell to a trade buyer, a management buyer or via a broker or nexxt-change",
+   3,
+   0.0,
+   0.02,
+   1.0
+  ],
+  [
+   "Hand over to family or an internal successor",
+   3,
+   0.0,
+   0.02,
+   1.0
+  ],
+  [
+   "Close the business or keep running without a plan",
+   2,
+   0.0,
+   0.01,
+   1.0
+  ],
+  [
+   "nothing",
+   12,
+   0.0,
+   0.008333333333333333,
+   0.9166666666666666
+  ]
+ ],
+ "by_size": [
+  [
+   "13+ people",
+   7,
+   0.0,
+   0.014285714285714287,
+   1.0
+  ],
+  [
+   "8 to 12 people",
+   7,
+   0.0,
+   0.011428571428571429,
+   1.0
+  ],
+  [
+   "under 8 people",
+   6,
+   0.0,
+   0.01,
+   0.8333333333333334
+  ]
+ ],
+ "approvers": [],
+ "why_not": [
+  [
+   "trust",
+   17,
+   [
+    "A free confidential meeting costs me nothing, and staff, name and site in writing is what I care about. But I am handing over my life's work to a firm with no track record, so I will only sign after my adviser has checked them thoroughly.",
+    "The terms read decently and the staff guarantee matters to me, but nobody has ever sold to these people and I have 24 employees and forty years in this firm. I will have a coffee with them, but I will not hand over my life's work to a newcomer without a track record."
+   ],
+   [
+    "P002",
+    "P003"
+   ]
+  ],
+  [
+   "price",
+   3,
+   [
+    "A free first meeting costs me nothing and I want to look the person in the eye, so I'll come. But I'm selling to whoever pays the most cash, and 3.5 to 4.5 times is no better than what others might offer me.",
+    "A free confidential first meeting costs me nothing and the bank letter and named directors sound serious, so I will listen. But my broker runs the process and I take the highest cash offer; 10% held back for a year and no references makes me think others will pay more at closing."
+   ],
+   [
+    "P001",
+    "P013"
+   ]
+  ]
+ ],
+ "why_yes": [],
+ "instead": [
+  "List the business on nexxt-change, talk to other buyers and my adviser, and keep running the firm myself until someone offers more cash up front.",
+  "Keep the business listed on nexxt-change and talk to a broker, trade buyers or a management buyer at around EUR 375,000, or keep working a few more years.",
+  "Keep running the business, keep listing quietly on nexxt-change, talk to my adviser and to the established buyers, and wait for a better cash offer.",
+  "Keep running the business, keep looking for a family or internal successor, and maybe list quietly on nexxt-change if that fails.",
+  "Keep running the business, keep looking for a family or staff takeover, and postpone the decision again. If that fails, list it on nexxt-change.",
+  "Keep running the shop myself, look for a successor in the family or among staff, or list quietly on nexxt-change, or simply close slowly when I retire.",
+  "Keep the business and sell to a trade or management buyer, or list on nexxt-change at about EUR 375,000, or run it a few more years.",
+  "Keep running the shop myself, and maybe look for a buyer through my tax adviser or nexxt-change, or ask a trusted employee or a local competitor.",
+  "Keep looking for a trade or management buyer, or list on nexxt-change or with a broker at around EUR 375,000.",
+  "Keep looking on nexxt-change, talk to other buyers who offer a higher cash price, or hand over to a staff member at a low price.",
+  "Keep running the business while my broker runs a process and collects offers on nexxt-change, or sell to a known buyer with a track record. Failing that, I keep working past retirement age.",
+  "Keep looking for a successor in the family or among my staff, and list the business quietly on nexxt-change to see who else comes.",
+  "Let my broker collect offers, list on nexxt-change, and sell to whoever pays the most cash, or keep running the business a few more years.",
+  "Keep looking for an internal successor or a family handover, list quietly on nexxt-change, or talk to a known trade competitor or a regional buyer I can check.",
+  "Keep running the business, list it on nexxt-change, or sell through my adviser to a competitor or a strategic buyer who pays more cash up front.",
+  "Run a broker process on nexxt-change or via my adviser, collect several offers and take the highest one with proven cash.",
+  "Keep running the business and let my adviser run a process on nexxt-change, where I can compare several offers and ask for proof of funds from each. If nobody serves me well I keep working a few more years.",
+  "Keep running the business, keep looking for a successor in the family or among staff, and let my adviser run a process on nexxt-change or with strategic buyers who already own similar firms.",
+  "Keep running the business and wait for a successor, a staff or family handover, or a known buyer through my adviser or nexxt-change.",
+  "List the business on nexxt-change and take the best cash offer from other buyers, or keep working a few more years and wind down if nobody pays enough."
+ ],
+ "flip": [
+  "A higher headline price with all the money paid at closing, or a seller who will vouch for them.",
+  "Meeting the directors in person, my adviser confirming the structure and the bank letter, and a reference from a seller or a long-held business they already run.",
+  "A higher price, 100% cash at closing or the full price in escrow, and a reference from a seller who has already sold to them, or a known, established backer I can check.",
+  "Two or three former sellers or comparable owners I can call who say you kept your word, plus my tax adviser telling me the terms are sound.",
+  "Two or three earlier sellers I can call, and my own adviser confirming the buyer and the funds.",
+  "Meeting the named directors in person, visiting a business they already own, and my own adviser confirming the bank letter and guarantee are real; longer protection for staff than 24 months.",
+  "My own bank and tax adviser confirming the funds and the directors, plus the full cash price paid at closing with a notary-secured contract.",
+  "My own tax adviser and bank vouching for them after checking, and meeting the directors in person at my site and hearing them speak to my staff.",
+  "My own adviser and bank confirming their funds and directors check out, plus a reference from someone who has dealt with them, or longer staff and site guarantees.",
+  "A seller who already sold to them and will talk to me, plus all 100 percent in cash at closing, or the 10 percent paid into my adviser's escrow account at closing.",
+  "A reference from a previous seller or from a bank or adviser I know and trust, plus a bank letter checked by my own adviser for the full price.",
+  "A reference from a seller they have already bought from, or a named owner I can phone, plus the staff and name guarantees written into the contract as enforceable terms.",
+  "100% cash at closing at a price clearly above the other bids, with the bank letter checked by my adviser.",
+  "A bank letter my own adviser and my house bank have verified, named directors I can visit and check, and a first seller reference, or a respected trade colleague who vouches for them.",
+  "A verifiable reference, for example a seller of a comparable business or a named, established backer, plus 100% cash at closing at the top of the range, checked by my adviser.",
+  "A verified bank letter for the full price, a named parent or funder my adviser can vet, and an offer at or above the best competing bid with 100% paid at closing.",
+  "A reference from an owner who sold to you or a similar buyer, plus 100% cash at closing at a price clearly above the other offers.",
+  "A reference from a comparable owner who has already sold to them, or a known bank or adviser of mine vouching for them, plus a bank letter my own adviser checks before the first real talk.",
+  "Meeting the directors in person, seeing the bank letter checked by my adviser, and a reference from someone who has dealt with them or a known name behind the company.",
+  "100% cash at closing at the top of the range or above, plus a reference from someone I can phone who has actually sold to them."
+ ],
+ "price_answers": 20
+}

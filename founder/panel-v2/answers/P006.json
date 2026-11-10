@@ -1,0 +1,20 @@
+{
+  "id": "P006",
+  "take_meeting": true,
+  "would_pilot": false,
+  "intent": "might",
+  "decision_months": 15,
+  "annual_value": 550000,
+  "first_order_value": 550000,
+  "payment_terms_days": 0,
+  "approvers": "My wife, my tax adviser and lawyer, the staff I must tell, the bank for any loans",
+  "reason_code": "trust",
+  "reason": "A free first talk costs me nothing and I want to look the buyer in the eye and hear what happens to my four people. But this is my life's work, and a new company with no earlier sellers is a big step; I will not sign on promises alone.",
+  "objection": "I do not know these people. No one before me has sold to them, so who really stands behind the company, and what happens to my staff and my name after 24 months?",
+  "instead": "Keep running the shop myself, look for a successor in the family or among staff, or list quietly on nexxt-change, or simply close slowly when I retire.",
+  "would_change_my_mind": "Meeting the named directors in person, visiting a business they already own, and my own adviser confirming the bank letter and guarantee are real; longer protection for staff than 24 months.",
+  "price_too_cheap": 250000,
+  "price_cheap": 400000,
+  "price_expensive": 650000,
+  "price_too_expensive": 850000
+}

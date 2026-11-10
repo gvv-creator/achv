@@ -1,0 +1,20 @@
+{
+  "id": "P020",
+  "take_meeting": true,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 12,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 0,
+  "approvers": "Spouse/co-owner, my tax adviser, my lawyer",
+  "reason_code": "price",
+  "reason": "The terms are cleaner than I expected and a free first meeting costs me nothing, so I will listen. But 3.5 to 4.5 times EBITDA with 10% held back for a year is not the highest cash offer, and I take the highest cash at closing, so I expect someone else to pay more.",
+  "objection": "I expect a higher price; others will pay more in cash at closing. And they have no earlier sellers to vouch for them, so my wife will ask why we should wait a year for 10% from a company nobody has dealt with.",
+  "instead": "List the business on nexxt-change and take the best cash offer from other buyers, or keep working a few more years and wind down if nobody pays enough.",
+  "would_change_my_mind": "100% cash at closing at the top of the range or above, plus a reference from someone I can phone who has actually sold to them.",
+  "price_too_cheap": 450000,
+  "price_cheap": 600000,
+  "price_expensive": 900000,
+  "price_too_expensive": 1300000
+}

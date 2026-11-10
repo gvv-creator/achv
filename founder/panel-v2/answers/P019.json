@@ -1,0 +1,20 @@
+{
+  "id": "P019",
+  "take_meeting": true,
+  "would_pilot": false,
+  "intent": "might",
+  "decision_months": 15,
+  "annual_value": 750000,
+  "first_order_value": 750000,
+  "payment_terms_days": 0,
+  "approvers": "My adviser/tax consultant, house bank, spouse; staff informed",
+  "reason_code": "trust",
+  "reason": "The staff and name guarantees are what I would want to hear, and a free first meeting costs me nothing, so I will listen. But I have never heard of Always Broke Ltd, they have bought nothing before, and this is my life's work.",
+  "objection": "A newcomer with no earlier sellers to ask, and a name like 'Always Broke'. How do I know they will still be around and keep their word to my people in two years?",
+  "instead": "Keep running the business and wait for a successor, a staff or family handover, or a known buyer through my adviser or nexxt-change.",
+  "would_change_my_mind": "Meeting the directors in person, seeing the bank letter checked by my adviser, and a reference from someone who has dealt with them or a known name behind the company.",
+  "price_too_cheap": 400000,
+  "price_cheap": 550000,
+  "price_expensive": 1000000,
+  "price_too_expensive": 1300000
+}

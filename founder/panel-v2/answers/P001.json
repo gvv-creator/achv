@@ -1,0 +1,20 @@
+{
+  "id": "P001",
+  "take_meeting": true,
+  "would_pilot": false,
+  "intent": "might",
+  "decision_months": 12,
+  "annual_value": 0,
+  "first_order_value": 900000,
+  "payment_terms_days": 0,
+  "approvers": "My accountant/tax adviser, my lawyer, my wife; the staff will want to know",
+  "reason_code": "price",
+  "reason": "A free first meeting costs me nothing and I want to look the person in the eye, so I'll come. But I'm selling to whoever pays the most cash, and 3.5 to 4.5 times is no better than what others might offer me.",
+  "objection": "I expect a higher price; others will pay more in cash at closing. And 10% held back for a year, from a company with no track record and no earlier sellers to ask, makes me nervous.",
+  "instead": "List the business on nexxt-change, talk to other buyers and my adviser, and keep running the firm myself until someone offers more cash up front.",
+  "would_change_my_mind": "A higher headline price with all the money paid at closing, or a seller who will vouch for them.",
+  "price_too_cheap": 500000,
+  "price_cheap": 650000,
+  "price_expensive": 1000000,
+  "price_too_expensive": 1200000
+}

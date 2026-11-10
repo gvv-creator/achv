@@ -1,0 +1,20 @@
+{
+  "id": "P009",
+  "take_meeting": true,
+  "would_pilot": false,
+  "intent": "might",
+  "decision_months": 12,
+  "annual_value": 375000,
+  "first_order_value": 0,
+  "payment_terms_days": 0,
+  "approvers": "my bank, my tax adviser and lawyer, my family",
+  "reason_code": "trust",
+  "reason": "A free confidential meeting costs me nothing and the staff and name promises in writing are what I care about. But they have no earlier sellers, so I would be the first to trust them with my life's work, and my adviser and bank will want to vet them thoroughly first.",
+  "objection": "What happens to my staff and my customers after I go, and can I trust a buyer who has never done this before to keep their word?",
+  "instead": "Keep looking for a trade or management buyer, or list on nexxt-change or with a broker at around EUR 375,000.",
+  "would_change_my_mind": "My own adviser and bank confirming their funds and directors check out, plus a reference from someone who has dealt with them, or longer staff and site guarantees.",
+  "price_too_cheap": 250000,
+  "price_cheap": 300000,
+  "price_expensive": 450000,
+  "price_too_expensive": 600000
+}

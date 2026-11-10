@@ -1,0 +1,20 @@
+{
+  "id": "P007",
+  "take_meeting": true,
+  "would_pilot": false,
+  "intent": "might",
+  "decision_months": 12,
+  "annual_value": 450000,
+  "first_order_value": 450000,
+  "payment_terms_days": 0,
+  "approvers": "Tax adviser, house bank, notary, family",
+  "reason_code": "trust",
+  "reason": "A higher multiple than the usual offers is interesting and a free confidential talk costs me nothing. But I have never heard of Always Broke Ltd, they have no earlier sellers, and my bank, tax adviser and notary would have to accept them.",
+  "objection": "Who are these people, and will the money really be there at closing? A buyer with no track record and a name like that is a risk to my life's work and my staff.",
+  "instead": "Keep the business and sell to a trade or management buyer, or list on nexxt-change at about EUR 375,000, or run it a few more years.",
+  "would_change_my_mind": "My own bank and tax adviser confirming the funds and the directors, plus the full cash price paid at closing with a notary-secured contract.",
+  "price_too_cheap": 300000,
+  "price_cheap": 450000,
+  "price_expensive": 700000,
+  "price_too_expensive": 1000000
+}

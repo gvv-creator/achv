@@ -1,0 +1,20 @@
+{
+  "id": "P002",
+  "take_meeting": true,
+  "would_pilot": false,
+  "intent": "might",
+  "decision_months": 14,
+  "annual_value": 420000,
+  "first_order_value": 420000,
+  "payment_terms_days": 0,
+  "approvers": "Tax adviser, lawyer, wife, house bank of the buyer",
+  "reason_code": "trust",
+  "reason": "A free confidential meeting costs me nothing, and staff, name and site in writing is what I care about. But I am handing over my life's work to a firm with no track record, so I will only sign after my adviser has checked them thoroughly.",
+  "objection": "They have no earlier sellers and no references. Who are these people really, and will my 22 staff and my customers still be looked after in three years?",
+  "instead": "Keep the business listed on nexxt-change and talk to a broker, trade buyers or a management buyer at around EUR 375,000, or keep working a few more years.",
+  "would_change_my_mind": "Meeting the directors in person, my adviser confirming the structure and the bank letter, and a reference from a seller or a long-held business they already run.",
+  "price_too_cheap": 250000,
+  "price_cheap": 320000,
+  "price_expensive": 480000,
+  "price_too_expensive": 650000
+}

@@ -71,4 +71,23 @@ Likelihood was the weakest term and drives most of the change. It moves only if 
 
 ## 6. Re-test
 
-See below (filled in after the v2 panel).
+Same 20 sellers (seed 357363), same `customer.json`, new pitch (`pitch.md`; old one in `pitch-v1.md`). Results: `founder/panel-v2/results.md` (v1 kept in `founder/results-v1.md`). Remember the v2 pitch describes an EU entity, bank letter of funds and bank-guaranteed deferred payment that **do not exist yet**: this tests what trust fixes would buy, it does not describe today's company.
+
+| | v1 | v2 |
+|---|---:|---:|
+| Would take a meeting (stated) | 5% (1 of 20) | 95% (19 of 20) |
+| Takes a meeting (realistic) | 1% | 24% |
+| Signs within 12 months (stated, "probably" or "definitely") | 0% | 0% |
+| Signs within 12 months (realistic) | 0% | 1% |
+| Intent: might / probably not / definitely not | 0 / 2 / 18 | 12 / 7 / 1 |
+| Realistic meetings from the 272 owners reached in year 1 | 3 | 65 |
+| Realistic deals closed in year 1 | 0.0 | 0.0 (cycles of 12 to 15 months push closings into year 2) |
+| Main reason for not signing | trust, 20 of 20 | trust 17, price 3 |
+
+**What moved:** the free first meeting is now an easy yes (95% against 5%), because the named directors, bank letter and written job, site and name guarantees answered most of the first-round objections. Eighteen of 20 sellers went from "definitely not" to "might" or "probably not".
+
+**What did not move:** nobody would sign. The objection that remains, in 17 sellers' words, is "no track record, no earlier sellers to call". That cannot be fixed by wording: it needs a first completed deal, or a credible reference (an adviser or bank the seller already knows vouching for the buyer, as several sellers asked). Three sellers (P001, P013, P020) are price-led and would take the highest all-cash offer from a broker process, and the 10% held back for a year still worries several.
+
+**Caveats:** only 20 simulated buyers, and the meeting rate uses the tool's default 25% calibration for stated meetings (an assumption). The price answers are ambiguous for sellers (the questions are written from a buyer's side), so they should not be used for pricing without a re-read by `/founder-pricing`.
+
+**Verdict:** the offer improved the meeting rate sharply and the sign rate from 0% to about 1%, but it is not enough to sign deals on its own. The bottleneck is the missing first deal and references, not the terms. Next steps for the founder: make the preconditions real (EU entity, committed funders, bank letter), line up bank and adviser vouching, and test with a handful of real owners, using the realistic 24% meeting rate and about 1% close rate as the bar.

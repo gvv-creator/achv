@@ -1,0 +1,20 @@
+{
+  "id": "P013",
+  "take_meeting": true,
+  "would_pilot": false,
+  "intent": "might",
+  "decision_months": 12,
+  "annual_value": 800000,
+  "first_order_value": 800000,
+  "payment_terms_days": 0,
+  "approvers": "My adviser or broker, my accountant, my wife and children, my bank",
+  "reason_code": "price",
+  "reason": "A free confidential first meeting costs me nothing and the bank letter and named directors sound serious, so I will listen. But my broker runs the process and I take the highest cash offer; 10% held back for a year and no references makes me think others will pay more at closing.",
+  "objection": "I expect a higher price; others will pay more in cash at closing, and 10% deferred for a year is money I do not have in my hand.",
+  "instead": "Let my broker collect offers, list on nexxt-change, and sell to whoever pays the most cash, or keep running the business a few more years.",
+  "would_change_my_mind": "100% cash at closing at a price clearly above the other bids, with the bank letter checked by my adviser.",
+  "price_too_cheap": 450000,
+  "price_cheap": 650000,
+  "price_expensive": 900000,
+  "price_too_expensive": 1100000
+}

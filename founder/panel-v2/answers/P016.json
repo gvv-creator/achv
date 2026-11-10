@@ -1,0 +1,20 @@
+{
+  "id": "P016",
+  "take_meeting": true,
+  "would_pilot": false,
+  "intent": "might",
+  "decision_months": 12,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 0,
+  "approvers": "My tax adviser, the broker, the buyer's house bank, my staff (informally), spouse",
+  "reason_code": "trust",
+  "reason": "The terms are cleaner than most, but a free first meeting costs me nothing and my adviser can test them. I sell to whoever shows proof of funds and pays most, so I'd want to see this buyer against others before I get excited.",
+  "objection": "No track record and no earlier sellers. A bank letter is good, but I need my adviser to verify it, and I still have 10% held back for a year and promises about staff that I'm not sure I care about as much as the top price.",
+  "instead": "Run a broker process on nexxt-change or via my adviser, collect several offers and take the highest one with proven cash.",
+  "would_change_my_mind": "A verified bank letter for the full price, a named parent or funder my adviser can vet, and an offer at or above the best competing bid with 100% paid at closing.",
+  "price_too_cheap": 450000,
+  "price_cheap": 600000,
+  "price_expensive": 900000,
+  "price_too_expensive": 1100000
+}

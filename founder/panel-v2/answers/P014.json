@@ -1,0 +1,20 @@
+{
+  "id": "P014",
+  "take_meeting": true,
+  "would_pilot": false,
+  "intent": "might",
+  "decision_months": 14,
+  "annual_value": 800000,
+  "first_order_value": 800000,
+  "payment_terms_days": 0,
+  "approvers": "My wife (co-owner), our tax adviser and lawyer, my house bank",
+  "reason_code": "trust",
+  "reason": "The terms on paper are better than I expected, and a free first talk costs me nothing, so I will listen. But I have no successor, 13 people depend on me, and I will not hand over thirty years of work to a company with no track record and no one who has done this before.",
+  "objection": "You have no track record, no sellers I can call, and I do not know who is really behind the money. If it goes wrong, my staff and my wife's retirement pay for it.",
+  "instead": "Keep looking for an internal successor or a family handover, list quietly on nexxt-change, or talk to a known trade competitor or a regional buyer I can check.",
+  "would_change_my_mind": "A bank letter my own adviser and my house bank have verified, named directors I can visit and check, and a first seller reference, or a respected trade colleague who vouches for them.",
+  "price_too_cheap": 450000,
+  "price_cheap": 600000,
+  "price_expensive": 900000,
+  "price_too_expensive": 1100000
+}

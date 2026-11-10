@@ -1,0 +1,20 @@
+{
+  "id": "P017",
+  "take_meeting": true,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 14,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 0,
+  "approvers": "My adviser or broker, my tax adviser, my house bank, my family",
+  "reason_code": "trust",
+  "reason": "A free first talk costs me nothing and the bank letter and named directors are better than most, so I will listen. But this is my life's work, I have never heard of you, and you have no earlier sellers I can ask. I would not sign with you in the next year.",
+  "objection": "You have no references. I am handing over my customers and my three people, and I only have your word that you will treat them well. I also expect a higher price, because others will pay more in cash at closing, and 10% held back for a year does not sit well with me.",
+  "instead": "Keep running the business and let my adviser run a process on nexxt-change, where I can compare several offers and ask for proof of funds from each. If nobody serves me well I keep working a few more years.",
+  "would_change_my_mind": "A reference from an owner who sold to you or a similar buyer, plus 100% cash at closing at a price clearly above the other offers.",
+  "price_too_cheap": 250000,
+  "price_cheap": 380000,
+  "price_expensive": 520000,
+  "price_too_expensive": 700000
+}

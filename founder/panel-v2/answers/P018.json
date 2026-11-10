@@ -1,0 +1,20 @@
+{
+  "id": "P018",
+  "take_meeting": true,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 14,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 0,
+  "approvers": "Tax adviser, M&A broker, notary, house bank, key staff, family",
+  "reason_code": "trust",
+  "reason": "Keeping the name, the site and my people is what matters to me, and they put it in writing, so I will hear them out for free. But I have never heard of Always Broke Ltd, they have no earlier sellers to ask, and my life's work is not something I hand to a newcomer on a promise.",
+  "objection": "Why would my bank, my tax adviser and my notary accept a buyer like this? No track record, no references, and the name alone makes me nervous. The 10% held back for a year is also not nothing.",
+  "instead": "Keep running the business, keep looking for a successor in the family or among staff, and let my adviser run a process on nexxt-change or with strategic buyers who already own similar firms.",
+  "would_change_my_mind": "A reference from a comparable owner who has already sold to them, or a known bank or adviser of mine vouching for them, plus a bank letter my own adviser checks before the first real talk.",
+  "price_too_cheap": 450000,
+  "price_cheap": 600000,
+  "price_expensive": 1000000,
+  "price_too_expensive": 1300000
+}

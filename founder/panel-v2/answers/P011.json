@@ -1,0 +1,20 @@
+{
+  "id": "P011",
+  "take_meeting": true,
+  "would_pilot": false,
+  "intent": "might",
+  "decision_months": 12,
+  "annual_value": 800000,
+  "first_order_value": 800000,
+  "payment_terms_days": 0,
+  "approvers": "My adviser or broker, my accountant, my family, and my key staff",
+  "reason_code": "trust",
+  "reason": "The terms on staff, the name and the site are better than most, and a free confidential first meeting costs me nothing. But they have never bought a business before, and this is my life's work, so I will not sell to a newcomer on promises alone.",
+  "objection": "You have no track record and no earlier sellers I can call. A bank letter is one thing, but I want to know you will still be treating my people well in five years.",
+  "instead": "Keep running the business while my broker runs a process and collects offers on nexxt-change, or sell to a known buyer with a track record. Failing that, I keep working past retirement age.",
+  "would_change_my_mind": "A reference from a previous seller or from a bank or adviser I know and trust, plus a bank letter checked by my own adviser for the full price.",
+  "price_too_cheap": 450000,
+  "price_cheap": 600000,
+  "price_expensive": 1100000,
+  "price_too_expensive": 1500000
+}
