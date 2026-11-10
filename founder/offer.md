@@ -90,7 +90,7 @@ Same cards (checked identical) as P001 to P020 of the first run, in `panel-v2/`,
 | Realistic close rate | 0% | **0%** |
 | "Definitely not" | 6 | **0** (all 20 now "probably not") |
 | Deposit as an objection | 13 mentions | **0** |
-| Local reference, liability or cap in objections and flip conditions | about 15 | **about 57** |
+| Local reference, liability or cap in objections and flip conditions | 17 | **64** |
 | Median "too expensive" price | €16.50 | **€20** |
 | Median "expensive" price | €12 | **€14** |
 
