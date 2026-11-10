@@ -18,3 +18,8 @@
 - 90% cash at close, 10% within 12 months bank-guaranteed: confirmed.
 - Adviser contribution cap EUR 5,000: confirmed.
 - Still estimates: guarantee/letter set-up EUR 2,000, deal costs 8%, holding costs EUR 5,000 a month, search EUR 20,000.
+
+## Re-run for the v2 offer (2026-11-10)
+- Month-1 ramp: set from `founder/panel-v2/results.md`: 0.0 realistic deals closed in year 1 (sellers' decision times 12 to 15 months). The scenario puts the first deal in month 4, above that figure, and says so; a sourced reason for planning above it does not exist.
+- 90% cash at close (EUR 702,000 at 3.9x), 10% (EUR 78,000) deferred within 12 months: confirmed by the founder; the deferred part is not in `startup` and is added in the note.
+- Adviser contribution EUR 5,000: confirmed by the founder. Guarantee/letter set-up EUR 2,000: estimate.

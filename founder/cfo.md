@@ -1,29 +1,33 @@
-# CFO's note: Always Broke Ltd
+# CFO's note (re-run for the v2 offer): Always Broke Ltd
 
-**This is a scenario, not a forecast.** You have not given a budget, purchase multiple, fees or a target, so the only sourced input is the 3.9x average EBITDA multiple at EUR 200k EBITDA ([DealSuite](https://www.dealsuite.com/en/blogs/european-m-a-valuation-gap-closes), undated, advisers' sample). Everything else is my estimate, listed in `cfo-sources.md`. Model: one micro business bought with equity only (no debt), no founder salary, no tax at holding level. The tool's labels say "per months" because it is built for sales; read "unit" as one acquired business-month.
+**Scenario, not a forecast.** One micro business with EUR 200,000 EBITDA (illustrative), bought with equity only. Confirmed by the founder: 3.5x to 4.5x EBITDA, 90% cash at close / 10% within 12 months bank-guaranteed, EUR 5,000 adviser cap. Still my estimates: EUR 5,000 a month holding costs, 8% deal costs, EUR 20,000 search, EUR 2,000 guarantee set-up, 75% cash conversion (see `cfo-sources.md`). The tool's labels say "per months" because it is built for sales; read "unit" as one acquired business-month.
+
+## The ramp: this plan is above what the panel supports
+The v2 panel (`founder/panel-v2/results.md`) shows **0.0 realistic deals closed in year 1**, because sellers said they would take 12 to 15 months to decide; the 1% realistic close rate pushes the 3 or so closings into year 2. The scenario below puts the first deal in **month 4**, which is **above the market's realistic demand**, so on the skill's own rule the plan fails on the ramp. I kept it only to show the economics of one deal once it closes. Honest year 1 if no deal closes: about **-EUR 60,000** of holding costs (tool) plus EUR 20,000 of search (input), roughly **EUR 80,000 spent with no income**; the EUR 0.79m purchase moves to year 2.
 
 ## The margin
-- The acquired business leaves **EUR 12,500 a month** (EUR 200k EBITDA x an assumed 75% cash conversion / 12). After EUR 5,000 a month of holding costs, **EUR 7,500 a month**.
-- The tool's "60% margin" is that 7,500 / 12,500 and is not a return. The return is what matters: **EUR 862,400 invested earns EUR 90,000 a year, about 10.4%, before debt service or tax**, and a payback of **about 9.6 years** (862,400 / 7,500 / 12, my arithmetic from the inputs).
+- One acquired business leaves **EUR 12,500 a month** (200,000 x 75% / 12); after EUR 5,000 holding costs, **EUR 7,500**.
+- The tool's 60% "margin" is that 7,500 / 12,500, not a return. Total invested at 3.9x is EUR 791,400 at close plus EUR 78,000 deferred = **EUR 869,400**, earning EUR 90,000 a year: **about 10.4%**, **payback about 9.7 years** (869,400 / 7,500 / 12, my arithmetic). Before debt service and tax.
 
-## The line to watch
-**The purchase multiple against the cash conversion, and holding costs on a single business.**
-- At 3.0x instead of 3.9x, cash needed falls to EUR 683,000 and payback is about 7.2 years.
-- With 100% cash conversion (EUR 16,667 a month), payback is about 6.2 years.
-- Holding costs of EUR 5,000 a month eat 40% of one business's cash. It takes at least 0.4 of a business just to pay for the company; the first deal cannot carry the structure alone.
+## The line to watch: the purchase multiple, then cash conversion
+| Multiple (confirmed range) | Cash needed (tool) + deferred | Payback (my arithmetic) |
+|---|---|---|
+| 3.5x | EUR 728,000 + 70,000 = EUR 798,000 | about 8.7 years |
+| 3.9x | EUR 806,400 + 78,000 = EUR 884,400 | about 9.7 years |
+| 4.5x | EUR 924,000 + 90,000 = EUR 1,014,000 | about 11.1 years |
 
 ## Cash
-**EUR 877,400 before it pays for itself** (purchase EUR 780,000 + deal costs EUR 62,400 + search EUR 20,000 + 3 months of holding costs). All of it is unfunded today; funders are not identified. Year 1 operating profit is EUR 52,500, because the first deal only closes in month 4 in this scenario.
+**EUR 806,400 before it pays for itself, plus the EUR 78,000 deferred payment due within 12 months: about EUR 884,400.** The 90/10 split lowers the cash at close by EUR 78,000 compared with 100% cash, but the deferred part still has to be funded and bank-guaranteed (guarantee fee beyond EUR 2,000 not modelled). Nothing is funded today.
 
-## Three ways to improve the result (each run through the tool, arithmetic mine)
-1. **Buy cheaper: 3.0x not 3.9x.** Cash needed EUR 877,400 to EUR 683,000; payback about 9.6 to 7.2 years. Cost: lower multiples mean weaker or more owner-dependent targets.
-2. **Seller note for half the price.** Cash needed falls to EUR 487,400; payback on cash invested about 5 years. This ignores note repayments, which will take real cash, so treat it as a funding shape, not free money.
-3. **Spread holding costs over three businesses** (EUR 2.5m of purchases): year 1 operating profit EUR 165,000 and payback about 6.5 years. It needs EUR 2,562,200 of cash, which is far above anything the board has seen.
+## Three ways to improve the result (each run through the tool)
+1. **Buy at the low end, 3.5x.** Cash needed EUR 806,400 to EUR 728,000; payback 9.7 to about 8.7 years. Cost: cheaper targets are usually weaker or more owner-dependent.
+2. **Pick targets with better cash conversion.** At 100% conversion (EUR 16,667 a month) year 1 profit rises from EUR 52,500 to EUR 90,003 and payback falls to about 6.2 years (869,400 / 11,667). Needs real accounts to know.
+3. **Spread holding costs over three businesses.** Year 1 profit EUR 165,000 and payback about 6.6 years, but cash needed rises to EUR 2,349,200 (plus EUR 234,000 deferred). Not fundable on anything the board has seen.
 
 ## Do the board's money conditions hold?
-No. Not met: written funder offer (returns, fees, term, minimum raise), named funder commitment, defined target criteria and multiple range, committed capital for deal one. This note shows the minimum raise for one EUR 200k-EBITDA business is about EUR 0.9m before any buffer, and that it returns roughly 10% a year before debt and tax. A funder will compare that to alternatives.
+No. Still not met: written funder offer (returns, fees, term, minimum raise), named funder commitment, defined target criteria and multiple range beyond the confirmed 3.5x to 4.5x, committed capital for deal one, and a legal and tax opinion on the Belize holding. This note shows the minimum raise for one EUR 200,000-EBITDA business is about **EUR 0.9m** before any buffer, returning roughly 10% a year before debt and tax, with a 9 to 11 year payback.
 
-Not financial, tax or legal advice. An accountant must check the structure, payroll, holding-company tax and any treaty position (Belize/EU) before money moves.
+Not financial, tax or legal advice. An accountant must check the structure, payroll, holding-company tax and the Belize/EU position before money moves.
 
 ---
 
@@ -49,35 +53,35 @@ Fixed costs: €5,000 a month (Holding company accounting, audit, registered age
 
 ## Year 1, month by month
 
-| month | acquired business, per months a month | revenue | profit | cumulative (after €862,400 startup) |
+| month | acquired business, per months a month | revenue | profit | cumulative (after €791,400 startup) |
 | ---: | ---: | ---: | ---: | ---: |
-| 1 | 0.0 | €0 | -€5,000 | -€867,400 |
-| 2 | 0.0 | €0 | -€5,000 | -€872,400 |
-| 3 | 0.0 | €0 | -€5,000 | -€877,400 |
-| 4 | 1.0 | €12,500 | €7,500 | -€869,900 |
-| 5 | 1.0 | €12,500 | €7,500 | -€862,400 |
-| 6 | 1.0 | €12,500 | €7,500 | -€854,900 |
-| 7 | 1.0 | €12,500 | €7,500 | -€847,400 |
-| 8 | 1.0 | €12,500 | €7,500 | -€839,900 |
-| 9 | 1.0 | €12,500 | €7,500 | -€832,400 |
-| 10 | 1.0 | €12,500 | €7,500 | -€824,900 |
-| 11 | 1.0 | €12,500 | €7,500 | -€817,400 |
-| 12 | 1.0 | €12,500 | €7,500 | -€809,900 |
+| 1 | 0.0 | €0 | -€5,000 | -€796,400 |
+| 2 | 0.0 | €0 | -€5,000 | -€801,400 |
+| 3 | 0.0 | €0 | -€5,000 | -€806,400 |
+| 4 | 1.0 | €12,500 | €7,500 | -€798,900 |
+| 5 | 1.0 | €12,500 | €7,500 | -€791,400 |
+| 6 | 1.0 | €12,500 | €7,500 | -€783,900 |
+| 7 | 1.0 | €12,500 | €7,500 | -€776,400 |
+| 8 | 1.0 | €12,500 | €7,500 | -€768,900 |
+| 9 | 1.0 | €12,500 | €7,500 | -€761,400 |
+| 10 | 1.0 | €12,500 | €7,500 | -€753,900 |
+| 11 | 1.0 | €12,500 | €7,500 | -€746,400 |
+| 12 | 1.0 | €12,500 | €7,500 | -€738,900 |
 
 - **Year 1 operating profit: €52,500** on €112,500 of revenue.
-- After the €862,400 startup spend: -€809,900.
+- After the €791,400 startup spend: -€738,900.
 - Startup money earned back: not within year 1.
-- Cash you need before it pays for itself: **€877,400**.
+- Cash you need before it pays for itself: **€806,400**.
 - Largest customer: 25% of revenue.
 
 ## What if
 
 | scenario | margin at plan | break-even a month | year 1 profit | cash needed |
 | --- | ---: | ---: | ---: | ---: |
-| Base plan | 60% | 1 | €52,500 | €877,400 |
-| Price -10% | 56% | 1 | €41,250 | €877,400 |
-| Volume -20% | 50% | 1 | €30,000 | €877,400 |
-| Unit costs +15% | 60% | 1 | €52,500 | €877,400 |
+| Base plan | 60% | 1 | €52,500 | €806,400 |
+| Price -10% | 56% | 1 | €41,250 | €806,400 |
+| Volume -20% | 50% | 1 | €30,000 | €806,400 |
+| Unit costs +15% | 60% | 1 | €52,500 | €806,400 |
 
 ## Red flags
 
