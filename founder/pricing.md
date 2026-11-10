@@ -1,3 +1,76 @@
+# Pricing update after the account panel (Hevadex Malta, Protected Handover)
+
+*Added 10 Nov 2026 after the 100-buyer panel. The earlier rate card is kept below, unchanged, under "Rate card (earlier version)". Panel answers are from simulated buyers: use them to choose what to test, not as proof. All prices ex VAT.*
+
+## 1. What the buyers said (price curve, per m² all-in)
+
+Buyers were shown the all-in price of about **€19/m²** (ACHV €12.26 plus applicator labour about €6.70). Detail in `pricing-curve.md`.
+
+| point | €/m² all-in |
+| --- | ---: |
+| PMC (below this, doubted as too cheap) | 4.04 |
+| OPP (least resistance) | 7.01 |
+| IPP (bargain = expensive) | 8.02 |
+| PME (above this, too many refuse) | **13.98** |
+
+Median answers: too cheap €3, bargain €6, getting expensive €10.50, too expensive €15. The offered €18.96 is **above the acceptable range**. Share of buyers who do not call a price "too expensive": 71% at €12, 54% at €14, 41% at €16, 30% at €18.96. Only 2% would call €18.96 merely "getting expensive".
+
+Two cautions. (1) A few buyers said they set price points themselves because the brief gave no basis (P016, P090, P096), and P074's answers look like totals, so the range is soft. (2) **Price is not the only blocker.** 30% of buyers did not call €18.96 too expensive, yet none of the 100 would buy. Budget ownership (the subcontract package), liability for removal damage, ACHV being a contractor, and no local reference blocked them as much as price. Cutting price alone would not have produced orders.
+
+## 2. The finding that matters: the acceptable range is below ACHV's cost
+
+All-in = ACHV price + applicator labour (about €6.70/m²). At the top of the acceptable range (€13.98) ACHV's share is **€7.28/m²**. ACHV's variable cost is about €6.74/m² (material €5.94, QA €0.80) plus 2% claims and 2% bad debt on revenue.
+
+| ACHV price /m² | all-in /m² | contribution per 300 m² job | break-even jobs/month | year-1 result (CFO tool) |
+| ---: | ---: | ---: | ---: | ---: |
+| €7.28 | €13.98 | **€45 (2%)** | 285 | –€150,809 |
+| €12.26 (current) | €18.96 | €1,509 (41%) | 9 | –€79,155 |
+
+So the price buyers will tolerate leaves ACHV no margin at the plan's €9/kg landed cost. **The range cannot be reached by pricing. It can only be reached by cost, by a different cost-bearer, or by a different offer.**
+
+- **Cost lever (the number for Hevadex).** For 40% gross margin at €7.28/m², OMNIGUARD must land at about **€5/kg** (0.66 kg/m², with QA €0.80), roughly €4.30/kg ex works at the 1.15 landing factor. Plan is €9/kg landed. Even BLOWERPROOF's real quote is €5.80/kg ex works. This is a negotiating target, not a forecast.
+- **Cost-bearer lever.** The buyers who would move said the developer or main contractor must specify and pay for it. A line item paid by the party who bears the damage is not tested against the subcontractor's film budget.
+- **Labour lever.** Applicator labour of €6.70/m² is more than a third of the all-in price. It is an unquoted assumption; a lower labour cost moves ACHV's share more than any discount would.
+
+## 3. Against what the buyer pays today (B2B)
+
+- Buyers who buy protection today put it at about €12/m² all-in with their own labour (film, sheet, tape), which is the plan's assumption and still unverified. Offer €18.96 is about 58% above it. Many said they would reconsider at **€12–14 all-in**, with no deposit and 60-day terms.
+- Many stated their annual damage cost directly; across the panel it ran from a few hundred euro to about €10k a year per account, against €19,000 for a 1,000 m² year of the offer. Most small accounts therefore cannot justify it on avoided damage alone. This agrees with the board's ≥€6.96/m² hurdle, which no account has yet shown.
+- The **Supply rung** (OMNIGUARD at €15.50/kg, about €10.24/m²) plus the buyer's own labour is about €17/m² all-in, also above the acceptable range, and it has the same removal-liability problem. It only helps buyers whose objection is "no ACHV people on my site" (several said so: P007, P014, P016, P037, P039, P080, P091). Do not expect it to fix price.
+- Minimum job size: several small contractors use under about 150 m² a year, so the 150 m² minimum excludes them (P064, P065).
+
+## 4. Payment terms as part of the price
+
+Buyers expect **60 days** and pushed back on the 50% deposit (it appears in 44 of the 100 answers). Malta's all-sector average is about 80 days (M8). The CFO tool shows 90-day collection adds about €26k of year-1 cash. The deposit/60-day clash is a price objection in itself: first-order deposits should be tested as a condition, not assumed.
+
+## 5. Decision
+
+1. **Do not cut the price to chase the curve.** At €7.28 ACHV earns nothing; at €12.26 it earns 41% but sells to nobody in this panel. Keep €12.26 ACHV (€18.96 all-in) as the list price for the test, and **do not move to the €13.49 "Plus" rung yet**: nothing in the panel supports a premium.
+2. **Re-base the plan on cost and payer, not discount.** Ask Hevadex for an OMNIGUARD price consistent with about €5/kg landed. If it cannot be reached, the lead product is not viable at the range buyers will pay.
+3. **Re-aim the offer at the payer.** Test a developer- or main-contractor-specified line item, with insured removal-damage cover, before testing price again.
+4. **No numbers change yet.** `numbers.json` stays at €12.26/m². What changes is demand: re-run `/founder-cfo` with the panel's 0% realistic close rate and 60 to 80 day terms.
+
+## 6. What to test with real buyers
+
+- **Two all-in prices, both quoted per m² including labour:** €18.96 (current) and about €14 (the top of the acceptable range, which needs a cost or labour change to be viable). Record who chooses what, with deposit and no-deposit terms.
+- **Who pays:** quote the same job to the glazing subcontractor and to the main contractor or developer, and record who accepts a priced line.
+- **Insurance-backed damage cover versus none**, at the same price.
+- **Add the four price questions to the 15 discovery interviews**, as real answers beat these simulated ones. Run `/founder-pricing` again on them.
+
+## 7. Top price objections (verbatim, simulated buyers)
+
+1. "I pay about 12 a square metre today with film and my own lads, and this is 19 plus a minimum job size and a deposit. The aluminium already comes with factory film, so I'd be paying 60% more to fix a problem I mostly manage with snagging." (P010)
+2. "We spend about 9k a year on snagging damage from contingency, and 19 per m2 across a block would cost more than the damage it prevents." (P026)
+3. "We pay suppliers at 60 to 90 days, not 50% up front, and a credit check on top is a non-starter." (P026)
+
+## Effect on the CFO numbers
+
+No change to `numbers.json`. A re-run of `/founder-cfo` is needed for demand and payment terms, not price. If cost per kg cannot reach about €5 landed, the unit economics fail at any price buyers will accept.
+
+---
+
+# Rate card (earlier version, before the panel)
+
 # Pricing: Hevadex range in Malta (ACHV)
 
 Market: **Malta only.** All prices are ex VAT unless marked; Malta's standard VAT of 18% is added on top. Not financial, tax or legal advice.

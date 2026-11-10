@@ -1,5 +1,16 @@
-# Price-sensitivity curve (Van Westendorp)
+# Price sensitivity
 
-**Not run.** The buyer panel (`/founder-consumer`) has not been run for Hevadex Malta, so there are no "too cheap / bargain / getting expensive / too expensive" answers to plot. This file stays empty rather than inventing a range.
+100 complete answers. Simulated buyers: use this to pick what to test, not as the final word.
 
-To fill it: run `/founder-consumer` in B2B mode with developers, main contractors, glazing/façade contractors, waterproofing applicators and specifiers in Malta, asking the four price questions for each application (per m² installed, and per kg for product-only buyers). Real answers from the 15 Phase-1 discovery interviews would be better still: add the four questions to the interview script.
+| point | price | what it means |
+| --- | ---: | --- |
+| PMC | €4.04 | below this, too many think it is too cheap to be good |
+| OPP | €7.01 | as many say too cheap as too expensive: the least resistance |
+| IPP | €8.02 | as many call it a bargain as call it expensive |
+| PME | €13.98 | above this, too many say it is too expensive to buy |
+
+**Acceptable range: €4.04 to €13.98.**
+
+Median answers: too cheap €3.00, a bargain €6.00, getting expensive €11.00, too expensive €15.00.
+
+Your current price, €18.96, is **above** the acceptable range.
