@@ -1,0 +1,20 @@
+{
+  "id": "P076",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 0,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 30,
+  "approvers": "None, I decide alone",
+  "reason_code": "fit",
+  "reason": "I'm a small contractor on houses and small blocks. Glazing damage before handover is the glazing subcontractor's problem, not mine, so I have no budget line for this. I'm not paying €19 a m² on top of my costs for something a sub should cover.",
+  "objection": "Why would I pay to protect someone else's glazing? If the subcontractor wants it, he can buy it and put it in his price.",
+  "instead": "Leave it to the glazing subcontractor, who covers the frames with tape or film himself, and clean up before handover.",
+  "would_change_my_mind": "If my glazing sub offered it inside his quote at no extra cost to me, or if a client demanded it in writing, I would accept it. I still wouldn't buy it myself.",
+  "price_too_cheap": 3,
+  "price_cheap": 5,
+  "price_expensive": 9,
+  "price_too_expensive": 14
+}

@@ -1,0 +1,20 @@
+{
+  "id": "P080",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 0,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Contracts director, procurement, directors for any new supplier",
+  "reason_code": "price",
+  "reason": "We do this with film and tape by our own labour at about 12 a m2. This is 19 a m2 and it comes from a contractor who would be on my site and see my programme. I won't put a competitor on site for a more expensive product.",
+  "objection": "ACHV is a contractor too. I don't want a competitor on my site or seeing my programme, and it costs over 50% more than what we do now.",
+  "instead": "Keep using self-adhesive film, sheet or board with tape applied by our own labour.",
+  "would_change_my_mind": "Product-only supply at around 5 a m2 that my own labour can apply, with a reference from another large Maltese contractor showing it is cheaper than film and tape all-in.",
+  "price_too_cheap": 5,
+  "price_cheap": 8,
+  "price_expensive": 13,
+  "price_too_expensive": 16
+}

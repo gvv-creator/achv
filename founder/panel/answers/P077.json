@@ -1,0 +1,20 @@
+{
+  "id": "P077",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 0,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Developer / main contractor via subcontract package",
+  "reason_code": "price",
+  "reason": "I pay about €12 a m² all-in with my own labour and spend under €4,000 a year on this. €19 a m² is over 50% more, with a 150 m² minimum and a deposit, for a problem I already solve. Also they are a contractor and I don't want them on my site seeing my programme.",
+  "objection": "It costs more than my film and tape, and the developer decides what protection is specified anyway, so nobody is paying me extra for it. I also don't want a competitor on site.",
+  "instead": "Keep using self-adhesive film, plastic sheet or board with tape, applied by my own labour.",
+  "would_change_my_mind": "A developer or main contractor specifying it in the subcontract package and paying for it, at or below what I pay now per m².",
+  "price_too_cheap": 6,
+  "price_cheap": 9,
+  "price_expensive": 13,
+  "price_too_expensive": 16
+}

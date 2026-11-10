@@ -1,0 +1,20 @@
+{
+  "id": "P079",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 0,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 30,
+  "approvers": "Developer or main contractor who sets the subcontract package",
+  "reason_code": "price",
+  "reason": "Film and tape cost me pennies a square metre and nobody in the subcontract package asks me for anything more. I'm not paying about €19/m² for something the main contractor hasn't specified and won't pay for.",
+  "objection": "Almost €19/m² for a peel-off coating when film and tape cost well under €1/m² in material. It's a new budget line and a new supplier for no extra income on the job.",
+  "instead": "Keep using cheap protection film and tape, bought locally, and pass any damage risk back through the subcontract terms.",
+  "would_change_my_mind": "If the developer or main contractor wrote it into the specification and paid for it as a separate line, I'd look at it.",
+  "price_too_cheap": 2,
+  "price_cheap": 3,
+  "price_expensive": 5,
+  "price_too_expensive": 8
+}

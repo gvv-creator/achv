@@ -1,0 +1,20 @@
+{
+  "id": "P078",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 9,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Developer or main contractor, glazing subcontractor, architect/project manager",
+  "reason_code": "contract",
+  "reason": "Window protection is set in the subcontract package by the developer or main contractor, and I don't buy it today. A new line at about €19/m² would have to be agreed with them and priced in. Otherwise it comes straight out of my margin, and I'm not doing that for a new supplier.",
+  "objection": "If the coating marks the frame or the coated glass when it comes off, who pays? The manufacturer excludes it, and I would be left carrying the claim. A 50% deposit and a credit check on top is a lot to ask of a firm I've never dealt with.",
+  "instead": "Cheap protection film and taping by the glazing installer, plus care on site, and I accept the occasional snagging or replacement. If a developer insists on protection, I do whatever the spec says.",
+  "would_change_my_mind": "A developer or main contractor specifying it and paying for it in the subcontract package, with ACHV carrying written liability for damage to frames and glass, plus two local references on premium blocks.",
+  "price_too_cheap": 5,
+  "price_cheap": 8,
+  "price_expensive": 14,
+  "price_too_expensive": 20
+}

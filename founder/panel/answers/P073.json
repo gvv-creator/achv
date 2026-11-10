@@ -1,0 +1,20 @@
+{
+  "id": "P073",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 12,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Owner/director, and the main contractor or client for any non-standard spec",
+  "reason_code": "price",
+  "reason": "We cover glazing with film and tape at well under a euro a square metre in material, and nobody asks us to pay about €19/m² for a coating. It would be a new budget line and a new supplier for something that is cheap to protect today.",
+  "objection": "€19/m² is many times what film and tape cost us, and I've never seen it used in Malta. Where is a local job I can go and look at?",
+  "instead": "Keep using protection film, tape and cardboard on the frames, and pay for cleaning at handover where needed.",
+  "would_change_my_mind": "A local reference job I can visit, plus a free trial on one of my floors, and a price close to film cost, about €3 to 4/m² all-in.",
+  "price_too_cheap": 1.5,
+  "price_cheap": 3,
+  "price_expensive": 7,
+  "price_too_expensive": 12
+}
