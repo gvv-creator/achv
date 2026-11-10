@@ -1,0 +1,20 @@
+{
+  "id": "P039",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 6,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "None, I decide alone",
+  "reason_code": "trust",
+  "reason": "ACHV is a contractor too and I don't want a competitor on my site or seeing my programme. On houses and small blocks, glazing damage is cheap to fix or I tape and cover the frames myself, so I can't see a new budget line and a new supplier being worth it.",
+  "objection": "A competitor on my site seeing my programme and my clients, and 19 euro per m2 coming straight off my margin on a small job.",
+  "instead": "Keep taping and covering frames with cheap protection film and cleaning up at handover, and absorb the odd replacement.",
+  "would_change_my_mind": "Supply-only product from a neutral distributor, no ACHV staff on my site, with a short trial on one of my own frames showing it saves more than it costs.",
+  "price_too_cheap": 3,
+  "price_cheap": 6,
+  "price_expensive": 11,
+  "price_too_expensive": 16
+}

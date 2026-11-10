@@ -1,0 +1,20 @@
+{
+  "id": "P032",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 9,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Site manager and glazing subcontractor; I decide alone",
+  "reason_code": "price",
+  "reason": "We don't pay for this today and glazing damage is a small line against the job. At about 19 euro per m2 it is a new cost on every block, when I can get film and tape for well under a euro per m2 in material and my own labourers put it on.",
+  "objection": "In July and August half the facade is in full sun. When can you even apply it, and who pays when it bakes on or peels off badly? I'd also have an outside applicator on my site and a 50% deposit up front.",
+  "instead": "Keep using cheap film and tape, and boards on the worst spots. Chase the glazing subcontractor for any damage and pay for the odd replacement pane.",
+  "would_change_my_mind": "A reference from another Maltese main contractor showing the coating saved more in replaced glass and cleaning than it costs, at a price near 6 to 8 euro per m2 all-in, with free trial on one block and no deposit.",
+  "price_too_cheap": 3,
+  "price_cheap": 6,
+  "price_expensive": 10,
+  "price_too_expensive": 15
+}

@@ -1,0 +1,20 @@
+{
+  "id": "P036",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 9,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 30,
+  "approvers": "Just me; site manager and the developer client would want a say",
+  "reason_code": "roi",
+  "reason": "I spend about 342 euro a year on cleaning and replacing damaged frames out of contingency. Paying 19 euro per m2 on a 1,000 m2 year is 19,000, which is far more than the problem costs me. It is not worth my time or margin.",
+  "objection": "If the coating marks the frame or the coated glass when it comes off, who pays? The manufacturer excludes it, and I would be paying 19,000 to take on a new risk for a problem that costs me 342.",
+  "instead": "Keep doing nothing special: clean and polish at snagging, pay for the odd damaged item from contingency, and cover frames with cheap tape or film on a few premium units if needed.",
+  "would_change_my_mind": "Written cover from ACHV or the manufacturer for any damage the coating causes on removal, plus a price under about 5 euro per m2 all-in, or a client who insists on protected handover and pays for it.",
+  "price_too_cheap": 1.5,
+  "price_cheap": 3,
+  "price_expensive": 6,
+  "price_too_expensive": 10
+}
