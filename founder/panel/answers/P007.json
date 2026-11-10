@@ -1,0 +1,20 @@
+{
+  "id": "P007",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 9,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Owner/partner, main contractor or site manager, window and coating manufacturer for warranty",
+  "reason_code": "trust",
+  "reason": "ACHV is a contractor too, and I don't want a competitor on my site seeing my programme and my clients. We don't buy this today, so it would also mean a new supplier and a new budget line for a job we already handle with cheap film and tape.",
+  "objection": "I can't risk a peelable coating marking or leaving residue on coated glass or anodised frames, and I would be handing site access and my programme to a competitor.",
+  "instead": "Keep using cheap protection film and tape, and careful site housekeeping. We accept the occasional cleaning or replacement cost.",
+  "would_change_my_mind": "Written compatibility confirmation from the glass and frame manufacturers for coated glass and finishes, plus a reference from another glazing contractor, and the option of supply-only product with no ACHV staff on my site.",
+  "price_too_cheap": 3,
+  "price_cheap": 6,
+  "price_expensive": 11,
+  "price_too_expensive": 16
+}

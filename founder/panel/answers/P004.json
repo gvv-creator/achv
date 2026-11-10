@@ -1,0 +1,20 @@
+{
+  "id": "P004",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 0,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Developer or main contractor, who set the subcontract package and pay for protection",
+  "reason_code": "budget",
+  "reason": "Protection of glazing is set in the subcontract package by the developer or main contractor, not by me. I am a site manager and cannot start a new budget line and a new supplier on my own. Film and tape cost us next to nothing.",
+  "objection": "Film and tape cost almost nothing, so why pay about 19 euro per m2 for a coating? It is a new supplier and a new budget line that nobody has asked me for.",
+  "instead": "Keep using cheap protection film and tape bought locally, and leave glazing protection to whatever the developer's package already specifies.",
+  "would_change_my_mind": "The developer or main contractor writing it into the specification and paying for it, or proof that it cuts glazing damage claims and snagging by far more than it costs.",
+  "price_too_cheap": 2,
+  "price_cheap": 4,
+  "price_expensive": 8,
+  "price_too_expensive": 12
+}

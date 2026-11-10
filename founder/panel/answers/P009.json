@@ -1,0 +1,20 @@
+{
+  "id": "P009",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 0,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Owner decides alone",
+  "reason_code": "fit",
+  "reason": "The glazing subcontractor is responsible for damage until handover, not me, so I have no budget line for this. On small jobs I just tape or film the frames myself if I want to, and I buy the cheapest thing that works.",
+  "objection": "At about €19 per m² it costs many times more than film and tape, and it is a cost for protecting someone else's glazing. A new supplier and a new budget line are not worth it for a 6-person firm.",
+  "instead": "Leave frame protection to the glazing subcontractor, or use cheap protection film and tape from the hardware store on the odd job where I need it.",
+  "would_change_my_mind": "The glazing sub or the developer paying for it as a priced line on the contract, or a price close to film and tape cost per m² with no 150 m² minimum.",
+  "price_too_cheap": 1,
+  "price_cheap": 2.5,
+  "price_expensive": 5,
+  "price_too_expensive": 8
+}
