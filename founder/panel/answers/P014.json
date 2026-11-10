@@ -1,0 +1,20 @@
+{
+  "id": "P014",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 12,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Owner/director, plus the client or main contractor on the job",
+  "reason_code": "trust",
+  "reason": "ACHV is a contractor too, and I don't want a competitor on my site or seeing my programme. At about €19 per m² it also costs more than a cheap film or tape, and we spend only about €800 a year on this, so it isn't worth the paperwork.",
+  "objection": "A competing contractor on my site, seeing my programme and my clients, plus a 50% deposit and a credit application just to start.",
+  "instead": "Keep using cheap protection film and tape, applied by my own lads, and keep the glazing damage claims in the snagging list.",
+  "would_change_my_mind": "A neutral, non-contracting applicator, no deposit on a small job, and a local reference from a contractor my size showing fewer glazing claims.",
+  "price_too_cheap": 4,
+  "price_cheap": 7,
+  "price_expensive": 14,
+  "price_too_expensive": 20
+}

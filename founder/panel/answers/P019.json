@@ -1,0 +1,20 @@
+{
+  "id": "P019",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 9,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 30,
+  "approvers": "Owner decides alone; I would only recommend",
+  "reason_code": "risk",
+  "reason": "We don't buy this today, and I'd rather clean frames at handover the way we always have than add a new supplier and a budget line. The owner won't pay about €19/m² on small house and block jobs, and I don't want to answer for a coating that marks the frames.",
+  "objection": "If the coating marks the frame or the coated glass when it comes off, who pays? The manufacturer excludes it, and I'm the one with the snagging list.",
+  "instead": "Cheap protection film and tape from the hardware store, covering windows by hand, and cleaning glass at handover.",
+  "would_change_my_mind": "A written guarantee from ACHV, backed by insurance, that they pay for any damage to frames or glass from the coating or its removal, plus a nearby site I can visit to see it peeled off clean.",
+  "price_too_cheap": 4,
+  "price_cheap": 8,
+  "price_expensive": 14,
+  "price_too_expensive": 20
+}

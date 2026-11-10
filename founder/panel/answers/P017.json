@@ -1,0 +1,20 @@
+{
+  "id": "P017",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 0,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "None, I decide alone",
+  "reason_code": "roi",
+  "reason": "I spend about 2,400 a year on glazing damage, paid from contingency. You want 19,000 on a 1,000 m2 year to avoid that. I would be paying eight times the problem.",
+  "objection": "The cost of the coating is many times what the damage costs me. I have never seen it on a Maltese job, and a 150 m2 minimum plus 50% deposit is a lot to ask of a new supplier.",
+  "instead": "Carry on as now: clean and polish at snagging, pay for the odd replacement from contingency, and use cheap film and tape on the worst exposed frames if needed.",
+  "would_change_my_mind": "A local job with a client I know, showing the all-in cost under about 3 euro per m2 and snagging savings bigger than that cost.",
+  "price_too_cheap": 1,
+  "price_cheap": 3,
+  "price_expensive": 8,
+  "price_too_expensive": 14
+}

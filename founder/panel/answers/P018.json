@@ -1,0 +1,20 @@
+{
+  "id": "P018",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 0,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Nobody else; the owner decides alone",
+  "reason_code": "risk",
+  "reason": "We don't buy this today and I'm not creating a new budget line and a new supplier for a coating I'd have to trust on our clients' frames. If it marks the frame or the glass when it comes off, I'm left carrying it, and at about €19 per m² it costs more than the damage it prevents on our small jobs.",
+  "objection": "If the coating marks the frame or the coated glass when it comes off, who pays? The manufacturer excludes it, and I will not take that risk on a client's windows.",
+  "instead": "Keep doing what we do now: ask the glazing installer to cover the frames with cheap protection film or tape, and clean up at handover.",
+  "would_change_my_mind": "ACHV or the manufacturer accepting written liability for frame and glass damage on removal, backed by insurance, plus a reference from a contractor I know in Malta.",
+  "price_too_cheap": 4,
+  "price_cheap": 6,
+  "price_expensive": 10,
+  "price_too_expensive": 14
+}
