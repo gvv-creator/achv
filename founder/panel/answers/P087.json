@@ -1,0 +1,20 @@
+{
+  "id": "P087",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 24,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Main contractor or developer who sets the subcontract package; owner/director",
+  "reason_code": "price",
+  "reason": "We use film and tape that cost almost nothing, and the main contractor decides what protection we provide and who pays. I can't take a new supplier at about €19/m2 to my director, and I can't sign that spend anyway.",
+  "objection": "Film and tape cost well under €1/m2 in material. Nobody on a small house or block job is going to pay about €19/m2, and a 150 m2 minimum is bigger than most of our jobs.",
+  "instead": "Keep using cheap protection film and tape, applied by our own crew, as the subcontract package requires.",
+  "would_change_my_mind": "The developer or main contractor writing it into the spec and paying for it themselves, or a price close to film and tape cost.",
+  "price_too_cheap": 1,
+  "price_cheap": 2,
+  "price_expensive": 5,
+  "price_too_expensive": 9
+}

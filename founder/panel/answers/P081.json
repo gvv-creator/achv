@@ -1,0 +1,20 @@
+{
+  "id": "P081",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 0,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 30,
+  "approvers": "Nobody, I decide alone, and the answer is no",
+  "reason_code": "price",
+  "reason": "I pay about €12 a m² today with my own men and film, and you want €19 plus a deposit, a minimum job size and your approved applicator. I spend under €900 a year on this, so it is not worth changing how I work.",
+  "objection": "It costs more than what I do now, it is a small spend for me anyway, and in July and August with the façade in full sun I do not trust a sprayed coating to go on and come off cleanly.",
+  "instead": "Keep using self-adhesive film and plastic sheet with tape, applied by my own labour, from the same suppliers I have used for years.",
+  "would_change_my_mind": "A price at or below what I pay now, plus a job I can walk and see where it came off clean from the sun-baked frames, with no deposit.",
+  "price_too_cheap": 5,
+  "price_cheap": 8,
+  "price_expensive": 14,
+  "price_too_expensive": 17
+}
