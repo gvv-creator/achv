@@ -1,0 +1,20 @@
+{
+  "id": "P002",
+  "take_meeting": true,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 14,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 30,
+  "approvers": "My tax adviser, my lawyer, my house bank, key staff informally",
+  "reason_code": "trust",
+  "reason": "The price sounds better than the 375,000 I would get on nexxt-change, but a new Belize shell with no track record and no committed funding is not someone I hand 22 people and my name to. A free first meeting is fine, but my adviser will pick it apart.",
+  "objection": "Belize holding, no track record, no money committed. What if the funding never comes and my staff and customers are left in limbo after I have told them?",
+  "instead": "Keep looking for a trade or management buyer or a broker sale via nexxt-change at around 375,000, or hand over to a known buyer with a bank-financed structure.",
+  "would_change_my_mind": "Proof of funds verified by my adviser and bank, a EU-based entity with named people and references from earlier owners, plus staff and site guarantees in the contract and the 30% deferred part secured.",
+  "price_too_cheap": 250000,
+  "price_cheap": 320000,
+  "price_expensive": 550000,
+  "price_too_expensive": 900000
+}

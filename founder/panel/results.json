@@ -1,0 +1,336 @@
+{
+ "model": "b2b",
+ "business": "Always Broke Ltd: a permanent holding company that buys owner-managed small and micro businesses and keeps their management and culture",
+ "region": "Germany (proxy for the EU27 market)",
+ "currency": "EUR",
+ "symbol": "€",
+ "seed": 357363,
+ "dealt": 20,
+ "answered": 20,
+ "skipped": [],
+ "buys": 0,
+ "passes": 20,
+ "buy_rate": 0.0,
+ "stated_buy_rate": 0.0,
+ "realistic_buy_rate": 0.0,
+ "calibration": {
+  "definitely": 0.3,
+  "probably": 0.1,
+  "might": 0.02,
+  "probably_not": 0.0,
+  "definitely_not": 0.0
+ },
+ "meeting_calibration": 0.25,
+ "intents": [
+  [
+   "definitely",
+   0
+  ],
+  [
+   "probably",
+   0
+  ],
+  [
+   "might",
+   0
+  ],
+  [
+   "probably_not",
+   2
+  ],
+  [
+   "definitely_not",
+   18
+  ]
+ ],
+ "meeting_rate_stated": 0.05,
+ "meeting_rate_realistic": 0.0125,
+ "pilot_rate_stated": 0.0,
+ "deal_value_median": null,
+ "first_order_median": null,
+ "cycle_months_median": null,
+ "payment_terms_median": 0.0,
+ "per_account": {
+  "deals": 0.0,
+  "revenue_year1": 0.0,
+  "run_rate": 0.0
+ },
+ "pipeline": {
+  "population": 545000.0,
+  "reach": 0.0005,
+  "reached": 272.5,
+  "meetings": 3.40625,
+  "deals_year1": 0.0,
+  "revenue_year1": 0.0,
+  "run_rate_end_year1": 0.0,
+  "population_sourced": true,
+  "reach_sourced": false
+ },
+ "demand": null,
+ "benchmark": {
+  "value": 0.05,
+  "what": "assumed share of approached owners who sign a deal within a year (no sourced benchmark found; this is a placeholder)",
+  "sources": [],
+  "above": false
+ },
+ "evidence": [
+  [
+   "segments",
+   4,
+   4
+  ],
+  [
+   "behaviours",
+   0,
+   4
+  ],
+  [
+   "objections",
+   4,
+   6
+  ],
+  [
+   "current options",
+   3,
+   3
+  ],
+  [
+   "roles",
+   0,
+   3
+  ],
+  [
+   "buying process",
+   0,
+   4
+  ],
+  [
+   "market context",
+   5,
+   5
+  ],
+  [
+   "population",
+   1,
+   1
+  ],
+  [
+   "reach",
+   0,
+   1
+  ]
+ ],
+ "by_segment": [
+  [
+   "Craft and trade business",
+   7,
+   0.0,
+   0.0,
+   0.14285714285714285
+  ],
+  [
+   "Niche B2B product or service firm",
+   6,
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   "Owner-dependent micro firm",
+   2,
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   "Local retail, hospitality or consumer service",
+   5,
+   0.0,
+   0.0,
+   0.0
+  ]
+ ],
+ "by_role": [
+  [
+   "Owner-manager",
+   14,
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   "Owner guided by tax adviser or lawyer",
+   3,
+   0.0,
+   0.0,
+   0.3333333333333333
+  ],
+  [
+   "Owner with spouse or co-owner",
+   3,
+   0.0,
+   0.0,
+   0.0
+  ]
+ ],
+ "by_process": [
+  [
+   "Owner decides after meeting the buyer",
+   8,
+   0.0,
+   0.0,
+   0.125
+  ],
+  [
+   "Family or management buyout preferred",
+   2,
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   "Bank and adviser vet the buyer first",
+   4,
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   "Adviser or broker runs a process",
+   6,
+   0.0,
+   0.0,
+   0.0
+  ]
+ ],
+ "by_category": [
+  [
+   "does not buy this today",
+   12,
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   "buys or outsources this today",
+   8,
+   0.0,
+   0.0,
+   0.125
+  ]
+ ],
+ "by_current_option": [
+  [
+   "nothing",
+   12,
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   "Sell to a trade buyer, a management buyer or via a broker or nexxt-change",
+   3,
+   0.0,
+   0.0,
+   0.3333333333333333
+  ],
+  [
+   "Hand over to family or an internal successor",
+   3,
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   "Close the business or keep running without a plan",
+   2,
+   0.0,
+   0.0,
+   0.0
+  ]
+ ],
+ "by_size": [
+  [
+   "13+ people",
+   7,
+   0.0,
+   0.0,
+   0.14285714285714285
+  ],
+  [
+   "under 8 people",
+   6,
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   "8 to 12 people",
+   7,
+   0.0,
+   0.0,
+   0.0
+  ]
+ ],
+ "approvers": [],
+ "why_not": [
+  [
+   "trust",
+   20,
+   [
+    "A Belize shell with no track record and no committed funding is not who I hand my life's work and my twenty people to. I want the highest cash at closing from a buyer I can check, and 30% spread over three years from an unknown company is a risk I will not take.",
+    "The price sounds better than the 375,000 I would get on nexxt-change, but a new Belize shell with no track record and no committed funding is not someone I hand 22 people and my name to. A free first meeting is fine, but my adviser will pick it apart."
+   ],
+   [
+    "P001",
+    "P002"
+   ]
+  ]
+ ],
+ "why_yes": [],
+ "instead": [
+  "Keep running the business, list it on nexxt-change, or talk to a known buyer or a competitor who pays more cash at closing.",
+  "Keep looking for a trade or management buyer or a broker sale via nexxt-change at around 375,000, or hand over to a known buyer with a bank-financed structure.",
+  "Keep running the business, list it anonymously on nexxt-change, and talk to buyers with known names, a German entity and a bank letter, or a family or employee succession.",
+  "Keep running the business and keep looking for a family or management buyout. If that fails, list it on nexxt-change or use a broker or a known German buyer.",
+  "Keep running the business, keep trying the family or management buyout, and perhaps list it on nexxt-change later if that fails.",
+  "Keep running the shop and look for a buyer through nexxt-change, my Chamber, my tax adviser or a local person who wants to take it over. Or I give it to a longtime employee over time.",
+  "Keep looking for a proper buyer through my adviser, the Handwerkskammer or nexxt-change, at around 375,000 euro, or a management buyer or trade buyer I can check.",
+  "Keep running the shop myself, and when I am ready look for a buyer through my tax adviser, the chamber of commerce or nexxt-change, someone I can meet who has a German bank behind them.",
+  "Keep going through nexxt-change or a broker, and talk to a known trade buyer or a management buyer at around EUR 375,000, even if it takes longer.",
+  "Hand over to family or a successor I know, or list the business on nexxt-change and deal with a buyer my bank and adviser can vet.",
+  "Keep running the business, talk to my adviser about a listing on nexxt-change, or look for a local buyer or a successor from within the company. Winding it down is the last resort.",
+  "Keep looking for a successor in the family or among staff, or list the business anonymously on nexxt-change and talk to a German buyer my adviser and bank already know.",
+  "Let my adviser run the sale through nexxt-change and take the highest cash offer from a buyer with proven funds, or hand over to a trade competitor or employee.",
+  "Keep looking for a family or internal successor, or list the business anonymously on nexxt-change and talk to a buyer who is established and has a German bank behind them.",
+  "Let my adviser run a proper process, use nexxt-change, and talk to buyers who can show proof of funds, such as a trade competitor or an MBI with a bank letter. Or keep running the business a few more years.",
+  "Keep running the shop, list it on nexxt-change, and have my adviser or a broker run a process with credible buyers who show proof of funds.",
+  "Keep running the business, look for a buyer through my adviser or nexxt-change, or find someone from the trade or a known German buyer with a bank letter and references.",
+  "Keep running the business, let my adviser run a proper sale process, list on nexxt-change, and talk to strategic buyers or a known Mittelstand holding with references and proof of funds.",
+  "Keep running the business and look for a successor or a known strategic or local buyer through my adviser, or list it anonymously on nexxt-change.",
+  "List the business on nexxt-change and wait for a buyer who pays more cash at closing. Failing that, keep working or wind down and sell the equipment."
+ ],
+ "flip": [
+  "Proof of funds verified by my bank, a German or EU entity with named people I can meet, references from sellers they have already bought from, and a higher share paid in cash at closing.",
+  "Proof of funds verified by my adviser and bank, a EU-based entity with named people and references from earlier owners, plus staff and site guarantees in the contract and the 30% deferred part secured.",
+  "A German or EU entity with named owners, funds already committed and confirmed by a bank letter, references from earlier acquisitions, and the staff guarantee in writing.",
+  "Named, verifiable funders with bank-confirmed proof of funds, a German or EU entity, references from past owners, and a larger share of the price paid in cash at closing or secured.",
+  "A German or EU-registered buyer with proof of funds already in escrow at a bank, named people and references, and nearly all of the price in cash at closing.",
+  "A German or EU-registered buyer with a named person I can meet at my shop, committed funds shown by a bank, and references from owners who sold to them, plus a written guarantee for my staff.",
+  "Proof of funds already in a German bank or escrow, a German or EU entity with a named, checkable owner, and the full price paid in cash at closing or secured by a bank guarantee.",
+  "A German or EU buyer with proof of funds already at a bank, references from earlier acquisitions, and the 30% deferred part secured by a bank guarantee, with my adviser vouching for them.",
+  "Proof of funds already held at a German bank, a German or EU holding structure instead of Belize, named owners and references from earlier owners, and the deferred part secured by a bank guarantee.",
+  "Proof of funds held at a German bank, a buyer with a real track record and references from other sellers, and the full price in cash at closing or the deferred part secured by a bank guarantee.",
+  "Funding already committed and shown by a German bank, a named EU-registered owner with real references from earlier owners, and a larger share of the price paid in cash at closing or secured by a bank guarantee.",
+  "A named German or EU owner with proof of funds already at a bank, a bank guarantee or escrow for the deferred 30%, and references from owners they have already bought from.",
+  "Proof of funds in a German bank, an EU-registered buyer with references from earlier deals, and at least 90% cash at closing at a higher multiple.",
+  "A German or EU entity with named backers, a bank guarantee or escrowed proof of funds for the full price, references from earlier deals, and more of the price paid at closing.",
+  "A bank-confirmed letter of funds for the full price, a German or EU entity with references from earlier deals, and a bank guarantee or escrow for the deferred 30%.",
+  "Proof of funds from a named bank before any meeting, a German or EU entity with references, and the deferred portion secured by a bank guarantee, with a cash price at or above other offers.",
+  "Funds actually committed and proven by a German bank, a German or EU-based entity, and references from owners they have bought from. Part of the 30% would have to be secured as well.",
+  "Proof of funds in a German bank escrow before any talks, a German or EU entity with named backers, references from previous acquisitions, and the deferred part secured by a bank guarantee.",
+  "A German or EU-based buyer with committed, verified funds, named references from earlier acquisitions, bank-secured deferred payments and written staff and site guarantees, vetted by my adviser, and someone I can meet and trust.",
+  "Bank-verified proof of funds up front, a German or EU entity with real owners I can meet and a site visit, and at least 90% cash at closing, with my spouse agreeing."
+ ],
+ "price_answers": 20
+}

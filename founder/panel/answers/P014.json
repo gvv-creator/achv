@@ -1,0 +1,20 @@
+{
+  "id": "P014",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 0,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 0,
+  "approvers": "my wife (co-owner), our tax adviser and lawyer, the bank",
+  "reason_code": "trust",
+  "reason": "A Belize shell with no track record and no committed money wants my whole life's work and wants me to wait three years for 30 percent of the price. I am not going to spend my time on that, and my wife would not sign.",
+  "objection": "No funders named, no proof of funds, a Belize company and 30 percent of the price paid over three years from a firm that has never run anything. If it fails, my staff and my retirement pay for it.",
+  "instead": "Keep looking for a family or internal successor, or list the business anonymously on nexxt-change and talk to a buyer who is established and has a German bank behind them.",
+  "would_change_my_mind": "A German or EU entity with named backers, a bank guarantee or escrowed proof of funds for the full price, references from earlier deals, and more of the price paid at closing.",
+  "price_too_cheap": 350000,
+  "price_cheap": 500000,
+  "price_expensive": 900000,
+  "price_too_expensive": 1200000
+}

@@ -1,0 +1,20 @@
+{
+  "id": "P015",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 18,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 0,
+  "approvers": "Tax adviser, lawyer, family, house bank",
+  "reason_code": "trust",
+  "reason": "A brand-new Belize shell with no track record and no committed funding is not a buyer I put in front of my adviser. I have built this business for decades and I will not hand it to an offshore company that cannot show it has the money.",
+  "objection": "Belize holding company, no track record, funding not committed, and 30% of the price paid over three years by a company I cannot check. I could end up with nothing and a damaged business.",
+  "instead": "Let my adviser run a proper process, use nexxt-change, and talk to buyers who can show proof of funds, such as a trade competitor or an MBI with a bank letter. Or keep running the business a few more years.",
+  "would_change_my_mind": "A bank-confirmed letter of funds for the full price, a German or EU entity with references from earlier deals, and a bank guarantee or escrow for the deferred 30%.",
+  "price_too_cheap": 450000,
+  "price_cheap": 600000,
+  "price_expensive": 900000,
+  "price_too_expensive": 1100000
+}

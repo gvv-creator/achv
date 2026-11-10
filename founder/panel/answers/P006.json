@@ -1,0 +1,20 @@
+{
+  "id": "P006",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 0,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 0,
+  "approvers": "my wife, my tax adviser and solicitor, my house bank",
+  "reason_code": "trust",
+  "reason": "This is my life's work, and I am not handing it to a brand-new Belize shell with no track record and no money committed. If it fails halfway I lose the business and my staff lose their jobs, and I do not know where I would take a claim.",
+  "objection": "I do not know a Belize holding company. Who stands behind it, where do I take a claim if it goes wrong, and why should I believe in funding that does not exist yet?",
+  "instead": "Keep running the shop and look for a buyer through nexxt-change, my Chamber, my tax adviser or a local person who wants to take it over. Or I give it to a longtime employee over time.",
+  "would_change_my_mind": "A German or EU-registered buyer with a named person I can meet at my shop, committed funds shown by a bank, and references from owners who sold to them, plus a written guarantee for my staff.",
+  "price_too_cheap": 400000,
+  "price_cheap": 550000,
+  "price_expensive": 900000,
+  "price_too_expensive": 1200000
+}

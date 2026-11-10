@@ -1,0 +1,20 @@
+{
+  "id": "P008",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 0,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 0,
+  "approvers": "Tax adviser, bank, notary, my family",
+  "reason_code": "trust",
+  "reason": "A Belize shell with no track record and no money committed is not who I hand my life's work to. My tax adviser and notary would laugh me out of the room, and I would worry what happens to my nine people.",
+  "objection": "Belize, no track record, no committed funding. If the money never comes, I have lost years and my staff have lost their trust in me. And 30% over three years from a company like that is a promise on paper.",
+  "instead": "Keep running the shop myself, and when I am ready look for a buyer through my tax adviser, the chamber of commerce or nexxt-change, someone I can meet who has a German bank behind them.",
+  "would_change_my_mind": "A German or EU buyer with proof of funds already at a bank, references from earlier acquisitions, and the 30% deferred part secured by a bank guarantee, with my adviser vouching for them.",
+  "price_too_cheap": 400000,
+  "price_cheap": 500000,
+  "price_expensive": 850000,
+  "price_too_expensive": 1100000
+}

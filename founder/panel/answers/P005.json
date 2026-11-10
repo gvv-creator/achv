@@ -1,0 +1,20 @@
+{
+  "id": "P005",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 0,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 0,
+  "approvers": "My wife, our tax adviser, a lawyer, possibly our children",
+  "reason_code": "trust",
+  "reason": "I do not know a Belize holding company with no track record and no committed funding. My business rests on my own customer relationships, and my wife and I would never hand it to someone who cannot show the money. If we sell at all, it goes to family or a known buyer first.",
+  "objection": "I do not know a Belize holding company; who stands behind it and where do I take a claim if it goes wrong? Then 30% paid over three years from a company with no funding is my retirement income at risk.",
+  "instead": "Keep running the business, keep trying the family or management buyout, and perhaps list it on nexxt-change later if that fails.",
+  "would_change_my_mind": "A German or EU-registered buyer with proof of funds already in escrow at a bank, named people and references, and nearly all of the price in cash at closing.",
+  "price_too_cheap": 500000,
+  "price_cheap": 650000,
+  "price_expensive": 900000,
+  "price_too_expensive": 1100000
+}

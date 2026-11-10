@@ -1,0 +1,20 @@
+{
+  "id": "P012",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 18,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 0,
+  "approvers": "Tax adviser, house bank of the buyer, family, notary",
+  "reason_code": "trust",
+  "reason": "A Belize shell with no track record and no committed funding is not who I hand my life's work to. My staff and my name matter more to me than a few euros more, and I would not even open my numbers to them.",
+  "objection": "I do not know a Belize holding company; who stands behind it and where do I take a claim if it goes wrong? They have no money committed, and 30% deferred over three years is paid by a company I cannot check.",
+  "instead": "Keep looking for a successor in the family or among staff, or list the business anonymously on nexxt-change and talk to a German buyer my adviser and bank already know.",
+  "would_change_my_mind": "A named German or EU owner with proof of funds already at a bank, a bank guarantee or escrow for the deferred 30%, and references from owners they have already bought from.",
+  "price_too_cheap": 400000,
+  "price_cheap": 500000,
+  "price_expensive": 900000,
+  "price_too_expensive": 1200000
+}

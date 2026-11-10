@@ -1,0 +1,20 @@
+{
+  "id": "P001",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 18,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 0,
+  "approvers": "my tax adviser, my bank, and my family",
+  "reason_code": "trust",
+  "reason": "A Belize shell with no track record and no committed funding is not who I hand my life's work and my twenty people to. I want the highest cash at closing from a buyer I can check, and 30% spread over three years from an unknown company is a risk I will not take.",
+  "objection": "Belize holding, no money committed, no history. If the funding falls through I have lost a year and my staff have heard about it.",
+  "instead": "Keep running the business, list it on nexxt-change, or talk to a known buyer or a competitor who pays more cash at closing.",
+  "would_change_my_mind": "Proof of funds verified by my bank, a German or EU entity with named people I can meet, references from sellers they have already bought from, and a higher share paid in cash at closing.",
+  "price_too_cheap": 500000,
+  "price_cheap": 650000,
+  "price_expensive": 1100000,
+  "price_too_expensive": 1400000
+}

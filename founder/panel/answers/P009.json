@@ -1,0 +1,20 @@
+{
+  "id": "P009",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 18,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 0,
+  "approvers": "My bank, my tax adviser and lawyer, my family",
+  "reason_code": "trust",
+  "reason": "A new Belize shell with no track record and no committed funding is asking for my life's work, and 30% of the price would sit with them for three years. My adviser would stop it before I ever saw a meeting room.",
+  "objection": "Who is really behind this, where does the money come from, and what happens to my staff and my customers if they run out of funds or sell on after all?",
+  "instead": "Keep going through nexxt-change or a broker, and talk to a known trade buyer or a management buyer at around EUR 375,000, even if it takes longer.",
+  "would_change_my_mind": "Proof of funds already held at a German bank, a German or EU holding structure instead of Belize, named owners and references from earlier owners, and the deferred part secured by a bank guarantee.",
+  "price_too_cheap": 200000,
+  "price_cheap": 375000,
+  "price_expensive": 900000,
+  "price_too_expensive": 1400000
+}

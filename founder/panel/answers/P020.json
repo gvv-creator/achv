@@ -1,0 +1,20 @@
+{
+  "id": "P020",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 0,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 0,
+  "approvers": "Spouse/co-owner, my tax adviser, buyer's house bank",
+  "reason_code": "trust",
+  "reason": "A brand-new Belize shell with no money committed and no track record is not who I hand my life's work to. And 30% over three years from a buyer like that is a promise I can't collect on.",
+  "objection": "Where is the money? A Belize company with no committed funding wants 100% of my firm and wants me to wait three years for part of it. I expect a higher price in cash at closing from someone else.",
+  "instead": "List the business on nexxt-change and wait for a buyer who pays more cash at closing. Failing that, keep working or wind down and sell the equipment.",
+  "would_change_my_mind": "Bank-verified proof of funds up front, a German or EU entity with real owners I can meet and a site visit, and at least 90% cash at closing, with my spouse agreeing.",
+  "price_too_cheap": 450000,
+  "price_cheap": 650000,
+  "price_expensive": 1000000,
+  "price_too_expensive": 1300000
+}

@@ -1,0 +1,20 @@
+{
+  "id": "P018",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 18,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 0,
+  "approvers": "Tax adviser, M&A broker, notary, house bank, my family",
+  "reason_code": "trust",
+  "reason": "A newly formed Belize shell with no track record and no committed funding wants my life's work. My bank, tax adviser and notary would laugh me out of the room, and I would not risk my staff on it.",
+  "objection": "Belize, no track record, no money committed yet. I cannot tell whether this buyer exists in two years, and 30% deferred over three years is paid by a company I cannot check.",
+  "instead": "Keep running the business, let my adviser run a proper sale process, list on nexxt-change, and talk to strategic buyers or a known Mittelstand holding with references and proof of funds.",
+  "would_change_my_mind": "Proof of funds in a German bank escrow before any talks, a German or EU entity with named backers, references from previous acquisitions, and the deferred part secured by a bank guarantee.",
+  "price_too_cheap": 450000,
+  "price_cheap": 600000,
+  "price_expensive": 1100000,
+  "price_too_expensive": 1400000
+}
