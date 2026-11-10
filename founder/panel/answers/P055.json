@@ -1,0 +1,20 @@
+{
+  "id": "P055",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 12,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Owner/director, plus the developer or main contractor who pays for it",
+  "reason_code": "trust",
+  "reason": "I've never seen this used on a Maltese job. We wrap frames in cheap film and tape and clean off the cement ourselves, so EUR 19 a square metre is a new budget line for something I can't recommend to the boss without proof.",
+  "objection": "Never seen it used in Malta. Who has had it on a job here, and what happens when it won't peel clean after a summer in the sun?",
+  "instead": "Keep using protection film, tape and cardboard from the hardware store, and have the labourers clean the glass at snagging.",
+  "would_change_my_mind": "A local reference job I can visit, with a main contractor I know vouching for it, and a free test panel on one of our own floors.",
+  "price_too_cheap": 3,
+  "price_cheap": 5,
+  "price_expensive": 9,
+  "price_too_expensive": 14
+}

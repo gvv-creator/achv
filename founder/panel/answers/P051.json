@@ -1,0 +1,20 @@
+{
+  "id": "P051",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 9,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Developer or main contractor, project director, procurement",
+  "reason_code": "contract",
+  "reason": "Protection is set in the subcontract package and the developer decides who pays, so I can't add a 19 euro per m2 line on my own. We spend about 2,100 a year on the factory film and that has been fine for most of the programme.",
+  "objection": "In July and August half the facade is in full sun. When can you even apply it, and how does it come off cleanly after months of heat? Also a new applicator on my glazing means I carry the risk if it marks the glass.",
+  "instead": "Keep the factory film on the profiles, tape and board in the problem areas, and have the glazier clean the glass before handover.",
+  "would_change_my_mind": "A developer or main contractor who specifies it and pays for it in the package, plus a local reference job in summer heat where it came off with no marks.",
+  "price_too_cheap": 3,
+  "price_cheap": 6,
+  "price_expensive": 12,
+  "price_too_expensive": 19
+}

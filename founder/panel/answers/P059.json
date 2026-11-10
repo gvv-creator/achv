@@ -1,0 +1,20 @@
+{
+  "id": "P059",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 0,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "None, I decide alone",
+  "reason_code": "price",
+  "reason": "I use the factory film on the aluminium for nothing and I spend about 1,900 a year on protection. EUR 19 a m2 plus a deposit up front is far more than I would ever pay for this, and I do not pay deposits.",
+  "objection": "EUR 19 a m2 for something that peels off, and 50% deposit when I pay my own suppliers at 60 to 90 days. It does not make sense on my margins.",
+  "instead": "Keep the factory film on the frames, and tape and cheap cover film where needed. Cover the glass myself with board or film if it matters.",
+  "would_change_my_mind": "A price near EUR 3 to 4 a m2 all-in, no deposit, 60 days payment, and a local contractor I know who says it saved him real glass claims.",
+  "price_too_cheap": 1,
+  "price_cheap": 3,
+  "price_expensive": 7,
+  "price_too_expensive": 12
+}

@@ -1,0 +1,20 @@
+{
+  "id": "P052",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 12,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Main contractor / developer who sets protection in the subcontract package",
+  "reason_code": "fit",
+  "reason": "Our aluminium already arrives with factory film, and what protection we provide is set by the main contractor in the subcontract package, not by me. A new budget line and a new supplier for a sprayed coating is not something I would take on.",
+  "objection": "I would not put a sprayed coating on coated glass and finished frames without compatibility proof. If it marks the frames or leaves residue, I carry the claim, and the film we already use does the job.",
+  "instead": "Keep using the factory film and the protection the main contractor specifies in the package, plus our own care on site.",
+  "would_change_my_mind": "A main contractor or developer writing it into the subcontract package and paying for it, plus written compatibility results on our coated glass and frames from a named reference job.",
+  "price_too_cheap": 3,
+  "price_cheap": 6,
+  "price_expensive": 12,
+  "price_too_expensive": 19
+}
