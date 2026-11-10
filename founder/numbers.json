@@ -1,9 +1,9 @@
 {
- "_note": "Built from ACHV's CFO pack Hevadex_Numbers.json (9 Nov 2026; 1,516 of 1,516 reconciliation checks pass) and the Board Decision Edition. One 'job' = a 300 m2 Protected Handover job-equivalent of ACHV revenue (EUR 3,678 = 300 x EUR 12.26). Support orders carried at the same margin, as the pack does. Capacity 7.05 jobs/month = one supervisor allocation (120 field days/yr = 10/month) / 1.418 field days per blended Y1 job-equivalent (pack: 69.39 days / 48.94 job-equivalents). Every cost is the pack's unquoted planning illustration (CFO05).",
+ "_note": "Built from ACHV's CFO pack Hevadex_Numbers.json (9 Nov 2026; 1,516 of 1,516 reconciliation checks pass) and the Board Decision Edition. One 'job' = a 300 m2 Protected Handover job-equivalent of ACHV revenue (EUR 3,678 = 300 x EUR 12.26). Support orders carried at the same margin, as the pack does. Capacity 7.05 jobs/month = one supervisor allocation (120 field days/yr = 10/month) / 1.418 field days per blended Y1 job-equivalent (pack: 69.39 days / 48.94 job-equivalents). Every cost is the pack's unquoted planning illustration (CFO05). PANEL CASE: ramp = founder/panel/results.json pipeline revenue_year1 (EUR 32.92) / EUR 3,678 per job = 0.00895 job-equivalents in year 1, back-loaded (weights 1..12), because outreach is spread over the year and deals pay when they close. plan_per_month and capacity unchanged so the plan can be compared with the panel.",
  "business": "ACHV Performance Systems / Hevadex Malta (year 1)",
  "unit": "job",
  "per": "month",
- "currency_symbol": "\u20ac",
+ "currency_symbol": "€",
  "price": 3678.0,
  "variable": [
   {
@@ -51,17 +51,17 @@
  "capacity_per_month": 7.05,
  "plan_per_month": 10.06,
  "ramp_per_month": [
-  0.0,
-  0.0,
-  0.0,
-  1.36,
-  2.18,
-  3.26,
-  4.35,
-  5.44,
-  6.25,
-  7.34,
-  8.7,
-  10.06
+  0.00011,
+  0.00023,
+  0.00034,
+  0.00046,
+  0.00057,
+  0.00069,
+  0.0008,
+  0.00092,
+  0.00103,
+  0.00115,
+  0.00126,
+  0.00138
  ]
 }

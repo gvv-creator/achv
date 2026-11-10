@@ -1,3 +1,130 @@
+# CFO: Hevadex Malta (ACHV Performance Systems), re-run on the account panel
+
+*10 Nov 2026. Inputs: `founder/numbers.json` (now the **panel case**), `founder/numbers-plan.json` (the CFO pack's own plan, kept unchanged for comparison), `founder/panel/results.md` and `founder/pricing.md`. Revenue is ex VAT. All costs are still the pack's unquoted planning illustrations (its item CFO05). Not financial, tax or legal advice: an accountant should check the structure, payroll, VAT and tax before money moves.*
+
+## What changed since the last run
+
+The earlier run used the pack's ramp (€180k in year 1). That ramp had no market evidence behind it (source row A01, "not market-validated"). The account panel is the first evidence, and it says:
+
+- **Realistic close rate 0%**: 0 of 100 simulated buyers would buy; two said "might".
+- **Year-1 revenue the panel supports: about €33** (0.02 deals), from 139 accounts approached (15% of 924 licensed contractors).
+- Buyers expect **60-day payment terms** and pushed back on the 50% deposit (44 of 100 answers). Malta's all-sector average is about 80 days (M8).
+- Buyers' acceptable all-in price tops out at about **€14/m²**, against the €18.96 on offer (`pricing.md`).
+
+I therefore set the ramp in `numbers.json` from the panel: €32.92 / €3,678 per job = **0.009 job-equivalents in year 1**, back-loaded because outreach is spread over the year and deals pay when they close. The plan's ramp (10.06 jobs a month by month 12) is above the panel's realistic demand, so **the plan's verdict fails on demand**, by the rule for this step. The tool's per-job and "at plan" lines below still use the plan's 10 jobs a month, so read those as "what the plan needs", not "what the market gives".
+
+## The CFO's note
+
+**The margin.** Unchanged per job: **€1,509 (41%)** after material, QA, claims and bad debt at €12.26/m². Year-1 fixed costs are €12,750 a month, so break-even is still **8.45 jobs a month (about €31k a month)**. The problem is not the margin per job; it is that no jobs arrive.
+
+**Year 1 on the panel's demand: –€152,987 on €33 of revenue, against –€79,155 on €180,001 in the plan.** Cash needed in year 1 is €172,999, which looks lower than the plan's €187,856 only because almost nothing is tied up in receivables and stock. The cash is simply gone as running costs. At year-1 fixed costs and the €20k capex, the €250k equity covers about **18 months** with zero revenue, and the €200k facility (still unsigned) would not be drawn on a business with no income to service it.
+
+**Ceiling, even if every "might" converted.** Taking the two "might" buyers at their own stated annual value (€6,500 and €12,000) and scaling to the 139 accounts approached gives at most **about €25,600 of year-1 revenue**, 14% of the plan: year-1 loss –€142,481, break-even still 9 jobs a month. This is an upper bound from two simulated buyers, not a forecast.
+
+**Does a better price and cost fix it?** I ran the case buyers' range implies: ACHV price €7.28/m² (all-in €13.98) with OMNIGUARD at **€5/kg** landed, plan volume. Contribution €867 per job (40%); break-even **15 jobs a month against capacity of 7.05**; year-1 profit –€110,587 even at the plan's volume. So even if Hevadex gave a price of €5/kg landed and buyers paid the top of their range, one supervisor's capacity cannot reach break-even. The business would need either a different cost structure or a different customer (a payer who buys at scale).
+
+**The line to watch.** Demand, not cost. The earlier note named landed €/kg as the biggest sensitivity (+€1/kg cuts the month-12 margin from 6.6% to 1.2%). That still holds at plan volume, but with a realistic ramp every what-if in the tool table below moves year-1 profit by under €5, because revenue is about €33. Cost matters only if there is volume.
+
+**Cash and working capital.** On the panel's demand almost nothing is tied up (€12 at year-end). If the plan's volume did arrive, working capital would be €88,701 at 60-day collection, and 90-day collection adds about €26k of year-1 cash (from the earlier run). The deposit buyers rejected is the lever that cut €31k of year-1 cash; on this panel it is unlikely to be accepted without a payer who specifies it.
+
+**Capacity.** Unchanged from the earlier run: at the plan's volume one supervisor allocation (7.05 jobs a month) is short in 9 of 36 months and short of break-even. At the panel's demand capacity is irrelevant.
+
+## Three ways to improve the result (each run through the tool)
+
+1. **Start the payroll clock at G0, not at approval** (the board's own condition). Running admin only until the supplier signs, the product scope includes OMNIGUARD and an insurer confirms cover: fixed costs €7,000 a month instead of €12,750 in the test case; year-1 profit **–€83,987** instead of –€152,987 (+€69,000) and cash needed **€103,999** instead of €172,999. This beats every pricing lever on this panel's demand.
+2. **Landed OMNIGUARD at €5/kg at the current price.** Contribution per job rises from €1,509 to **€2,301 (63%)** and break-even falls from 9 to **6 jobs a month**, inside one supervisor's capacity. But with no demand it changes year-1 profit by only €8; it is worth doing only alongside route 3.
+3. **Change who pays.** Every price lever above assumes the same buyers. The panel says the developer or main contractor, not the subcontractor, has to carry the line (`pricing.md`). That is a demand change, not a margin change, and it can only be measured in the 15 discovery interviews. Until then no price, cost or capacity change closes the gap.
+
+## The board's money conditions (from `founder/board.md`)
+
+| condition | status |
+| --- | --- |
+| Model arithmetic | **Met** (1,516 of 1,516 pack checks; the tool matches the pack to rounding) |
+| Group cash forecast for the €250k equity | Not met (CFO04) |
+| Indicative facility term sheet | Not met |
+| Five-year equity case, or recorded acceptance of none | Not met; on the panel's demand there is no return case, so a recorded acceptance is the honest choice |
+| Non-exclusive fallback case | Not in the pack |
+| Operating clock starts at G0 | **Now the largest lever** (route 1 above, +€69k) |
+| Capped Phase 1a budget | Not set; Phase 1 gross outflow in the pack is €69,840 |
+| Damage measured on three Maltese jobs against the ≥€6.96/m² hurdle | Not met; buyers' own stated damage costs mostly sit far below the offer's cost (`pricing.md`) |
+| Demand evidence | **New: the account panel does not support the plan's ramp** |
+
+## What would have to be true for the plan's ramp
+
+The plan needs about 49 job-equivalents in year 1. At the pack's average active account (€12,000 a year) that is about 15 active accounts by month 12. The panel puts 0 of 139 approached accounts in that position. To keep the plan's ramp, the first 15 discovery interviews and pilots have to show something the panel did not: a payer who will specify the line, written liability cover, and a price near the top of the buyers' range with margin. Until then, the ramp in `numbers.json` should stay at the panel's value.
+
+---
+
+# Tool output: panel case (`founder/numbers.json`)
+
+# Unit economics: ACHV Performance Systems / Hevadex Malta (year 1)
+
+Every number below comes from the input file. Nothing is looked up or guessed.
+
+## One job
+
+| line | per job |
+| --- | ---: |
+| Price | €3,678.00 |
+| OMNIGUARD material: 0.60 kg/m2 x 1.10 waste x EUR 9.00/kg landed x 300 m2 (assumption, no quote) | -€1,782.00 |
+| Incremental QA/testing/service: EUR 0.80/m2 x 300 m2 (assumption) | -€240.00 |
+| Claims allowance: 2% of revenue (assumption) | -€73.56 |
+| Bad debt (invoices never paid) | -€73.56 |
+| **Contribution** (what each job leaves to pay the fixed costs) | **€1,508.88** (41%) |
+
+## The margin that matters
+
+Fixed costs: €12,750 a month (Payroll: lead EUR 45k + supervisor allocation EUR 24k + admin EUR 15k, /12 €7,000, Marketing EUR 27k /12 €2,250, Warehouse / fixed logistics EUR 12k /12 €1,000, Central QA, insurance, travel, IT, fees EUR 30k /12 €2,500).
+
+- **Break-even: 9 jobs a month.** Below that you lose money every month.
+- **Profit margin at your plan** (10 a month): **7%** of every sale, after every cost.
+- Capacity: 7.05 a month.
+
+## Year 1, month by month
+
+| month | jobs a month | revenue | profit | cumulative (after €20,000 startup) | cash in minus out | cash cumulative |
+| ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| 1 | 0.0 | €0 | -€12,750 | -€32,750 | -€12,750 | -€32,750 |
+| 2 | 0.0 | €1 | -€12,750 | -€45,499 | -€12,751 | -€45,501 |
+| 3 | 0.0 | €1 | -€12,749 | -€58,249 | -€12,751 | -€58,252 |
+| 4 | 0.0 | €2 | -€12,749 | -€70,998 | -€12,750 | -€71,002 |
+| 5 | 0.0 | €2 | -€12,749 | -€83,747 | -€12,750 | -€83,752 |
+| 6 | 0.0 | €3 | -€12,749 | -€96,496 | -€12,750 | -€96,502 |
+| 7 | 0.0 | €3 | -€12,749 | -€109,245 | -€12,750 | -€109,252 |
+| 8 | 0.0 | €3 | -€12,749 | -€121,994 | -€12,750 | -€122,002 |
+| 9 | 0.0 | €4 | -€12,748 | -€134,742 | -€12,750 | -€134,751 |
+| 10 | 0.0 | €4 | -€12,748 | -€147,490 | -€12,749 | -€147,501 |
+| 11 | 0.0 | €5 | -€12,748 | -€160,239 | -€12,749 | -€160,250 |
+| 12 | 0.0 | €5 | -€12,748 | -€172,987 | -€12,749 | -€172,999 |
+
+- **Year 1 operating profit: -€152,987** on €33 of revenue.
+- After the €20,000 startup spend: -€172,987.
+- Startup money earned back: not within year 1.
+- Cash you need before it pays for itself: **€172,999**.
+- Working capital: customers pay in 60 days, suppliers are paid in 0 days, 30 days of stock. At the end of year 1 that ties up **€12** (unpaid invoices plus stock, less unpaid supplier bills). Cash is back: not within year 1.
+- Largest customer: 25% of revenue.
+
+## What if
+
+| scenario | margin at plan | break-even a month | year 1 profit | cash needed |
+| --- | ---: | ---: | ---: | ---: |
+| Base plan | 7% | 9 | -€152,987 | €172,999 |
+| Price -10% | -4% | 12 | -€152,990 | €173,001 |
+| Volume -20% | -2% | 9 | -€152,989 | €172,999 |
+| Customers pay 30 days later | 7% | 9 | -€152,987 | €173,003 |
+| Unit costs +15% | -2% | 11 | -€152,989 | €173,002 |
+
+## Red flags
+
+- Break-even needs 8 jobs a month but capacity is 7.05.
+- The plan (10 a month) is above capacity (7.05).
+- Year 1 loses money on operations (-€152,987).
+- The startup spend is not earned back within year 1.
+
+---
+
+# Earlier version (before the panel, CFO pack plan case)
+
 # CFO: Hevadex Malta (ACHV Performance Systems), re-run on the full CFO pack
 
 Inputs: ACHV's CFO pack `Hevadex_Numbers.json` (9 Nov 2026), read in full, and `founder/numbers.json` built from it. One unit = one **job**, a 300 m² Protected Handover job-equivalent of ACHV revenue (€3,678 at €12.26/m²); support orders are carried at the same margin, as the pack does. All costs are the pack's own unquoted illustrations (its review item CFO05). Figures exclude 18% Maltese VAT except where the pack's cash model includes it. Not financial, tax or legal advice: an accountant should check the structure, payroll, VAT and tax before money moves.

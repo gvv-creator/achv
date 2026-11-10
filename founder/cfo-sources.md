@@ -21,3 +21,6 @@ Primary source: `Hevadex_Numbers.json`, ACHV Ltd / Hevadex Malta CFO financial m
 | Review items | CFO01–CFO10 | cfo_review_items | pack's own |
 
 Legend: [A] assumption or model output, [P] proposed policy.
+| Ramp (panel case) | 0.009 job-equivalents in year 1 (€32.92 ÷ €3,678), back-loaded | founder/panel/results.json pipeline.revenue_year1 | [A] simulated-buyer estimate: realistic close rate 0%, 15% reach is an assumption. The pack's ramp is kept in numbers-plan.json |
+| Payment terms | 60 days (buyers' median); Malta average about 80 days | panel payment_terms_median; market.json M8 | [A] |
+| What-if cases | ACHV price €7.28/m² with landed €5/kg; landed €5/kg alone; payroll deferred to G0 (fixed €7,000/month) | founder/pricing.md section 2; board condition "clock starts at G0" | [A] illustrations run through the tool, not quotes |
