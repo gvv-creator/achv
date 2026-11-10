@@ -1,0 +1,277 @@
+{
+ "n": 20,
+ "seed": 357363,
+ "customer": {
+  "model": "b2b",
+  "business_type": "other",
+  "business": "Always Broke Ltd: a permanent holding company that buys owner-managed small and micro businesses and keeps their management and culture",
+  "target": "Owner-managers of profitable small German businesses (roughly EUR 100k to 400k EBITDA) who want to hand over within about five years and have no successor",
+  "region": "Germany (proxy for the EU27 market)",
+  "currency": "EUR",
+  "currency_symbol": "€",
+  "age": [
+   55,
+   72
+  ],
+  "population": 545000,
+  "population_sources": [
+   "M1"
+  ],
+  "reach": 0.0005,
+  "reach_sources": [],
+  "market_context": [
+   {
+    "text": "57% of German SME owners are 55 or older and 545,000 SMEs want a successor by the end of 2029; one in four SMEs is considering closure",
+    "sources": [
+     "M1",
+     "M2"
+    ]
+   },
+   {
+    "text": "Sellers' average asking price is about EUR 499,000, median EUR 375,000; price agreement is a hurdle in about a third of cases, and many owners start with inflated expectations",
+    "sources": [
+     "M3",
+     "M5"
+    ]
+   },
+   {
+    "text": "A sale's sales phase takes roughly 6 to 18 months and the buyer's house bank decides financing separately",
+    "sources": [
+     "M3",
+     "M6"
+    ]
+   },
+   {
+    "text": "Many owners distrust financial investors, mainly for their reputation, and worry about staff",
+    "sources": [
+     "M8"
+    ]
+   },
+   {
+    "text": "The state-backed nexxt-change exchange lists businesses for free and anonymously, so sellers have a free way to look for buyers",
+    "sources": [
+     "M9"
+    ]
+   }
+  ],
+  "segments": [
+   {
+    "name": "Craft and trade business",
+    "sector": "Skilled trade or service business with 5 to 25 staff",
+    "share": 0.35,
+    "employees": [
+     5,
+     25
+    ],
+    "revenue": [
+     600000,
+     3000000
+    ],
+    "penetration": 0.4,
+    "category_spend": [
+     150000,
+     600000
+    ],
+    "sources": [
+     "M1",
+     "M3",
+     "M7"
+    ]
+   },
+   {
+    "name": "Niche B2B product or service firm",
+    "sector": "Specialist supplier, distributor or service firm",
+    "share": 0.3,
+    "employees": [
+     5,
+     30
+    ],
+    "revenue": [
+     800000,
+     4000000
+    ],
+    "penetration": 0.45,
+    "category_spend": [
+     200000,
+     900000
+    ],
+    "sources": [
+     "M1",
+     "M3",
+     "M7"
+    ]
+   },
+   {
+    "name": "Local retail, hospitality or consumer service",
+    "sector": "One or a few sites serving local customers",
+    "share": 0.25,
+    "employees": [
+     3,
+     20
+    ],
+    "revenue": [
+     400000,
+     2000000
+    ],
+    "penetration": 0.3,
+    "category_spend": [
+     80000,
+     400000
+    ],
+    "sources": [
+     "M1",
+     "M3"
+    ]
+   },
+   {
+    "name": "Owner-dependent micro firm",
+    "sector": "Under 5 staff, value tied to the owner's personal relationships",
+    "share": 0.1,
+    "employees": [
+     1,
+     5
+    ],
+    "revenue": [
+     150000,
+     600000
+    ],
+    "penetration": 0.2,
+    "category_spend": [
+     50000,
+     250000
+    ],
+    "sources": [
+     "M1",
+     "M3"
+    ]
+   }
+  ],
+  "roles": [
+   {
+    "name": "Owner-manager",
+    "share": 0.7,
+    "how": "Decides personally and emotionally; the business is their life's work."
+   },
+   {
+    "name": "Owner with spouse or co-owner",
+    "share": 0.15,
+    "how": "Both must agree; the spouse often worries about retirement income."
+   },
+   {
+    "name": "Owner guided by tax adviser or lawyer",
+    "share": 0.15,
+    "how": "Asks the adviser to test any buyer's credibility and structure."
+   }
+  ],
+  "buying_process": [
+   {
+    "name": "Owner decides after meeting the buyer",
+    "share": 0.4,
+    "how": "Wants to meet the person, visit the site and hear what happens to the staff."
+   },
+   {
+    "name": "Adviser or broker runs a process",
+    "share": 0.3,
+    "how": "Collects offers, asks for proof of funds and for references."
+   },
+   {
+    "name": "Bank and adviser vet the buyer first",
+    "share": 0.2,
+    "how": "Checks buyer identity, funding and structure before sharing any numbers."
+   },
+   {
+    "name": "Family or management buyout preferred",
+    "share": 0.1,
+    "how": "Only talks to an outside buyer if the internal route fails."
+   }
+  ],
+  "current_options": [
+   {
+    "name": "Hand over to family or an internal successor",
+    "price": 0,
+    "share": 0.4,
+    "how": "Often at a low or gifted price, if a successor exists.",
+    "sources": [
+     "M7"
+    ]
+   },
+   {
+    "name": "Sell to a trade buyer, a management buyer or via a broker or nexxt-change",
+    "price": 375000,
+    "share": 0.35,
+    "how": "At about the median asking price; price talks and financing are the usual hurdle.",
+    "sources": [
+     "M3",
+     "M5",
+     "M9"
+    ]
+   },
+   {
+    "name": "Close the business or keep running without a plan",
+    "price": 0,
+    "share": 0.25,
+    "how": "Wind down, sell the equipment, or keep working past retirement age.",
+    "sources": [
+     "M2"
+    ]
+   }
+  ],
+  "behaviours": [
+   {
+    "name": "Price-led seller",
+    "share": 0.3,
+    "how": "Takes the highest cash offer, whatever the buyer's plans."
+   },
+   {
+    "name": "Continuity-led seller",
+    "share": 0.3,
+    "how": "Cares most that staff, name and location stay."
+   },
+   {
+    "name": "Cautious seller",
+    "share": 0.25,
+    "how": "Distrusts new or unusual buyers and wants proof, references and a bank letter."
+   },
+   {
+    "name": "Slow decider",
+    "share": 0.15,
+    "how": "Keeps postponing the decision."
+   }
+  ],
+  "objections": [
+   {
+    "text": "I do not know a Belize holding company; who stands behind it and where do I take a claim if it goes wrong?",
+    "sources": [
+     "M8"
+    ]
+   },
+   "You have no track record, no named funders and no proof of funds",
+   {
+    "text": "I expect a higher price; others will pay more in cash at closing",
+    "sources": [
+     "M3",
+     "M5"
+    ]
+   },
+   {
+    "text": "What happens to my staff and my customers after I go?",
+    "sources": [
+     "M8"
+    ]
+   },
+   {
+    "text": "Why would my bank, tax adviser and notary accept a buyer like this?",
+    "sources": [
+     "M3"
+    ]
+   },
+   "Part of the price deferred or in a seller note puts my retirement money at risk"
+  ],
+  "benchmark_rate": {
+   "value": 0.05,
+   "what": "assumed share of approached owners who sign a deal within a year (no sourced benchmark found; this is a placeholder)",
+   "sources": []
+  }
+ },
+ "pitch": "Always Broke Ltd, a newly formed Belize-incorporated holding company, buys profitable owner-managed small businesses in the EU and keeps them for the long term. There is no planned resale.\nWe buy 100% of the business, keep your management team, staff, name and location, and do not impose a restructuring.\nIndicative price: about 3.5x to 4.5x yearly EBITDA after due diligence (for example, about EUR 700,000 to 900,000 for EUR 200,000 EBITDA). Terms are open to discussion.\nPayment: about 70% in cash at closing, 30% over three years. You stay for a handover of up to 12 months, paid.\nHonest status: we have no track record yet and funding for the first deal is not yet committed. We will share proof of funds and the structure with your adviser before you sign anything. A confidential first meeting costs nothing."
+}
