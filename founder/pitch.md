@@ -1,5 +1,5 @@
-Always Broke Ltd, a newly formed Belize-incorporated holding company, buys profitable owner-managed small businesses in the EU and keeps them for the long term. There is no planned resale.
-We buy 100% of the business, keep your management team, staff, name and location, and do not impose a restructuring.
-Indicative price: about 3.5x to 4.5x yearly EBITDA after due diligence (for example, about EUR 700,000 to 900,000 for EUR 200,000 EBITDA). Terms are open to discussion.
-Payment: about 70% in cash at closing, 30% over three years. You stay for a handover of up to 12 months, paid.
-Honest status: we have no track record yet and funding for the first deal is not yet committed. We will share proof of funds and the structure with your adviser before you sign anything. A confidential first meeting costs nothing.
+Always Broke Ltd buys profitable owner-managed small businesses in the EU through an EU-registered acquisition company, and keeps them for the long term. There is no planned resale. Our directors are named, and you and your adviser can meet and check them.
+Before you sign, your adviser sees a bank letter confirming funds for the full price, and you can call our bank and our legal adviser. We do not yet have earlier sellers to give as references, and we say so.
+Indicative price: about 3.5x to 4.5x yearly EBITDA after due diligence (for example, about EUR 700,000 to 900,000 for EUR 200,000 EBITDA). 90% is paid in cash at closing. The other 10% is paid within 12 months and is secured by a bank guarantee.
+In writing: your staff keep their jobs and the site for 24 months, the business keeps its name, and no re-pricing after due diligence except for material problems you did not disclose. If we sell the business within 10 years, you and your staff get the first right to buy it back.
+You stay on for a paid handover of up to 12 months. We contribute to your adviser's costs (cap to be agreed). A first confidential meeting costs nothing.

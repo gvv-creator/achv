@@ -1,0 +1,20 @@
+{
+  "id": "P003",
+  "take_meeting": true,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 14,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 0,
+  "approvers": "my wife, my tax adviser and lawyer, my house bank",
+  "reason_code": "trust",
+  "reason": "The terms read decently and the staff guarantee matters to me, but nobody has ever sold to these people and I have 24 employees and forty years in this firm. I will have a coffee with them, but I will not hand over my life's work to a newcomer without a track record.",
+  "objection": "They have no earlier sellers I can call. I would be the first, and if it goes wrong my staff and my name pay for it. And 3.5x to 4.5x EBITDA is lower than what I hope for; others will pay more in cash at closing.",
+  "instead": "Keep running the business, keep listing quietly on nexxt-change, talk to my adviser and to the established buyers, and wait for a better cash offer.",
+  "would_change_my_mind": "A higher price, 100% cash at closing or the full price in escrow, and a reference from a seller who has already sold to them, or a known, established backer I can check.",
+  "price_too_cheap": 500000,
+  "price_cheap": 700000,
+  "price_expensive": 1100000,
+  "price_too_expensive": 1400000
+}

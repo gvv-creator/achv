@@ -1,0 +1,20 @@
+{
+  "id": "P005",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 24,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 0,
+  "approvers": "Spouse/co-owner, tax adviser, house bank",
+  "reason_code": "trust",
+  "reason": "We are two people and the business lives from my own customer relationships. I want my family or a manager to take over, and I would only talk to an outsider if that fails. An unknown buyer with no earlier sellers to ask does not make me change that.",
+  "objection": "I do not know who really stands behind this company, and if something goes wrong I have no one to hold to account. My wife worries about our retirement income, and 10% still unpaid after closing is a worry for her.",
+  "instead": "Keep running the business, keep looking for a family or staff takeover, and postpone the decision again. If that fails, list it on nexxt-change.",
+  "would_change_my_mind": "Two or three earlier sellers I can call, and my own adviser confirming the buyer and the funds.",
+  "price_too_cheap": 250000,
+  "price_cheap": 350000,
+  "price_expensive": 550000,
+  "price_too_expensive": 750000
+}

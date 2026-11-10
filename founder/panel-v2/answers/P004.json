@@ -1,0 +1,20 @@
+{
+  "id": "P004",
+  "take_meeting": true,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 24,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 0,
+  "approvers": "Spouse/family, tax adviser, house bank, key employees",
+  "reason_code": "trust",
+  "reason": "I'm 57 and this is my life's work, so I'd like my son or one of my foremen to take it over first. I'd hear them out because it costs nothing, but a firm with no sales behind it and no references is not who I hand my people to.",
+  "objection": "You have no track record. Nobody before me has sold to you and told me how it went. Bank letters are fine, but what happens with my six people in year three?",
+  "instead": "Keep running the business, keep looking for a family or internal successor, and maybe list quietly on nexxt-change if that fails.",
+  "would_change_my_mind": "Two or three former sellers or comparable owners I can call who say you kept your word, plus my tax adviser telling me the terms are sound.",
+  "price_too_cheap": 400000,
+  "price_cheap": 600000,
+  "price_expensive": 900000,
+  "price_too_expensive": 1200000
+}
