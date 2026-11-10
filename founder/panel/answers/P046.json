@@ -1,0 +1,20 @@
+{
+  "id": "P046",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 12,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Developer or main contractor (specifies protection and who pays)",
+  "reason_code": "fit",
+  "reason": "We don't buy this today. The developer or main contractor sets what protection we give and who pays, and my jobs are small houses and little blocks. At about 19 euro a m2 it costs far more than film and tape, and I don't want another contractor on my site.",
+  "objection": "ACHV is a contractor too. I don't want a competitor on my site or seeing my programme, and I'd be paying more than film and tape for something nobody has asked me to provide.",
+  "instead": "Cheap protection film and tape, applied by my own lads, only where the package requires it.",
+  "would_change_my_mind": "The main contractor or developer specifying it in the package and paying for it, with a licensed applicator who isn't a competitor.",
+  "price_too_cheap": 2,
+  "price_cheap": 4,
+  "price_expensive": 8,
+  "price_too_expensive": 12
+}

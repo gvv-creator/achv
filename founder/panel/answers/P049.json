@@ -1,0 +1,20 @@
+{
+  "id": "P049",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 0,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Developer or main contractor, glazing subcontractor",
+  "reason_code": "fit",
+  "reason": "Glazing protection until handover is the glazing subcontractor's job, not mine, and the main contractor decides what protection is specified and who pays. I don't buy this today and I'm not opening a new budget line for it.",
+  "objection": "At about 19 euro per m2 against film and tape at well under 1 euro per m2 in material, nobody in my chain will pay for it, and it isn't my cost to carry anyway.",
+  "instead": "Keep using cheap film and tape, or leave it to the glazing subcontractor as the package already says.",
+  "would_change_my_mind": "The developer or main contractor writing it into the subcontract spec and paying for it separately, so it costs me nothing.",
+  "price_too_cheap": 3,
+  "price_cheap": 5,
+  "price_expensive": 9,
+  "price_too_expensive": 14
+}

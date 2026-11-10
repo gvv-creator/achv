@@ -1,0 +1,20 @@
+{
+  "id": "P043",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "definitely_not",
+  "decision_months": 0,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Owner; main contractor would have to agree and pay",
+  "reason_code": "fit",
+  "reason": "I'm a site manager, I don't sign spends, and we've never paid for glazing protection. We use film and tape, and damage before handover is arguable with the main contractor anyway. At about 19 euro per m2 it is far above anything we'd put in a new budget line.",
+  "objection": "Who pays for this? Our owner decides alone, and it adds a new supplier and a new applicator on site for something cheap film and tape already does. If the main contractor doesn't ask for it or pay for it, we won't.",
+  "instead": "Keep using our own protection film and tape, and the usual snagging and cleaning at handover. We'd claim from the main contractor if other trades damage the frames.",
+  "would_change_my_mind": "A main contractor writing it into the spec and paying for it, plus a local reference showing it cuts snagging and replacement cost on a block like ours.",
+  "price_too_cheap": 2,
+  "price_cheap": 4,
+  "price_expensive": 8,
+  "price_too_expensive": 12
+}
