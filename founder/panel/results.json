@@ -1,0 +1,575 @@
+{
+ "model": "b2b",
+ "business": "ACHV Performance Systems (Hevadex Malta): 'Protected Handover', peelable OMNIGUARD protection of installed glazing and aluminium/PVC joinery, applied by ACHV-approved applicators with a signed QA handover pack",
+ "region": "Malta and Gozo",
+ "currency": "EUR",
+ "symbol": "€",
+ "seed": 404539,
+ "dealt": 100,
+ "answered": 100,
+ "skipped": [],
+ "buys": 0,
+ "passes": 100,
+ "buy_rate": 0.0,
+ "stated_buy_rate": 0.0,
+ "realistic_buy_rate": 0.0004,
+ "calibration": {
+  "definitely": 0.3,
+  "probably": 0.1,
+  "might": 0.02,
+  "probably_not": 0.0,
+  "definitely_not": 0.0
+ },
+ "meeting_calibration": 0.25,
+ "intents": [
+  [
+   "definitely",
+   0
+  ],
+  [
+   "probably",
+   0
+  ],
+  [
+   "might",
+   2
+  ],
+  [
+   "probably_not",
+   55
+  ],
+  [
+   "definitely_not",
+   43
+  ]
+ ],
+ "meeting_rate_stated": 0.1,
+ "meeting_rate_realistic": 0.025,
+ "pilot_rate_stated": 0.03,
+ "deal_value_median": null,
+ "first_order_median": null,
+ "cycle_months_median": null,
+ "payment_terms_median": 60.0,
+ "per_account": {
+  "deals": 0.00015,
+  "revenue_year1": 0.2375,
+  "run_rate": 1.25
+ },
+ "pipeline": {
+  "population": 924.0,
+  "reach": 0.15,
+  "reached": 138.6,
+  "meetings": 3.465,
+  "deals_year1": 0.020789999999999996,
+  "revenue_year1": 32.9175,
+  "run_rate_end_year1": 173.25,
+  "population_sourced": true,
+  "reach_sourced": false
+ },
+ "demand": null,
+ "benchmark": null,
+ "evidence": [
+  [
+   "segments",
+   1,
+   4
+  ],
+  [
+   "behaviours",
+   0,
+   5
+  ],
+  [
+   "objections",
+   4,
+   8
+  ],
+  [
+   "current options",
+   1,
+   4
+  ],
+  [
+   "roles",
+   0,
+   4
+  ],
+  [
+   "buying process",
+   0,
+   4
+  ],
+  [
+   "market context",
+   5,
+   6
+  ],
+  [
+   "population",
+   1,
+   1
+  ],
+  [
+   "reach",
+   0,
+   1
+  ]
+ ],
+ "by_segment": [
+  [
+   "Large contractor or developer-builder",
+   10,
+   0.0,
+   0.002,
+   0.4
+  ],
+  [
+   "Mid-size building contractor",
+   25,
+   0.0,
+   0.0008,
+   0.24
+  ],
+  [
+   "Small building contractor",
+   55,
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   "Glazing and aluminium installer",
+   10,
+   0.0,
+   0.0,
+   0.0
+  ]
+ ],
+ "by_role": [
+  [
+   "Project or site manager",
+   25,
+   0.0,
+   0.0016,
+   0.2
+  ],
+  [
+   "Owner or managing director",
+   45,
+   0.0,
+   0.0,
+   0.06666666666666667
+  ],
+  [
+   "Technical director of a glazing contractor",
+   15,
+   0.0,
+   0.0,
+   0.06666666666666667
+  ],
+  [
+   "Quantity surveyor or procurement",
+   15,
+   0.0,
+   0.0,
+   0.06666666666666667
+  ]
+ ],
+ "by_process": [
+  [
+   "Trial on one floor or one block first",
+   25,
+   0.0,
+   0.0016,
+   0.16
+  ],
+  [
+   "Owner decides alone",
+   45,
+   0.0,
+   0.0,
+   0.1111111111111111
+  ],
+  [
+   "Specified in the subcontract package",
+   20,
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   "Approved supplier list or tender",
+   10,
+   0.0,
+   0.0,
+   0.1
+  ]
+ ],
+ "by_category": [
+  [
+   "buys or outsources this today",
+   49,
+   0.0,
+   0.0008163265306122449,
+   0.1836734693877551
+  ],
+  [
+   "does not buy this today",
+   51,
+   0.0,
+   0.0,
+   0.0196078431372549
+  ]
+ ],
+ "by_current_option": [
+  [
+   "Relies on the factory film already on the aluminium profiles",
+   10,
+   0.0,
+   0.004,
+   0.3
+  ],
+  [
+   "Self-adhesive film, plastic sheet or board with tape, applied and removed by own labour",
+   24,
+   0.0,
+   0.0,
+   0.25
+  ],
+  [
+   "nothing",
+   51,
+   0.0,
+   0.0,
+   0.0196078431372549
+  ],
+  [
+   "No protection; cleans, polishes or replaces damaged items at snagging",
+   13,
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   "Another peelable or spray-on protective coating",
+   2,
+   0.0,
+   0.0,
+   0.0
+  ]
+ ],
+ "by_size": [
+  [
+   "22+ people",
+   35,
+   0.0,
+   0.001142857142857143,
+   0.2857142857142857
+  ],
+  [
+   "under 6 people",
+   27,
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   "6 to 21 people",
+   38,
+   0.0,
+   0.0,
+   0.0
+  ]
+ ],
+ "approvers": [],
+ "why_not": [
+  [
+   "price",
+   41,
+   [
+    "We use the factory film on the frames at no extra cost and it covers most of the programme. About €19/m² for a coating on the glass is a big jump from nothing, and I can't see where it pays back in fewer callbacks.",
+    "I pay about 12 a square metre today with film and my own lads, and this is 19 plus a minimum job size and a deposit. The aluminium already comes with factory film, so I'd be paying 60% more to fix a problem I mostly manage with snagging."
+   ],
+   [
+    "P005",
+    "P010"
+   ]
+  ],
+  [
+   "fit",
+   17,
+   [
+    "The aluminium already comes with factory film, and what protection we add is decided by the main contractor in the subcontract package, not by me. At about 19 a m2 against 12 today, I would be paying more to change something that works and that I have used for years.",
+    "The glazing subcontractor is responsible for damage until handover, not me, so I have no budget line for this. On small jobs I just tape or film the frames myself if I want to, and I buy the cheapest thing that works."
+   ],
+   [
+    "P003",
+    "P009"
+   ]
+  ],
+  [
+   "roi",
+   14,
+   [
+    "The aluminium arrives with factory film and my lads put sheet and tape on for about €12 a m². You want €19 a m² for something I already handle, plus a 50% deposit up front. I don't see where that pays me back.",
+    "I spend about 1,800 a year on snagging damage, and you want 19 euro a m2 which is 19,000 on a 1,000 m2 year. That is ten times my loss, and the main contractor is not paying me extra to protect glazing."
+   ],
+   [
+    "P001",
+    "P006"
+   ]
+  ],
+  [
+   "risk",
+   10,
+   [
+    "I pay about 12 a square metre today with my own lads and it works. This is around 19, so more than half again, and I still carry the risk if it marks a frame. I'm not changing something that works for that.",
+    "We don't buy this today and I'm not creating a new budget line and a new supplier for a coating I'd have to trust on our clients' frames. If it marks the frame or the glass when it comes off, I'm left carrying it, and at about €19 per m² it costs more than the damage it prevents on our small jobs."
+   ],
+   [
+    "P002",
+    "P018"
+   ]
+  ],
+  [
+   "trust",
+   10,
+   [
+    "ACHV is a contractor too, and I don't want a competitor on my site seeing my programme and my clients. We don't buy this today, so it would also mean a new supplier and a new budget line for a job we already handle with cheap film and tape.",
+    "I've never seen this used in Malta and I don't pay for window protection today. €19 per m² is real money on a small house job and I'd have to absorb it or argue it with the client. We tape and board the frames ourselves."
+   ],
+   [
+    "P007",
+    "P008"
+   ]
+  ],
+  [
+   "contract",
+   7,
+   [
+    "Protection of glazing is specified in the subcontract package, so the developer or main contractor decides what is done and who pays. I have no budget line for this, and a 50% deposit on a supplier I don't know is not how I operate.",
+    "We pay suppliers at 60 to 90 days, not 50% up front, and a credit check on top is a non-starter. We spend about 9k a year on snagging damage from contingency, and 19 per m2 across a block would cost more than the damage it prevents."
+   ],
+   [
+    "P013",
+    "P026"
+   ]
+  ],
+  [
+   "budget",
+   1,
+   [
+    "Protection of glazing is set in the subcontract package by the developer or main contractor, not by me. I am a site manager and cannot start a new budget line and a new supplier on my own. Film and tape cost us next to nothing."
+   ],
+   [
+    "P004"
+   ]
+  ]
+ ],
+ "why_yes": [],
+ "instead": [
+  "Keep the factory film plus our own film, sheet and tape, applied and removed by our own labour.",
+  "Keep using self-adhesive film and sheet with tape, applied and removed by my own labour.",
+  "Keep the factory film on the frames, plus self-adhesive film and board with tape on the glass, applied and removed by my own people.",
+  "Keep using cheap protection film and tape bought locally, and leave glazing protection to whatever the developer's package already specifies.",
+  "Keep the factory film on the profiles, plus cheap tape and board protection, and clean or replace damaged glass at handover when it happens.",
+  "Keep doing nothing, fix or replace at snagging from contingency, and maybe use cheap tape or film on the few risky jobs.",
+  "Keep using cheap protection film and tape, and careful site housekeeping. We accept the occasional cleaning or replacement cost.",
+  "Keep using cheap protection film, tape and cardboard on the frames and being careful on site. Clean the glass at handover.",
+  "Leave frame protection to the glazing subcontractor, or use cheap protection film and tape from the hardware store on the odd job where I need it.",
+  "Keep using factory film topped up with our own film, board and tape, applied by our own labour, on the next block.",
+  "Keep using self-adhesive film, plastic sheet and board with tape, applied and removed by our own labour.",
+  "Keep using cheap protection film and tape on the frames and absorb the odd replacement or cleaning cost.",
+  "Keep using cheap protection film, tape and cardboard, and repair or replace damaged glazing and joinery case by case, with the cost going to the party the subcontract says.",
+  "Keep using cheap protection film and tape, applied by my own lads, and keep the glazing damage claims in the snagging list.",
+  "Keep using self-adhesive film and board with tape, applied and removed by our own people.",
+  "Keep taping and filming the frames myself with cheap local film, and wipe or fix the odd scratch at handover.",
+  "Carry on as now: clean and polish at snagging, pay for the odd replacement from contingency, and use cheap film and tape on the worst exposed frames if needed.",
+  "Keep doing what we do now: ask the glazing installer to cover the frames with cheap protection film or tape, and clean up at handover.",
+  "Cheap protection film and tape from the hardware store, covering windows by hand, and cleaning glass at handover.",
+  "Keep using cheap protection film and tape from the hardware store, keep the glazing sub responsible for damage, and keep fitting the windows as late as possible in the job.",
+  "Keep doing what I do now: cheap protection film and tape from the local hardware store, and care on site. Pay for a glazing repair or replacement when something gets damaged.",
+  "Keep using protection film and tape on the glazing, applied by our own crew, and take care at handover.",
+  "Keep doing nothing, use cheap tape and film on the worst spots, and clean or replace at snagging from contingency.",
+  "Keep using the current protective film or coating where the package asks for it, or simply careful site management and cleaning at handover.",
+  "Keep using cheap protection film and tape, and make the other trades clean up after themselves. Absorb the occasional scratched pane as a cost.",
+  "Carry on with no protection and pay for cleaning or replacement at snagging from the contingency, or have the glazing subcontractor put basic protection film on.",
+  "Keep using self-adhesive film, plastic sheet and board with tape, applied and removed by my own crews.",
+  "Carry on as now: no protection, clean or replace at snagging from the contingency. I might ask my own fitters to tape or film the worst frames.",
+  "Keep using cheap protection film and tape from the hardware store, and leave damage to glazing to the glazing subcontractor under our contract.",
+  "Keep the factory film, tape and cardboard where needed, and have the installer fix any damage at handover.",
+  "Keep the factory film, add cheap protection film and tape on exposed frames, and have my own labourers clean up before handover.",
+  "Keep using cheap film and tape, and boards on the worst spots. Chase the glazing subcontractor for any damage and pay for the odd replacement pane.",
+  "Keep using self-adhesive film, plastic sheet and tape with our own labour, and keep the glazing damage in the snagging budget.",
+  "Keep the factory film on the profiles, have the glazing sub cover the glass with cheap protection film or tape, and pay for cleaning and the occasional replacement at handover.",
+  "Carry on with no protection, clean and polish at snagging, and take any damage out of the contingency.",
+  "Keep doing nothing special: clean and polish at snagging, pay for the odd damaged item from contingency, and cover frames with cheap tape or film on a few premium units if needed.",
+  "Keep protecting frames ourselves with cheap film and tape, and chase the main contractor for damage claims. If I wanted a coating I'd buy it from a supplier we know.",
+  "Keep doing what we do now: cheap protection film and tape on frames, and leave glazing damage with the subcontractor until handover.",
+  "Keep taping and covering frames with cheap protection film and cleaning up at handover, and absorb the odd replacement.",
+  "Keep the factory film on the aluminium, add cheap protection film and tape where needed, and have the crew take care on site.",
+  "Keep using the factory film on the profiles, with cheap tape and cardboard on glass where needed, and charge the main contractor for any cleaning or damage.",
+  "Keep using protection film and tape, applied by our own crew, and buy the cheapest that is good enough.",
+  "Keep using our own protection film and tape, and the usual snagging and cleaning at handover. We'd claim from the main contractor if other trades damage the frames.",
+  "Keep using protection film and tape on glazing and frames, bought cheaply from the local supplier on normal credit terms.",
+  "Keep the factory film, tape and cardboard or board over the glass, and have the lads wipe down at handover.",
+  "Cheap protection film and tape, applied by my own lads, only where the package requires it.",
+  "Keep relying on the glazing subcontractor's responsibility until handover, with our usual cheap protection film and tape and snagging at the end.",
+  "Keep using cheap protection film and tape, and leave damage to glazing with the glazing subcontractor under their contract.",
+  "Keep using cheap film and tape, or leave it to the glazing subcontractor as the package already says.",
+  "Keep the factory film and add tape and cheap protection film where needed, and make the trades take care.",
+  "Keep the factory film on the profiles, tape and board in the problem areas, and have the glazier clean the glass before handover.",
+  "Keep using the factory film and the protection the main contractor specifies in the package, plus our own care on site.",
+  "Keep the factory film on the profiles and basic cheap taping or sheeting on the glass, with cleaning at handover as the contract requires.",
+  "Keep using cheap protection film and tape on the worst frames, and leave it to the glazing subcontractor to protect their own work.",
+  "Keep using protection film, tape and cardboard from the hardware store, and have the labourers clean the glass at snagging.",
+  "Keep using cheap protection film and tape and cleaning the glazing at handover, with the same trades we've used for years.",
+  "Keep using self-adhesive film and sheet with tape, put on and taken off by my own labour, for the next block.",
+  "Keep using cheap protection film and tape, and keep telling the glazing sub to protect their own work and fix any damage.",
+  "Keep the factory film on the frames, and tape and cheap cover film where needed. Cover the glass myself with board or film if it matters.",
+  "Carry on as now: no protection, clean or replace at snagging from contingency, or buy cheap tape and film for the worst frames.",
+  "Keep using self-adhesive film, plastic sheet and tape with our own labour at about €12 per m².",
+  "Keep the factory film on until handover and use cheap protection film, tape and cardboard where needed. I'd clean up any splashes myself.",
+  "Keep going with no protection, or cheap film and tape on the few frames at risk, and pay for cleaning or replacement at snagging from the job contingency.",
+  "Keep using self-adhesive film, plastic sheet and tape applied by our own labour.",
+  "Keep using self-adhesive film, plastic sheet and tape with our own labour, and leave protection to the glazing sub.",
+  "Keep the factory film, add taped edge protection and cardboard where needed, and make sure the other trades are careful.",
+  "Cardboard, cheap protection film and tape from the hardware store, and cleaning the frames before handover, as we do now.",
+  "Keep using self-adhesive film, sheet or board with tape, applied and removed by our own labour, and buy the cheapest that is good enough.",
+  "Keep relying on the factory film on the aluminium profiles, plus cheap site-bought tape and sheeting on the glass, and manage damage through snagging.",
+  "Keep using self-adhesive film and tape with my own labour, and be more careful on site.",
+  "Keep using self-adhesive film, plastic sheet or board with tape, applied and removed by my own crew.",
+  "Keep specifying standard protection film and tape, with the glazing subcontractor carrying the damage risk under the subcontract.",
+  "Keep using protection film, tape and cardboard on the frames, and pay for cleaning at handover where needed.",
+  "Keep the factory film on the profiles, cover the glass with cheap sheeting and tape, and handle the damage through snagging and the glazing subcontractor.",
+  "Cheap protection film and tape, bought from the local hardware or builders' merchant, as the subcontract package specifies.",
+  "Leave it to the glazing subcontractor, who covers the frames with tape or film himself, and clean up before handover.",
+  "Keep using self-adhesive film, plastic sheet or board with tape, applied by my own labour.",
+  "Cheap protection film and taping by the glazing installer, plus care on site, and I accept the occasional snagging or replacement. If a developer insists on protection, I do whatever the spec says.",
+  "Keep using cheap protection film and tape, bought locally, and pass any damage risk back through the subcontract terms.",
+  "Keep using self-adhesive film, sheet or board with tape applied by our own labour.",
+  "Keep using self-adhesive film and plastic sheet with tape, applied by my own labour, from the same suppliers I have used for years.",
+  "Carry on with no protection. Clean and polish at snagging, and pay for any damage from the job's contingency. Maybe some cheap tape or film from the hardware store on the worst frames.",
+  "Keep relying on the factory film on the aluminium profiles and the glazing subcontractor's own protection, with plain tape and board where needed.",
+  "Keep taping and covering the frames with cheap protection film, and wipe or clean the glass at handover.",
+  "Keep using self-adhesive film, plastic sheet and board with tape, applied and removed by our own labour.",
+  "Cheap protection film and tape from the hardware store, my own labour, and being careful with the other trades.",
+  "Keep using cheap protection film and tape, applied by our own crew, as the subcontract package requires.",
+  "Keep using self-adhesive film and sheet applied and removed by my own labour.",
+  "Keep the factory film on the aluminium and use our own film, sheet and tape on the rest, applied by our own labour.",
+  "Keep doing nothing, or use cheap film and tape on the odd high-end job, and clean or replace at snagging from contingency.",
+  "Keep protecting glazing with cheap film and tape and our own labourers, and pay for the odd repair when something gets scratched.",
+  "Keep using self-adhesive film and plastic sheet with tape, applied and removed by our own labour.",
+  "Keep using self-adhesive film, plastic sheet and tape applied by our own labour, from the suppliers we have used for years.",
+  "Cardboard, tape and cheap protection film, and my own lads cleaning the glass before handover. I'd absorb the odd scratch.",
+  "Keep doing nothing, clean and polish at snagging, and push damage back to the glazing subcontractor. If needed, buy cheap film or tape locally.",
+  "Keep using cheap protection film and masking tape from the local hardware store, applied by my own crew.",
+  "Keep using self-adhesive film and sheet with tape applied by my own labour. I might try the OMNIGUARD supply-only option on one job if the price per m² came in below film.",
+  "Keep doing nothing, or use cheap film and tape on the worst items, and pay for the odd cleaning or replacement from the job contingency.",
+  "Keep the factory film, tape and cardboard on the frames, and have my own labourers wipe the glass down at the end. Buy cheap local protection film if I need extra.",
+  "Keep the factory film on the aluminium profiles, with cheap tape or film where a job needs it."
+ ],
+ "flip": [
+  "Hard proof on one of my own blocks that it cuts glazing and joinery damage claims by more than the extra cost, at or near €12 a m² all-in and with 60-day terms.",
+  "A written guarantee from ACHV or an insurer that they pay for any damage to frames or glass from the coating or its removal, plus a price near 12 to 13 all-in and a local contractor I know who has used it.",
+  "The main contractor or developer specifying it and paying for it in the package, together with the glass and coating manufacturers confirming in writing that it is compatible with our coated glass and finishes.",
+  "The developer or main contractor writing it into the specification and paying for it, or proof that it cuts glazing damage claims and snagging by far more than it costs.",
+  "A reference from a premium block in Malta where it cut glazing claims or snagging delays by more than it cost, a written warranty on glass and frame damage, and a price nearer €8-10/m².",
+  "The main contractor putting it in the tender as a paid line, or a price near 3 euro per m2 all-in.",
+  "Written compatibility confirmation from the glass and frame manufacturers for coated glass and finishes, plus a reference from another glazing contractor, and the option of supply-only product with no ACHV staff on my site.",
+  "A local job I can go and see, with a contractor I know vouching for it, and a free test panel on my own frames. The price would also have to be much lower, or the client would have to pay for it.",
+  "The glazing sub or the developer paying for it as a priced line on the contract, or a price close to film and tape cost per m² with no 150 m² minimum.",
+  "A reference from a main contractor of similar size showing real snagging and replacement savings on glazing, and a total price close to 12 to 13 per m2 with no deposit.",
+  "A price close to what film costs me now, plus a reference glazing contractor here who has had it applied and removed on coated glass in summer heat with no marks.",
+  "Hard proof from a Maltese contractor that it cuts my glazing damage claims and cleaning labour by more than the extra cost, at a price nearer 6 to 8 euro per m2 all-in with no deposit.",
+  "A developer or main contractor writing it into the spec and paying for it, plus a local reference, and terms of 60 days with no deposit.",
+  "A neutral, non-contracting applicator, no deposit on a small job, and a local reference from a contractor my size showing fewer glazing claims.",
+  "A test panel on our own coated glass and frames that peels clean with no marks, at or near 12 to 14 a m2 all-in, with no deposit and 60-day terms, plus a Maltese contractor reference.",
+  "Nothing about the price. Only if it was clearly a product supplier with no contracting arm and I could buy it from my usual merchant and apply it with my own men.",
+  "A local job with a client I know, showing the all-in cost under about 3 euro per m2 and snagging savings bigger than that cost.",
+  "ACHV or the manufacturer accepting written liability for frame and glass damage on removal, backed by insurance, plus a reference from a contractor I know in Malta.",
+  "A written guarantee from ACHV, backed by insurance, that they pay for any damage to frames or glass from the coating or its removal, plus a nearby site I can visit to see it peeled off clean.",
+  "A contractor I know and trust, on a block like mine, telling me it came off clean after a summer and saved them real replacement claims. Then a trial on one block at much lower cost, with ACHV paying if the coating damages a frame.",
+  "A client or developer on a premium block who insists on it and pays for it as a separate line item, on 60 day terms with no deposit.",
+  "Written approval from the glass and frame manufacturers, plus a signed guarantee that ACHV pays for any damage when the coating comes off, backed by insurance.",
+  "A price near 5 per m2 on terms of 60 days or more, plus written compatibility proof on coated glass and a test panel on our own frames at no charge.",
+  "Written confirmation from the main glass and coating manufacturers that it is compatible with their warranty, plus ACHV carrying the damage liability in writing with insurance, and a local reference on a similar job.",
+  "A reference from another glazing contractor on a Maltese summer job, plus written confirmation from the glass and frame manufacturers that it is compatible with their coatings and does not void warranty.",
+  "60 to 90 day payment terms with no deposit, a price near 5 to 6 per m2, and a reference from another main contractor showing real savings at snagging.",
+  "A site visit quote at or below about 13 per m2 all-in, or documented proof from a comparable Maltese block that it cut glazing replacement and snagging costs by more than the extra spend, with no deposit and 60-day terms.",
+  "A main contractor that makes protection mandatory and pays for it, or a supplier that is not a contractor and sells only the product at a few euro per m2.",
+  "If a client or developer specifically asked for it and paid for it as a separate line on the quote, I would listen.",
+  "A developer client who asks for it on a premium block and pays for it as a separate line, or proof from a Maltese site that it cost less than the glazing damage claims I actually get.",
+  "Documented cases where factory film failed on jobs like mine and the repair cost me more than this would, plus a price near 5 euro per m2 all-in with no deposit.",
+  "A reference from another Maltese main contractor showing the coating saved more in replaced glass and cleaning than it costs, at a price near 6 to 8 euro per m2 all-in, with free trial on one block and no deposit.",
+  "A trial on our own floor showing a clear drop in glass and frame damage and snagging time, with 60-day terms, no deposit, and a price closer to 14 to 15 a m2 all-in.",
+  "A reference from a Maltese contractor of our size showing it cost less than the glass damage and cleaning it replaced, a trial on one floor at their cost, and 60-day terms with no deposit.",
+  "A client or main contractor who insists on it in the spec and pays for it, plus a local job I can go and look at.",
+  "Written cover from ACHV or the manufacturer for any damage the coating causes on removal, plus a price under about 5 euro per m2 all-in, or a client who insists on protected handover and pays for it.",
+  "The main contractor requiring it and paying for it, or a local supplier we already use stocking it so we apply it ourselves, with a reference from another glazing installer.",
+  "A glazing manufacturer's written approval of the coating on coated glass and frames, plus a developer who requires it and pays for it as a separate line.",
+  "Supply-only product from a neutral distributor, no ACHV staff on my site, with a short trial on one of my own frames showing it saves more than it costs.",
+  "Proof, with a named Maltese contractor reference, that it saves more in claims and replacement than it costs, at a price close to €3 per m² all-in.",
+  "A local reference job with a main contractor I know, a price near 5 to 6 euro per m2 all-in, and the main contractor agreeing to pay for it in the subcontract.",
+  "A main contractor or client specifying it and paying for it separately, plus independent proof it leaves no marks on coated glass and finishes, at a price near film and tape.",
+  "A main contractor writing it into the spec and paying for it, plus a local reference showing it cuts snagging and replacement cost on a block like ours.",
+  "A price near film and tape cost, 60 day terms with no deposit, and written proof from a glazing contractor that it peels clean off coated glass and finishes without marking.",
+  "A client or developer specifying it and paying for it as a separate line, or a price near €5 per m² all-in on a trial on one of my floors.",
+  "The main contractor or developer specifying it in the package and paying for it, with a licensed applicator who isn't a competitor.",
+  "A written reference from a Maltese main contractor showing fewer glazing claims and snagging items, or a client or developer who specifies and pays for it so it isn't our cost.",
+  "A glazing subcontractor or developer client who requires it and pays for it, or proof it cuts my own cleaning and defect claims by more than it costs, at a price close to film and tape.",
+  "The developer or main contractor writing it into the subcontract spec and paying for it separately, so it costs me nothing.",
+  "A price close to film and tape cost, or a client or developer who agrees in writing to pay for it as a line item.",
+  "A developer or main contractor who specifies it and pays for it in the package, plus a local reference job in summer heat where it came off with no marks.",
+  "A main contractor or developer writing it into the subcontract package and paying for it, plus written compatibility results on our coated glass and frames from a named reference job.",
+  "A developer or main contractor who writes it into the spec and pays for it, plus a local reference on a similar block showing fewer snagging callbacks and no residue after a Maltese summer.",
+  "If the glazing subcontractor paid for it, or if I had a callback or snagging claim on a premium block that this clearly would have avoided.",
+  "A local reference job I can visit, with a main contractor I know vouching for it, and a free test panel on one of our own floors.",
+  "A reference from a Maltese contractor I know, proof it costs us less than the glazing damage claims we actually have, and normal 60 day terms with no deposit.",
+  "A finished block in Malta I can visit, with the owner telling me it came off clean, and a price close to what I pay now, with no deposit.",
+  "Proof from a premium block that it cut snagging and callbacks by more than it costs, or the glazing sub or developer agreeing to pay for it so it is not our money.",
+  "A price near EUR 3 to 4 a m2 all-in, no deposit, 60 days payment, and a local contractor I know who says it saved him real glass claims.",
+  "A written guarantee that ACHV pays for any frame or glass damage from the coating or its removal, at a price under about 6 per m2 all-in.",
+  "A written guarantee that ACHV covers any damage to frames or glass from the coating or its removal, at a price close to €12 per m² all-in. Or the main contractor specifying it and paying for it.",
+  "A local contractor of my size showing me real handover claims for glazing damage that factory film didn't prevent, and a price near €6 to €8 per m² with no minimum and no deposit.",
+  "A price near film-and-tape level, or a client or developer who pays for it as a specified item.",
+  "A price at or below what film costs us all-in, with no minimum job size, and a client who specifies it in the tender.",
+  "A price at or below about 12 per m2 all-in, no minimum job size, and a main contract that makes us, not the sub, liable for glazing damage.",
+  "Written approval from the glazing and coating manufacturers that it is compatible with their warranty, plus a reference from a premium block with no marks after removal.",
+  "A developer or main contractor putting this in the subcontract package and paying for it, with 60-day terms and no deposit.",
+  "A written price at or below about €12/m² all-in, or proof that it cuts glazing damage claims by more than the extra cost, with a reference from another contractor and the insurance certificates.",
+  "A written statement that ACHV or the applicator covers damage to frames and glass caused by the coating or its removal, plus a successful test panel on our own frames and a reference from another Maltese contractor.",
+  "A reference from a premium block that showed fewer glazing and frame damage claims, plus a price near €12 a m² all-in with no 150 m² minimum.",
+  "ACHV or the applicator accepting written liability for any frame or glass damage on removal, plus a price near €12 a m² or the developer specifying it and paying for it.",
+  "A reference local job on a Maltese apartment block with a developer or main contractor naming it in the spec, plus insurance cover and a manufacturer guarantee on frame finishes.",
+  "A local reference job I can visit, plus a free trial on one of my floors, and a price close to film cost, about €3 to 4/m² all-in.",
+  "A local reference job with a contractor we know, plus a clean test panel on our own frames, with ACHV covering any glass or frame damage from removal.",
+  "The developer or main contractor writing it into the spec and paying for it, on 60-day terms with no deposit.",
+  "If my glazing sub offered it inside his quote at no extra cost to me, or if a client demanded it in writing, I would accept it. I still wouldn't buy it myself.",
+  "A developer or main contractor specifying it in the subcontract package and paying for it, at or below what I pay now per m².",
+  "A developer or main contractor specifying it and paying for it in the subcontract package, with ACHV carrying written liability for damage to frames and glass, plus two local references on premium blocks.",
+  "If the developer or main contractor wrote it into the specification and paid for it as a separate line, I'd look at it.",
+  "Product-only supply at around 5 a m2 that my own labour can apply, with a reference from another large Maltese contractor showing it is cheaper than film and tape all-in.",
+  "A price at or below what I pay now, plus a job I can walk and see where it came off clean from the sun-baked frames, with no deposit.",
+  "Proof that it costs me less than my current damage bill, which would mean well under €3 a m², or a client who pays for it as a line item in the contract.",
+  "A developer or main contractor writing it into the subcontract package and paying for it, or my glazing subcontractor asking for it.",
+  "A main contractor or client making it a requirement and paying for it, or a proven price close to film cost per m2 with no deposit.",
+  "Price at or below about €12 per m² all-in, plus a written guarantee on coated glass and frames, and a reference from a Maltese glazing contractor who has used it with no marks.",
+  "A written guarantee that ACHV pays for any damage to frames or glass from the coating or its removal, plus a local contractor I know who has used it.",
+  "The developer or main contractor writing it into the spec and paying for it themselves, or a price close to film and tape cost.",
+  "ACHV or their insurer accepting written liability for damage to frames and glass on removal, plus a price close to €13-14 per m² all-in and a local reference from a contractor my size.",
+  "A total price at or below 12 a square metre, with no minimum and no deposit, and proof it saves me real snagging cost on a job like mine.",
+  "A main contractor or developer who specifies it and pays for it as a line item, plus a local reference job.",
+  "The product supplied only, from a neutral distributor, with no ACHV people on site, plus a Maltese contractor reference who used it and saw less glazing damage and lower snagging costs.",
+  "A developer or glazing subcontractor naming it in the subcontract package and paying for it, or proof from a local premium block that it cut glazing callbacks and snagging by more than the extra cost, at roughly the price of film.",
+  "Written confirmation from my glass and coating suppliers that it is compatible with our finishes, plus a reference from another glazing contractor who used it, at a price close to what film costs me now.",
+  "A written guarantee that ACHV or its insurer pays for any damage to frames or glass from the coating or its removal, plus a Maltese contractor I know who used it on a similar job and a client willing to pay for it.",
+  "Proof that glazing damage is costing us several thousand euro a job, or the glazing subcontractor or client paying for the protection.",
+  "A client or developer who specifies it and pays for it as a separate line in the contract, so it costs me nothing out of margin.",
+  "A local reference contractor showing fewer glazing claims at handover with numbers, 60-day terms with no deposit, and a total price close to €14 a m².",
+  "A price near film and tape level, under 2 euro per m2 all-in, or the main contractor paying for it and writing it into the contract.",
+  "Proof on a premium block that the factory film fails often enough to cost me more in callbacks and cleaning than this does, plus a price under about 6 euro per m2 with 60-day terms and no deposit.",
+  "The developer or main contractor writing glass protection into the package and paying for it, at a price near 3 to 4 euro per m2 with 60 day terms."
+ ],
+ "price_answers": 100
+}
