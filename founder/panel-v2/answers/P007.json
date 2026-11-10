@@ -1,0 +1,20 @@
+{
+  "id": "P007",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 9,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Main contractor and developer; glazing supplier for warranty",
+  "reason_code": "trust",
+  "reason": "We don't buy this today, so it would mean a new supplier and a new budget line. ACHV is a contractor too, and I don't want a competitor on my site or seeing my programme. A confidentiality undertaking doesn't change that for me.",
+  "objection": "I don't want a competitor's people near my frames and my programme, and a coating on coated glass and finishes could mark them. A free test panel and a 2,500 euro cap on damage don't cover a rejected unit or a delay at handover.",
+  "instead": "Keep using our own protection film and tape and careful site sequencing, and charge back damage to the trades that cause it.",
+  "would_change_my_mind": "Written compatibility confirmation from the coating maker for our specific glass coatings and frame finishes. A Maltese reference on a glazed block. A guarantee that only an independent applicator touches our site, with no ACHV visits beyond a test panel I control.",
+  "price_too_cheap": 5,
+  "price_cheap": 9,
+  "price_expensive": 16,
+  "price_too_expensive": 22
+}

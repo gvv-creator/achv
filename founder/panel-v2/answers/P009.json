@@ -1,0 +1,20 @@
+{
+  "id": "P009",
+  "take_meeting": false,
+  "would_pilot": false,
+  "intent": "probably_not",
+  "decision_months": 6,
+  "annual_value": 0,
+  "first_order_value": 0,
+  "payment_terms_days": 60,
+  "approvers": "Owner decides alone; glazing subcontractor and developer would have to agree",
+  "reason_code": "price",
+  "reason": "The glazing subcontractor is responsible for damage until handover, not me, so I have no budget line for this. At about 19 euro per m2 against cheap film and tape that we already use, it is not something I would add on a small block.",
+  "objection": "It is a new cost for a risk that sits with the glazing sub, and I compare cost per m2 with film and tape. There is also no Maltese reference job yet, so I would be the guinea pig.",
+  "instead": "Keep using cheap protection film and tape on the frames and leave handover damage with the glazing subcontractor.",
+  "would_change_my_mind": "A Maltese reference on a similar small block and a price near film and tape, or a glazing sub or developer who asks for it and pays for it.",
+  "price_too_cheap": 2,
+  "price_cheap": 4,
+  "price_expensive": 9,
+  "price_too_expensive": 14
+}
